@@ -1,0 +1,3891 @@
+<database name="abc">
+    <!-- РўР°Р±Р»РёС†Р° podr -->
+    <table name="podr">
+        <column name="id">178</column>
+        <column name="id_region">1</column>
+        <column name="podr">ОООНиПП</column>
+        <column name="podr_full">Отдел организации обучения населения и профессиональной подготовки</column>
+    </table>
+    <table name="podr">
+        <column name="id">176</column>
+        <column name="id_region">1</column>
+        <column name="podr">УК</column>
+        <column name="podr_full">Управление кадров</column>
+    </table>
+    <table name="podr">
+        <column name="id">174</column>
+        <column name="id_region">1</column>
+        <column name="podr">ОСиО</column>
+        <column name="podr_full">Отдел связи и оповещения</column>
+    </table>
+    <table name="podr">
+        <column name="id">175</column>
+        <column name="id_region">1</column>
+        <column name="podr">УПО</column>
+        <column name="podr_full">Управление правового обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">173</column>
+        <column name="id_region">1</column>
+        <column name="podr">ЦБ при МЧС</column>
+        <column name="podr_full">Централизованная бухгалтерия при МЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">179</column>
+        <column name="id_region">1</column>
+        <column name="podr">СИР</column>
+        <column name="podr_full">Сектор идеологической  работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">4964</column>
+        <column name="id_region">23</column>
+        <column name="podr">СМС &quot;Молния&quot;</column>
+        <column name="podr_full">Сектор мониторинга системы &quot;Молния&quot; центра оперативного управления учреждения</column>
+    </table>
+    <table name="podr">
+        <column name="id">171</column>
+        <column name="id_region">1</column>
+        <column name="podr">УАССиЛЧС</column>
+        <column name="podr_full">Управление аварийно-спасательных служб и ликвидации чрезвычайных ситуаций</column>
+    </table>
+    <table name="podr">
+        <column name="id">166</column>
+        <column name="id_region">1</column>
+        <column name="podr">Руководство и приемные</column>
+        <column name="podr_full">Руководство и приемные</column>
+    </table>
+    <table name="podr">
+        <column name="id">167</column>
+        <column name="id_region">1</column>
+        <column name="podr">ООУ</column>
+        <column name="podr_full">Отдел оперативного управления</column>
+    </table>
+    <table name="podr">
+        <column name="id">168</column>
+        <column name="id_region">1</column>
+        <column name="podr">ССБ</column>
+        <column name="podr_full">Сектор собственной безопасности</column>
+    </table>
+    <table name="podr">
+        <column name="id">169</column>
+        <column name="id_region">1</column>
+        <column name="podr">ГУ ГСЧС и ГО</column>
+        <column name="podr_full">Главное управление государственной системы предупреждения и ликвидации ЧС и ГО</column>
+    </table>
+    <table name="podr">
+        <column name="id">170</column>
+        <column name="id_region">1</column>
+        <column name="podr">УНиП</column>
+        <column name="podr_full">Управление надзора и профилактики</column>
+    </table>
+    <table name="podr">
+        <column name="id">5083</column>
+        <column name="id_region">20</column>
+        <column name="podr">ЦБ</column>
+        <column name="podr_full">Централизованная бухгалтерия</column>
+    </table>
+    <table name="podr">
+        <column name="id">5085</column>
+        <column name="id_region">24</column>
+        <column name="podr">Молния</column>
+        <column name="podr_full">Сектор мониторинга &quot;Молния&quot;</column>
+    </table>
+    <table name="podr">
+        <column name="id">172</column>
+        <column name="id_region">1</column>
+        <column name="podr">УФиЭР</column>
+        <column name="podr_full">Управление финансовой и экономической работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">5087</column>
+        <column name="id_region">9</column>
+        <column name="podr">ОТСиП</column>
+        <column name="podr_full">Отдел технического сопровождения и программирования</column>
+    </table>
+    <table name="podr">
+        <column name="id">5180</column>
+        <column name="id_region">1</column>
+        <column name="podr">СД</column>
+        <column name="podr_full">Служба делопроизводства</column>
+    </table>
+    <table name="podr">
+        <column name="id">1004</column>
+        <column name="id_region">21</column>
+        <column name="podr">Солигорский ГРОЧС</column>
+        <column name="podr_full">Солигорский горрайотдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1005</column>
+        <column name="id_region">21</column>
+        <column name="podr">Стародорожский РОЧС</column>
+        <column name="podr_full">Стародорожский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1006</column>
+        <column name="id_region">21</column>
+        <column name="podr">Столбцовский РОЧС</column>
+        <column name="podr_full">Столбцовский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1007</column>
+        <column name="id_region">21</column>
+        <column name="podr">Узденский РОЧС</column>
+        <column name="podr_full">Узденский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1008</column>
+        <column name="id_region">21</column>
+        <column name="podr">Червенский РОЧС</column>
+        <column name="podr_full">Червенский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1009</column>
+        <column name="id_region">21</column>
+        <column name="podr">ПТЦ МОУ МЧС</column>
+        <column name="podr_full">Производственно-технический центр Минского областного управления МЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">3539</column>
+        <column name="id_region">21</column>
+        <column name="podr">СПО</column>
+        <column name="podr_full">Сектор психологического обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">1664</column>
+        <column name="id_region">21</column>
+        <column name="podr">ЦБприМОУМЧС</column>
+        <column name="podr_full">Централизованная бухгалтерия при МОУ МЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">180</column>
+        <column name="id_region">1</column>
+        <column name="podr">СМО</column>
+        <column name="podr_full">Сектор мобилизационного обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">181</column>
+        <column name="id_region">1</column>
+        <column name="podr">УМС</column>
+        <column name="podr_full">Управление международного сотрудничества</column>
+    </table>
+    <table name="podr">
+        <column name="id">182</column>
+        <column name="id_region">1</column>
+        <column name="podr">ОС</column>
+        <column name="podr_full">Отдел строительства</column>
+    </table>
+    <table name="podr">
+        <column name="id">183</column>
+        <column name="id_region">1</column>
+        <column name="podr">ОРСР</column>
+        <column name="podr_full">Отдел режимно-секретной работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">202</column>
+        <column name="id_region">6</column>
+        <column name="podr">Руководство</column>
+        <column name="podr_full">Руководство</column>
+    </table>
+    <table name="podr">
+        <column name="id">2023</column>
+        <column name="id_region">25</column>
+        <column name="podr">ЦМДРиВО</column>
+        <column name="podr_full">Центр маркетинга, договорной работы и вещевого обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">5049</column>
+        <column name="id_region">22</column>
+        <column name="podr">СМО</column>
+        <column name="podr_full">Сектор мобилизационного обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">318</column>
+        <column name="id_region">6</column>
+        <column name="podr">ОУСиС</column>
+        <column name="podr_full">Отдел управления силами и средствами</column>
+    </table>
+    <table name="podr">
+        <column name="id">319</column>
+        <column name="id_region">6</column>
+        <column name="podr">ООФИУСГСЧС</column>
+        <column name="podr_full">Отдел организации функционирования информационно-управляющей системы предупреждения и ликвидации ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2908</column>
+        <column name="id_region">6</column>
+        <column name="podr">ОМПЧС</column>
+        <column name="podr_full">Отдел мониторинга и прогнозирования ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">320</column>
+        <column name="id_region">6</column>
+        <column name="podr">ОСиБП</column>
+        <column name="podr_full">Отдел службы и боеготовности подразделений</column>
+    </table>
+    <table name="podr">
+        <column name="id">214</column>
+        <column name="id_region">6</column>
+        <column name="podr">ОТСиО</column>
+        <column name="podr_full">Отдел телекоммуникационных систем и оборудования</column>
+    </table>
+    <table name="podr">
+        <column name="id">2022</column>
+        <column name="id_region">25</column>
+        <column name="podr">НПЦ</column>
+        <column name="podr_full">Научно-практический центр</column>
+    </table>
+    <table name="podr">
+        <column name="id">2021</column>
+        <column name="id_region">25</column>
+        <column name="podr">УЦ</column>
+        <column name="podr_full">Учебный центр ГО УМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2020</column>
+        <column name="id_region">25</column>
+        <column name="podr">ЦИК</column>
+        <column name="podr_full">Центр информатики и компьютеризации при ГО УМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2018</column>
+        <column name="id_region">25</column>
+        <column name="podr">ЦОУ</column>
+        <column name="podr_full">Центр оперативного управления</column>
+    </table>
+    <table name="podr">
+        <column name="id">2019</column>
+        <column name="id_region">25</column>
+        <column name="podr">ЦПиВО</column>
+        <column name="podr_full">Центр пропаганды и взаимодействия с общественностью управления</column>
+    </table>
+    <table name="podr">
+        <column name="id">2017</column>
+        <column name="id_region">25</column>
+        <column name="podr">ГСиАИ</column>
+        <column name="podr_full">Группа справочной и архивной информации</column>
+    </table>
+    <table name="podr">
+        <column name="id">623</column>
+        <column name="id_region">21</column>
+        <column name="podr">ГОТиПБ</column>
+        <column name="podr_full">Группа по охране труда и пожарной безопасности</column>
+    </table>
+    <table name="podr">
+        <column name="id">2016</column>
+        <column name="id_region">25</column>
+        <column name="podr">ГЮО</column>
+        <column name="podr_full">Группа юридического обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">2015</column>
+        <column name="id_region">25</column>
+        <column name="podr">СРСР</column>
+        <column name="podr_full">Сектор режимно-секретной работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">2014</column>
+        <column name="id_region">25</column>
+        <column name="podr">СДиКИ</column>
+        <column name="podr_full">Сектор делопроизводства и контроля исполнения</column>
+    </table>
+    <table name="podr">
+        <column name="id">2013</column>
+        <column name="id_region">25</column>
+        <column name="podr">Пресс-центр</column>
+        <column name="podr_full">Пресс - центр</column>
+    </table>
+    <table name="podr">
+        <column name="id">2012</column>
+        <column name="id_region">25</column>
+        <column name="podr">ССБ</column>
+        <column name="podr_full">Сектор собственной безопасности</column>
+    </table>
+    <table name="podr">
+        <column name="id">2011</column>
+        <column name="id_region">25</column>
+        <column name="podr">КРГ</column>
+        <column name="podr_full">Контрольно - ревизионная группа</column>
+    </table>
+    <table name="podr">
+        <column name="id">2010</column>
+        <column name="id_region">25</column>
+        <column name="podr">ОИР</column>
+        <column name="podr_full">Отдел идеологической работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">2009</column>
+        <column name="id_region">25</column>
+        <column name="podr">ОООНиПП</column>
+        <column name="podr_full">Отдел организации обучения населения и профессиональной подготовки</column>
+    </table>
+    <table name="podr">
+        <column name="id">2008</column>
+        <column name="id_region">25</column>
+        <column name="podr">ОК</column>
+        <column name="podr_full">Отдел кадров</column>
+    </table>
+    <table name="podr">
+        <column name="id">2007</column>
+        <column name="id_region">25</column>
+        <column name="podr">ОТиПБ</column>
+        <column name="podr_full">Группа по охране труда и пожарной безопасности</column>
+    </table>
+    <table name="podr">
+        <column name="id">2006</column>
+        <column name="id_region">25</column>
+        <column name="podr">Бухгалтерия</column>
+        <column name="podr_full">Бухгалтерия</column>
+    </table>
+    <table name="podr">
+        <column name="id">2005</column>
+        <column name="id_region">25</column>
+        <column name="podr">ПГ</column>
+        <column name="podr_full">Пенсионная группа</column>
+    </table>
+    <table name="podr">
+        <column name="id">2004</column>
+        <column name="id_region">25</column>
+        <column name="podr">ФЭО</column>
+        <column name="podr_full">Финансово-экономический отдел</column>
+    </table>
+    <table name="podr">
+        <column name="id">2003</column>
+        <column name="id_region">25</column>
+        <column name="podr">ОМТОиС</column>
+        <column name="podr_full">Отдел материально-технического обеспечения и строительства</column>
+    </table>
+    <table name="podr">
+        <column name="id">2002</column>
+        <column name="id_region">25</column>
+        <column name="podr">СМО</column>
+        <column name="podr_full">Сектор мобилизационного обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">2001</column>
+        <column name="id_region">25</column>
+        <column name="podr">ССиО</column>
+        <column name="podr_full">Сектор связи и оповещения</column>
+    </table>
+    <table name="podr">
+        <column name="id">2000</column>
+        <column name="id_region">25</column>
+        <column name="podr">ОСиБП</column>
+        <column name="podr_full">Отдел службы и боеготовности подразделений</column>
+    </table>
+    <table name="podr">
+        <column name="id">1999</column>
+        <column name="id_region">25</column>
+        <column name="podr">ОНТРиПЧС</column>
+        <column name="podr_full">Отдел нормативно-технической работы и предупреждения чрезвычайных ситуаций</column>
+    </table>
+    <table name="podr">
+        <column name="id">1998</column>
+        <column name="id_region">25</column>
+        <column name="podr">ОНиП</column>
+        <column name="podr_full">Отдел надзора и профилактики</column>
+    </table>
+    <table name="podr">
+        <column name="id">328</column>
+        <column name="id_region">26</column>
+        <column name="podr">ЦИиК</column>
+        <column name="podr_full">Центр информатики и компьютеризации при Могилёвском областном УМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">400</column>
+        <column name="id_region">23</column>
+        <column name="podr">ОК</column>
+        <column name="podr_full">Отдел кадров Витебского областного УМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">286</column>
+        <column name="id_region">26</column>
+        <column name="podr">ССиО</column>
+        <column name="podr_full">Сектор связи и оповещения</column>
+    </table>
+    <table name="podr">
+        <column name="id">285</column>
+        <column name="id_region">26</column>
+        <column name="podr">Руководство</column>
+        <column name="podr_full">Руководство</column>
+    </table>
+    <table name="podr">
+        <column name="id">2316</column>
+        <column name="id_region">26</column>
+        <column name="podr">ОООГСЧСиГО</column>
+        <column name="podr_full">Отдел  организационного обеспечения государственной системы предупреждения и ликвидации чрезвычайных ситуаций и гражданской обороны</column>
+    </table>
+    <table name="podr">
+        <column name="id">290</column>
+        <column name="id_region">26</column>
+        <column name="podr">ОАО</column>
+        <column name="podr_full">Организационно – аналитический  отдел</column>
+    </table>
+    <table name="podr">
+        <column name="id">291</column>
+        <column name="id_region">26</column>
+        <column name="podr">ОНиП</column>
+        <column name="podr_full">Отдел надзора и профилактики</column>
+    </table>
+    <table name="podr">
+        <column name="id">292</column>
+        <column name="id_region">26</column>
+        <column name="podr">ОНТРиПЧС</column>
+        <column name="podr_full">Отдел нормативно-технической работы и предупреждения чрезвычайных ситуаций</column>
+    </table>
+    <table name="podr">
+        <column name="id">293</column>
+        <column name="id_region">26</column>
+        <column name="podr">ОСиБП</column>
+        <column name="podr_full">Отдел службы и боеготовности подразделений</column>
+    </table>
+    <table name="podr">
+        <column name="id">294</column>
+        <column name="id_region">26</column>
+        <column name="podr">СМО</column>
+        <column name="podr_full">Сектор мобилизационного обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">295</column>
+        <column name="id_region">26</column>
+        <column name="podr">ОМТОиС</column>
+        <column name="podr_full">Отдел техники, материального обеспечения и строительства</column>
+    </table>
+    <table name="podr">
+        <column name="id">296</column>
+        <column name="id_region">26</column>
+        <column name="podr">ФЭО</column>
+        <column name="podr_full">Финансово – экономический отдел</column>
+    </table>
+    <table name="podr">
+        <column name="id">297</column>
+        <column name="id_region">26</column>
+        <column name="podr">ПГ</column>
+        <column name="podr_full">Пенсионная группа</column>
+    </table>
+    <table name="podr">
+        <column name="id">298</column>
+        <column name="id_region">26</column>
+        <column name="podr">Бухгалтерия</column>
+        <column name="podr_full">Централизованная бухгалтерия при Могилёвском областном УМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">299</column>
+        <column name="id_region">26</column>
+        <column name="podr">ГОТиПБ</column>
+        <column name="podr_full">Группа по охране труда и пожарной безопасности</column>
+    </table>
+    <table name="podr">
+        <column name="id">300</column>
+        <column name="id_region">26</column>
+        <column name="podr">ОК</column>
+        <column name="podr_full">Отдел кадров</column>
+    </table>
+    <table name="podr">
+        <column name="id">301</column>
+        <column name="id_region">26</column>
+        <column name="podr">ОООНиПП</column>
+        <column name="podr_full">Отдел организации обучения населения и профессиональной подготовки</column>
+    </table>
+    <table name="podr">
+        <column name="id">302</column>
+        <column name="id_region">26</column>
+        <column name="podr">ОИР</column>
+        <column name="podr_full">Отдел идеологической работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">303</column>
+        <column name="id_region">26</column>
+        <column name="podr">КРГ</column>
+        <column name="podr_full">Контрольно-ревизионная группа</column>
+    </table>
+    <table name="podr">
+        <column name="id">304</column>
+        <column name="id_region">26</column>
+        <column name="podr">СДиКИ</column>
+        <column name="podr_full">Сектор делопроизводства и контроля исполнения</column>
+    </table>
+    <table name="podr">
+        <column name="id">305</column>
+        <column name="id_region">26</column>
+        <column name="podr">СОРиСР</column>
+        <column name="podr_full">Сектор обеспечения режима и секретной работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">306</column>
+        <column name="id_region">26</column>
+        <column name="podr">ГЮО</column>
+        <column name="podr_full">Группа юридического обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">3214</column>
+        <column name="id_region">26</column>
+        <column name="podr">ЦОУ</column>
+        <column name="podr_full">Центр оперативного управления МО УМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">4720</column>
+        <column name="id_region">23</column>
+        <column name="podr">СС и О</column>
+        <column name="podr_full">Сектор связи и оповещения</column>
+    </table>
+    <table name="podr">
+        <column name="id">4820</column>
+        <column name="id_region">26</column>
+        <column name="podr">НПЦ</column>
+        <column name="podr_full">НПЦ</column>
+    </table>
+    <table name="podr">
+        <column name="id">4830</column>
+        <column name="id_region">26</column>
+        <column name="podr">ПТЦ</column>
+        <column name="podr_full">ПТЦ</column>
+    </table>
+    <table name="podr">
+        <column name="id">1672</column>
+        <column name="id_region">0</column>
+        <column name="podr">НИЦ</column>
+        <column name="podr_full">Учреждение &quot;Научно-исследовательский центр Витебского областного УМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">316</column>
+        <column name="id_region">6</column>
+        <column name="podr">ОСиО</column>
+        <column name="podr_full">Отдел связи и оповещения</column>
+    </table>
+    <table name="podr">
+        <column name="id">322</column>
+        <column name="id_region">6</column>
+        <column name="podr">ГДиКИ</column>
+        <column name="podr_full">Группа делопроизводства и контроля исполнения</column>
+    </table>
+    <table name="podr">
+        <column name="id">323</column>
+        <column name="id_region">6</column>
+        <column name="podr">ГИРиКО</column>
+        <column name="podr_full">Группа идеологической работы и кадрового обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">324</column>
+        <column name="id_region">6</column>
+        <column name="podr">ГЮО</column>
+        <column name="podr_full">Группа юридического обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">325</column>
+        <column name="id_region">6</column>
+        <column name="podr">СМТО</column>
+        <column name="podr_full">Служба материально-технического обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">326</column>
+        <column name="id_region">6</column>
+        <column name="podr">ГРСР</column>
+        <column name="podr_full">Группа режимно-секретной работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">327</column>
+        <column name="id_region">6</column>
+        <column name="podr">ФЭС</column>
+        <column name="podr_full">Финансово-экономический сектор</column>
+    </table>
+    <table name="podr">
+        <column name="id">4852</column>
+        <column name="id_region">10</column>
+        <column name="podr">Кафедра ОСНиПО</column>
+        <column name="podr_full">Кафедра организации службы, надзора и правового обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">4462</column>
+        <column name="id_region">26</column>
+        <column name="podr">ДО</column>
+        <column name="podr_full">Духовой оркестр</column>
+    </table>
+    <table name="podr">
+        <column name="id">404</column>
+        <column name="id_region">23</column>
+        <column name="podr">ПЦ</column>
+        <column name="podr_full">Пресс центр</column>
+    </table>
+    <table name="podr">
+        <column name="id">402</column>
+        <column name="id_region">23</column>
+        <column name="podr">ОИР</column>
+        <column name="podr_full">Отдел идеологической работы Витебского областного УМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">403</column>
+        <column name="id_region">23</column>
+        <column name="podr">ССБ</column>
+        <column name="podr_full">Сектор собственной безопасности</column>
+    </table>
+    <table name="podr">
+        <column name="id">5444</column>
+        <column name="id_region">13</column>
+        <column name="podr">МП</column>
+        <column name="podr_full">Медицинский пункт</column>
+    </table>
+    <table name="podr">
+        <column name="id">5176</column>
+        <column name="id_region">23</column>
+        <column name="podr">ЦОУ</column>
+        <column name="podr_full">Центр оперативного управления</column>
+    </table>
+    <table name="podr">
+        <column name="id">401</column>
+        <column name="id_region">23</column>
+        <column name="podr">ОООНиПП</column>
+        <column name="podr_full">Отдел организации обучения населения и профессиональной подготовки Витебского областного УМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">412</column>
+        <column name="id_region">23</column>
+        <column name="podr">ЦБ</column>
+        <column name="podr_full">Централизованная бухгалтерия при Витебском областном УМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">411</column>
+        <column name="id_region">23</column>
+        <column name="podr">ПТЦ</column>
+        <column name="podr_full">Производственно-технический центр учреждения Витебское областное УМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">409</column>
+        <column name="id_region">23</column>
+        <column name="podr">ЦИК</column>
+        <column name="podr_full">Центр информатики и компьютеризации при Витебском областном УМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">410</column>
+        <column name="id_region">23</column>
+        <column name="podr">НПЦ</column>
+        <column name="podr_full">Научно-практический центр учреждения &quot;Витебское областное управление МЧС&quot;</column>
+    </table>
+    <table name="podr">
+        <column name="id">408</column>
+        <column name="id_region">23</column>
+        <column name="podr">ГСиАИ</column>
+        <column name="podr_full">Группа справочной и архивной информации Витебского областного УМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">406</column>
+        <column name="id_region">23</column>
+        <column name="podr">СМО</column>
+        <column name="podr_full">Сектор мобилизационного обеспечения Витебского областного УМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">407</column>
+        <column name="id_region">23</column>
+        <column name="podr">СРСР</column>
+        <column name="podr_full">Сектор режимно-секретной работы Витебского областного УМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">405</column>
+        <column name="id_region">23</column>
+        <column name="podr">СДиКИ</column>
+        <column name="podr_full">Сектор делопроизводства и контроля исполнения</column>
+    </table>
+    <table name="podr">
+        <column name="id">399</column>
+        <column name="id_region">23</column>
+        <column name="podr">ФЭО</column>
+        <column name="podr_full">Финансово-экономический отдел Витебского областного УМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">398</column>
+        <column name="id_region">23</column>
+        <column name="podr">ГОТиПБ</column>
+        <column name="podr_full">Группа по охране труда и пожарной безопасности Витебского областного УМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">397</column>
+        <column name="id_region">23</column>
+        <column name="podr">ОМТОиС</column>
+        <column name="podr_full">Отдел материально-технического обеспечения и строительства</column>
+    </table>
+    <table name="podr">
+        <column name="id">394</column>
+        <column name="id_region">23</column>
+        <column name="podr">ОНТРиПЧС</column>
+        <column name="podr_full">Отдел нормативно-технической работы и предупреждения ЧС Витебского областного УМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">395</column>
+        <column name="id_region">23</column>
+        <column name="podr">ОСиБП</column>
+        <column name="podr_full">Отдел службы и боеготовности подразделений Витебского областного УМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">389</column>
+        <column name="id_region">23</column>
+        <column name="podr">ОАО</column>
+        <column name="podr_full">Организационно-аналитический отдел</column>
+    </table>
+    <table name="podr">
+        <column name="id">390</column>
+        <column name="id_region">23</column>
+        <column name="podr">ГЮО</column>
+        <column name="podr_full">Группа юридического обеспечения Витебского областного УМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">393</column>
+        <column name="id_region">23</column>
+        <column name="podr">ОНиП</column>
+        <column name="podr_full">Отдел надзора и профилактики Витебского областного УМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">388</column>
+        <column name="id_region">23</column>
+        <column name="podr">Руководство</column>
+        <column name="podr_full">Руководство Витебского областного УМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">4851</column>
+        <column name="id_region">10</column>
+        <column name="podr">Кафедра АСБ</column>
+        <column name="podr_full">Кафедра автоматических систем безопасности</column>
+    </table>
+    <table name="podr">
+        <column name="id">416</column>
+        <column name="id_region">23</column>
+        <column name="podr">ЦБЖиВО</column>
+        <column name="podr_full">Центр безопасности жизнедеятельности и взаимодействия с общественностью</column>
+    </table>
+    <table name="podr">
+        <column name="id">3738</column>
+        <column name="id_region">26</column>
+        <column name="podr">ЦБЖиВО</column>
+        <column name="podr_full">Центр безопасности жизнедеятельности и взаимодействия с общественностью</column>
+    </table>
+    <table name="podr">
+        <column name="id">4834</column>
+        <column name="id_region">26</column>
+        <column name="podr">Кировский РОЧС</column>
+        <column name="podr_full">Кировский РОЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">4835</column>
+        <column name="id_region">26</column>
+        <column name="podr">Кличевский РОЧС</column>
+        <column name="podr_full">Кличевский РОЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">5069</column>
+        <column name="id_region">22</column>
+        <column name="podr">Дрогичинский РОЧС</column>
+        <column name="podr_full">Дрогичинский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">622</column>
+        <column name="id_region">21</column>
+        <column name="podr">ОНТРиПЧС</column>
+        <column name="podr_full">Отдел нормативно-технической работы и предупреждения ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">4481</column>
+        <column name="id_region">16</column>
+        <column name="podr">ГСБ</column>
+        <column name="podr_full">Группа собственной безопасности</column>
+    </table>
+    <table name="podr">
+        <column name="id">4719</column>
+        <column name="id_region">23</column>
+        <column name="podr">Миорский РОЧС</column>
+        <column name="podr_full">Миорский районный отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">4803</column>
+        <column name="id_region">26</column>
+        <column name="podr">Глусский РОЧС</column>
+        <column name="podr_full">Глусский РОЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">4850</column>
+        <column name="id_region">10</column>
+        <column name="podr">Кафедра пром.без.</column>
+        <column name="podr_full">Кафедра промышленной безопасности</column>
+    </table>
+    <table name="podr">
+        <column name="id">5075</column>
+        <column name="id_region">22</column>
+        <column name="podr">Лунинецкий РОЧС</column>
+        <column name="podr_full">Лунинецкий районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2327</column>
+        <column name="id_region">23</column>
+        <column name="podr">ООО ГСЧС и ГО</column>
+        <column name="podr_full">Отдел организационного обеспечения ГСЧСиГО учреждения &quot;Витебское областное управление МЧС&quot;</column>
+    </table>
+    <table name="podr">
+        <column name="id">5050</column>
+        <column name="id_region">22</column>
+        <column name="podr">СРСР</column>
+        <column name="podr_full">Сектор режимно-секретной работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">2040</column>
+        <column name="id_region">25</column>
+        <column name="podr">Свислочский РОЧС</column>
+        <column name="podr_full">Свислочский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2039</column>
+        <column name="id_region">25</column>
+        <column name="podr">Ошмянский РОЧС</column>
+        <column name="podr_full">Ошмянский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2041</column>
+        <column name="id_region">25</column>
+        <column name="podr">Слонимский РОЧС</column>
+        <column name="podr_full">Слонимский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2313</column>
+        <column name="id_region">16</column>
+        <column name="podr">ЦИАО</column>
+        <column name="podr_full">Центр инженерно-авиационного обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">2042</column>
+        <column name="id_region">25</column>
+        <column name="podr">Сморгонский РОЧС</column>
+        <column name="podr_full">Сморгонский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2043</column>
+        <column name="id_region">25</column>
+        <column name="podr">Щучинский РОЧС</column>
+        <column name="podr_full">Щучинский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2053</column>
+        <column name="id_region">7</column>
+        <column name="podr">ЦМО</column>
+        <column name="podr_full">Центр медицинского обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">2054</column>
+        <column name="id_region">7</column>
+        <column name="podr">ПЦ</column>
+        <column name="podr_full">Пинский центр</column>
+    </table>
+    <table name="podr">
+        <column name="id">2055</column>
+        <column name="id_region">7</column>
+        <column name="podr">СЦ</column>
+        <column name="podr_full">Солигорский центр</column>
+    </table>
+    <table name="podr">
+        <column name="id">2056</column>
+        <column name="id_region">15</column>
+        <column name="podr">Руководство</column>
+        <column name="podr_full">Руководство</column>
+    </table>
+    <table name="podr">
+        <column name="id">2057</column>
+        <column name="id_region">15</column>
+        <column name="podr">ФЭО</column>
+        <column name="podr_full">Финансово-экономический отдел</column>
+    </table>
+    <table name="podr">
+        <column name="id">2058</column>
+        <column name="id_region">15</column>
+        <column name="podr">Учебный отдел</column>
+        <column name="podr_full">Учебный отдел</column>
+    </table>
+    <table name="podr">
+        <column name="id">2059</column>
+        <column name="id_region">15</column>
+        <column name="podr">Библиотека</column>
+        <column name="podr_full">Библиотека</column>
+    </table>
+    <table name="podr">
+        <column name="id">2060</column>
+        <column name="id_region">15</column>
+        <column name="podr">ОДЧ</column>
+        <column name="podr_full">Оперативно-дежурная часть</column>
+    </table>
+    <table name="podr">
+        <column name="id">2061</column>
+        <column name="id_region">15</column>
+        <column name="podr">ОИиВР</column>
+        <column name="podr_full">Отдел идеологической и воспитательной работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">2062</column>
+        <column name="id_region">15</column>
+        <column name="podr">Группа кадров</column>
+        <column name="podr_full">Группа кадров</column>
+    </table>
+    <table name="podr">
+        <column name="id">2063</column>
+        <column name="id_region">15</column>
+        <column name="podr">Клуб</column>
+        <column name="podr_full">Клуб</column>
+    </table>
+    <table name="podr">
+        <column name="id">2064</column>
+        <column name="id_region">15</column>
+        <column name="podr">Группа делопроизводства</column>
+        <column name="podr_full">Группа делопроизводства и контроля исполнения</column>
+    </table>
+    <table name="podr">
+        <column name="id">2065</column>
+        <column name="id_region">15</column>
+        <column name="podr">Столовая</column>
+        <column name="podr_full">Столовая</column>
+    </table>
+    <table name="podr">
+        <column name="id">2066</column>
+        <column name="id_region">15</column>
+        <column name="podr">Служба МТО</column>
+        <column name="podr_full">Служба материально-технического обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">2067</column>
+        <column name="id_region">15</column>
+        <column name="podr">Служба КЭО</column>
+        <column name="podr_full">Служба коммунально-эксплуатационного обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">4831</column>
+        <column name="id_region">26</column>
+        <column name="podr">Быховский РОЧС</column>
+        <column name="podr_full">Быховский РОЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2351</column>
+        <column name="id_region">20</column>
+        <column name="podr">ОИР</column>
+        <column name="podr_full">Отдел идеологической работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">2309</column>
+        <column name="id_region">16</column>
+        <column name="podr">ФЭО</column>
+        <column name="podr_full">Финансово-экономический отдел</column>
+    </table>
+    <table name="podr">
+        <column name="id">2308</column>
+        <column name="id_region">16</column>
+        <column name="podr">ГЮО</column>
+        <column name="podr_full">Группа юридического обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">2307</column>
+        <column name="id_region">16</column>
+        <column name="podr">ГИР и КО</column>
+        <column name="podr_full">Группа идеалогической работы и кадрового обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">2306</column>
+        <column name="id_region">16</column>
+        <column name="podr">ОМТО</column>
+        <column name="podr_full">Отдел материально-технического обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">5441</column>
+        <column name="id_region">13</column>
+        <column name="podr">БЖ</column>
+        <column name="podr_full">Кафедра безопасности жизнедеятельности</column>
+    </table>
+    <table name="podr">
+        <column name="id">5442</column>
+        <column name="id_region">13</column>
+        <column name="podr">СМТО</column>
+        <column name="podr_full">Служба материально-технического обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">5039</column>
+        <column name="id_region">22</column>
+        <column name="podr">ООО ГСЧСиГО</column>
+        <column name="podr_full">Отдел организационного обеспечения ГСЧС и ГО</column>
+    </table>
+    <table name="podr">
+        <column name="id">1755</column>
+        <column name="id_region">4</column>
+        <column name="podr">ДРОЦ &quot;Надежда&quot;</column>
+        <column name="podr_full">Детский реабилитационно-оздоровительный центр 'Надежда' (Белорусско-германское совместное благотворительное предприятие 'Надежда-XXI век')</column>
+    </table>
+    <table name="podr">
+        <column name="id">1753</column>
+        <column name="id_region">4</column>
+        <column name="podr"></column>
+        <column name="podr_full"></column>
+    </table>
+    <table name="podr">
+        <column name="id">4859</column>
+        <column name="id_region">10</column>
+        <column name="podr">Кафедра ПАСП</column>
+        <column name="podr_full">Кафедра пожарной аварийно-спасательной подготовки</column>
+    </table>
+    <table name="podr">
+        <column name="id">4858</column>
+        <column name="id_region">10</column>
+        <column name="podr">Кафедра ФПиС</column>
+        <column name="podr_full">Кафедра физической подготовки  и спорта</column>
+    </table>
+    <table name="podr">
+        <column name="id">3547</column>
+        <column name="id_region">18</column>
+        <column name="podr">ГИМС Гомельской области</column>
+        <column name="podr_full">ГИМС Гомельской области</column>
+    </table>
+    <table name="podr">
+        <column name="id">3548</column>
+        <column name="id_region">18</column>
+        <column name="podr">ГИМС Минской области</column>
+        <column name="podr_full">ГИМС Минской области</column>
+    </table>
+    <table name="podr">
+        <column name="id">4950</column>
+        <column name="id_region">9</column>
+        <column name="podr">Руководство</column>
+        <column name="podr_full">Руководство института</column>
+    </table>
+    <table name="podr">
+        <column name="id">4951</column>
+        <column name="id_region">9</column>
+        <column name="podr">ЦНИР</column>
+        <column name="podr_full">Центр научно-исследовательской работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">1750</column>
+        <column name="id_region">4</column>
+        <column name="podr">РСУП &quot;Радон&quot;</column>
+        <column name="podr_full">Республиканское специализированное унитарное предприятие 'Радон'</column>
+    </table>
+    <table name="podr">
+        <column name="id">1749</column>
+        <column name="id_region">4</column>
+        <column name="podr">РСУП &quot;Полесье&quot;</column>
+        <column name="podr_full">Республиканское специализированное унитарное предприятие 'Полесье'</column>
+    </table>
+    <table name="podr">
+        <column name="id">1748</column>
+        <column name="id_region">4</column>
+        <column name="podr">Администрация ЗОиО</column>
+        <column name="podr_full">Администрация зон отчуждения и отселения</column>
+    </table>
+    <table name="podr">
+        <column name="id">1747</column>
+        <column name="id_region">4</column>
+        <column name="podr">Учреждение ПГРЭЗ</column>
+        <column name="podr_full">Учреждение 'Полесский государственный радиационно-экологический заповедник'</column>
+    </table>
+    <table name="podr">
+        <column name="id">4952</column>
+        <column name="id_region">9</column>
+        <column name="podr">НИЦ_ОФСПНиС</column>
+        <column name="podr_full">Научно-исследовательский центр по обеспечению функционирования системы противопожарного нормирования и стандартизации</column>
+    </table>
+    <table name="podr">
+        <column name="id">5067</column>
+        <column name="id_region">22</column>
+        <column name="podr">Брестский ГОЧС</column>
+        <column name="podr_full">Брестский городской отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2752</column>
+        <column name="id_region">15</column>
+        <column name="podr">СекторТСО</column>
+        <column name="podr_full">Сектор технических средств обучения</column>
+    </table>
+    <table name="podr">
+        <column name="id">2751</column>
+        <column name="id_region">7</column>
+        <column name="podr">ЦОСМР</column>
+        <column name="podr_full">Центр организации спортивно-массовой работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">4957</column>
+        <column name="id_region">9</column>
+        <column name="podr">ФЭО</column>
+        <column name="podr_full">Финансово-экономический отдел</column>
+    </table>
+    <table name="podr">
+        <column name="id">3340</column>
+        <column name="id_region">16</column>
+        <column name="podr">Служба движения</column>
+        <column name="podr_full">Служба движения</column>
+    </table>
+    <table name="podr">
+        <column name="id">3551</column>
+        <column name="id_region">15</column>
+        <column name="podr">СПСПС</column>
+        <column name="podr_full">Сектор психологического и социально-педагогического сопровождения</column>
+    </table>
+    <table name="podr">
+        <column name="id">3924</column>
+        <column name="id_region">23</column>
+        <column name="podr">Браславский РОЧС</column>
+        <column name="podr_full">Браславский районный отдел по чрезвычайным ситуациям, 211970, г. Браслав, ул. Дзержинского, 63</column>
+    </table>
+    <table name="podr">
+        <column name="id">1003</column>
+        <column name="id_region">21</column>
+        <column name="podr">Смолевичский РОЧС</column>
+        <column name="podr_full">Смолевичский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">613</column>
+        <column name="id_region">23</column>
+        <column name="podr">Оршанский ГРОЧС</column>
+        <column name="podr_full">Оршанский горрайотдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">1377</column>
+        <column name="id_region">8</column>
+        <column name="podr">ГЮО</column>
+        <column name="podr_full">Группа юридического обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">702</column>
+        <column name="id_region">23</column>
+        <column name="podr">Городокский РОЧС</column>
+        <column name="podr_full">Городокский районный отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">607</column>
+        <column name="id_region">8</column>
+        <column name="podr">ОТиТП</column>
+        <column name="podr_full">Отдел телекоммуникаций и технической поддержки</column>
+    </table>
+    <table name="podr">
+        <column name="id">605</column>
+        <column name="id_region">8</column>
+        <column name="podr">ООРИВиПО</column>
+        <column name="podr_full">Отдел оценки и реализации имущества, вещевого и продовольственного обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">606</column>
+        <column name="id_region">8</column>
+        <column name="podr">ГИРиКО</column>
+        <column name="podr_full">Группа идеологической работы и кадрового обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">604</column>
+        <column name="id_region">8</column>
+        <column name="podr">ИОТиПБ</column>
+        <column name="podr_full">Инспекция по охране труда и пожарной безопасности</column>
+    </table>
+    <table name="podr">
+        <column name="id">603</column>
+        <column name="id_region">8</column>
+        <column name="podr">ФЭО</column>
+        <column name="podr_full">Финансово-экономический отдел</column>
+    </table>
+    <table name="podr">
+        <column name="id">602</column>
+        <column name="id_region">8</column>
+        <column name="podr">ОЭЖОиКЭ</column>
+        <column name="podr_full">Отдел эксплуатационно-жилищного обеспечения и контроля за энергоэффективностью</column>
+    </table>
+    <table name="podr">
+        <column name="id">601</column>
+        <column name="id_region">8</column>
+        <column name="podr">ОМиДР</column>
+        <column name="podr_full">Отдел маркетинга и договорной работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">600</column>
+        <column name="id_region">8</column>
+        <column name="podr">ООРОиЭТС</column>
+        <column name="podr_full">Отдел организации ремонта, обслуживания и эксплуатации технических средств</column>
+    </table>
+    <table name="podr">
+        <column name="id">598</column>
+        <column name="id_region">8</column>
+        <column name="podr">Руководство</column>
+        <column name="podr_full">Руководство РЦТО</column>
+    </table>
+    <table name="podr">
+        <column name="id">2341</column>
+        <column name="id_region">6</column>
+        <column name="podr">ОВПО</column>
+        <column name="podr_full">Отдел внедрения программного обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">1002</column>
+        <column name="id_region">21</column>
+        <column name="podr">Слуцкий РОЧС</column>
+        <column name="podr_full">Слуцкий районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1001</column>
+        <column name="id_region">21</column>
+        <column name="podr">Пуховичский РОЧС</column>
+        <column name="podr_full">Пуховичский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">999</column>
+        <column name="id_region">21</column>
+        <column name="podr">Несвижский РОЧС</column>
+        <column name="podr_full">Несвижский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">998</column>
+        <column name="id_region">21</column>
+        <column name="podr">Мядельский РОЧС</column>
+        <column name="podr_full">Мядельский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">996</column>
+        <column name="id_region">21</column>
+        <column name="podr"></column>
+        <column name="podr_full"></column>
+    </table>
+    <table name="podr">
+        <column name="id">997</column>
+        <column name="id_region">21</column>
+        <column name="podr">Молодечненский ГРОЧС</column>
+        <column name="podr_full">Молодечненский горрайотдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">615</column>
+        <column name="id_region">21</column>
+        <column name="podr">ОАО</column>
+        <column name="podr_full">Организационно-аналитический отдел</column>
+    </table>
+    <table name="podr">
+        <column name="id">614</column>
+        <column name="id_region">21</column>
+        <column name="podr">Руководство</column>
+        <column name="podr_full">Руководство</column>
+    </table>
+    <table name="podr">
+        <column name="id">618</column>
+        <column name="id_region">21</column>
+        <column name="podr">СМО</column>
+        <column name="podr_full">Сектор мобилизационного обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">619</column>
+        <column name="id_region">21</column>
+        <column name="podr">ОСиБП</column>
+        <column name="podr_full">Отдел службы и боеготовности подразделений</column>
+    </table>
+    <table name="podr">
+        <column name="id">1713</column>
+        <column name="id_region">24</column>
+        <column name="podr">Житковичский РОЧС</column>
+        <column name="podr_full">Житковичский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">991</column>
+        <column name="id_region">21</column>
+        <column name="podr">Крупский РОЧС</column>
+        <column name="podr_full">Крупский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">992</column>
+        <column name="id_region">21</column>
+        <column name="podr">Логойский РОЧС</column>
+        <column name="podr_full">Логойский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">990</column>
+        <column name="id_region">21</column>
+        <column name="podr">Копыльский РОЧС</column>
+        <column name="podr_full">Копыльский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">3287</column>
+        <column name="id_region">2</column>
+        <column name="podr">БрестскоеОУ</column>
+        <column name="podr_full">Брестское областное управление</column>
+    </table>
+    <table name="podr">
+        <column name="id">995</column>
+        <column name="id_region">21</column>
+        <column name="podr">Минский РОЧС</column>
+        <column name="podr_full">Минский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">993</column>
+        <column name="id_region">21</column>
+        <column name="podr">Любанский РОЧС</column>
+        <column name="podr_full">Любанский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">5051</column>
+        <column name="id_region">22</column>
+        <column name="podr">CСиО</column>
+        <column name="podr_full">Сектор связи и оповещения</column>
+    </table>
+    <table name="podr">
+        <column name="id">1712</column>
+        <column name="id_region">24</column>
+        <column name="podr">Ельский РОЧС</column>
+        <column name="podr_full">Ельский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">4111</column>
+        <column name="id_region">24</column>
+        <column name="podr">ЦМДРиВО</column>
+        <column name="podr_full">Центр маркетинга договорной работы и вещевого обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">1694</column>
+        <column name="id_region">24</column>
+        <column name="podr">ОК</column>
+        <column name="podr_full">Отдел кадров</column>
+    </table>
+    <table name="podr">
+        <column name="id">3938</column>
+        <column name="id_region">23</column>
+        <column name="podr">Бешенковичский РОЧС</column>
+        <column name="podr_full">Бешенковичский районный отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">3919</column>
+        <column name="id_region">23</column>
+        <column name="podr">Полоцкий ГРОЧС</column>
+        <column name="podr_full">Полоцкий горрайотдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">1693</column>
+        <column name="id_region">24</column>
+        <column name="podr">ОМТОиС</column>
+        <column name="podr_full">Отдел техники, материального обеспечения и строительства</column>
+    </table>
+    <table name="podr">
+        <column name="id">1711</column>
+        <column name="id_region">24</column>
+        <column name="podr">Добрушский РОЧС</column>
+        <column name="podr_full">Добрушский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1692</column>
+        <column name="id_region">24</column>
+        <column name="podr">ОНТРиПЧС</column>
+        <column name="podr_full">Отдел нормативно-технической работы и предупреждения ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1687</column>
+        <column name="id_region">24</column>
+        <column name="podr">ОЗНиТ</column>
+        <column name="podr_full">Сектор защиты населения и территорий</column>
+    </table>
+    <table name="podr">
+        <column name="id">1688</column>
+        <column name="id_region">24</column>
+        <column name="podr">ОСиБП</column>
+        <column name="podr_full">Отдел службы и боеготовности подразделений</column>
+    </table>
+    <table name="podr">
+        <column name="id">1689</column>
+        <column name="id_region">24</column>
+        <column name="podr">ССиО</column>
+        <column name="podr_full">Сектор связи и оповещения</column>
+    </table>
+    <table name="podr">
+        <column name="id">1690</column>
+        <column name="id_region">24</column>
+        <column name="podr">СМО</column>
+        <column name="podr_full">Сектор мобилизационного обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">1691</column>
+        <column name="id_region">24</column>
+        <column name="podr">ОНиП</column>
+        <column name="podr_full">Отдел надзора и профилактики</column>
+    </table>
+    <table name="podr">
+        <column name="id">1686</column>
+        <column name="id_region">24</column>
+        <column name="podr">ОООГСЧСиГО</column>
+        <column name="podr_full">Отдел организационного обеспечения государственной системы предупреждения и ликвидации чрезвычайных ситуаций и гражданской обороны</column>
+    </table>
+    <table name="podr">
+        <column name="id">1695</column>
+        <column name="id_region">24</column>
+        <column name="podr">ОООНиПП</column>
+        <column name="podr_full">Отдел организации обучения населения и профессиональной подготовки</column>
+    </table>
+    <table name="podr">
+        <column name="id">1685</column>
+        <column name="id_region">24</column>
+        <column name="podr">ГЮО</column>
+        <column name="podr_full">Группа юридического обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">1683</column>
+        <column name="id_region">24</column>
+        <column name="podr">СРСР</column>
+        <column name="podr_full">Сектор режимно-секретной работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">1684</column>
+        <column name="id_region">24</column>
+        <column name="podr">ОАО</column>
+        <column name="podr_full">Организационно-аналитический отдел</column>
+    </table>
+    <table name="podr">
+        <column name="id">1682</column>
+        <column name="id_region">24</column>
+        <column name="podr">СДиКИ</column>
+        <column name="podr_full">Сектор делопроизводства и контроля исполнения</column>
+    </table>
+    <table name="podr">
+        <column name="id">1680</column>
+        <column name="id_region">24</column>
+        <column name="podr">Руководство</column>
+        <column name="podr_full">Руководство</column>
+    </table>
+    <table name="podr">
+        <column name="id">1681</column>
+        <column name="id_region">24</column>
+        <column name="podr">ССБ</column>
+        <column name="podr_full">Сектор собственной безопасности</column>
+    </table>
+    <table name="podr">
+        <column name="id">1710</column>
+        <column name="id_region">24</column>
+        <column name="podr">Гомельский РОЧС</column>
+        <column name="podr_full">Гомельский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1696</column>
+        <column name="id_region">24</column>
+        <column name="podr">СПО</column>
+        <column name="podr_full">Сектор психологического обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">1697</column>
+        <column name="id_region">24</column>
+        <column name="podr">ФЭО</column>
+        <column name="podr_full">Финансово-экономический отдел</column>
+    </table>
+    <table name="podr">
+        <column name="id">1698</column>
+        <column name="id_region">24</column>
+        <column name="podr">КРГ</column>
+        <column name="podr_full">Контрольно-ревизионная группа</column>
+    </table>
+    <table name="podr">
+        <column name="id">1699</column>
+        <column name="id_region">24</column>
+        <column name="podr">ЦБ</column>
+        <column name="podr_full">Централизованная бухгалтерия</column>
+    </table>
+    <table name="podr">
+        <column name="id">1700</column>
+        <column name="id_region">24</column>
+        <column name="podr">ЦОУ</column>
+        <column name="podr_full">Центр оперативного управления при ГОУМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1702</column>
+        <column name="id_region">24</column>
+        <column name="podr">НПЦ</column>
+        <column name="podr_full">Научно-практический центр</column>
+    </table>
+    <table name="podr">
+        <column name="id">1703</column>
+        <column name="id_region">24</column>
+        <column name="podr">ПТЦ</column>
+        <column name="podr_full">Производственно-технический центр</column>
+    </table>
+    <table name="podr">
+        <column name="id">1704</column>
+        <column name="id_region">24</column>
+        <column name="podr">ЦИиК</column>
+        <column name="podr_full">Центр информатики и компьютеризации при ГОУМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1705</column>
+        <column name="id_region">24</column>
+        <column name="podr">ПАСО ГОУ МЧС</column>
+        <column name="podr_full">Пожарный аварийно-спасательный отряд ГОУ МЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1706</column>
+        <column name="id_region">24</column>
+        <column name="podr">Брагинский РОЧС</column>
+        <column name="podr_full">Брагинский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1707</column>
+        <column name="id_region">24</column>
+        <column name="podr">Буда-Кошелевский РОЧС</column>
+        <column name="podr_full">Буда-Кошелевский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1708</column>
+        <column name="id_region">24</column>
+        <column name="podr">Ветковский РОЧС</column>
+        <column name="podr_full">Ветковский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1709</column>
+        <column name="id_region">24</column>
+        <column name="podr">Гомельский ГОЧС</column>
+        <column name="podr_full">Гомельский городской отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">704</column>
+        <column name="id_region">23</column>
+        <column name="podr">Витебский РОЧС</column>
+        <column name="podr_full">Витебский районный отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">708</column>
+        <column name="id_region">23</column>
+        <column name="podr">Лиозненский РОЧС</column>
+        <column name="podr_full">Лиозненский районный отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">5086</column>
+        <column name="id_region">23</column>
+        <column name="podr">Докшицкий РОЧС</column>
+        <column name="podr_full">Докшицкий районный отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">713</column>
+        <column name="id_region">23</column>
+        <column name="podr">Глубокский РОЧС</column>
+        <column name="podr_full">Глубокский районный отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">716</column>
+        <column name="id_region">23</column>
+        <column name="podr">Поставский РОЧС</column>
+        <column name="podr_full">Поставский районный отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">4959</column>
+        <column name="id_region">9</column>
+        <column name="podr">ОИРиКО</column>
+        <column name="podr_full">Отдел идеологической работы и кадрового обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">718</column>
+        <column name="id_region">23</column>
+        <column name="podr">Ушачский РОЧС</column>
+        <column name="podr_full">Ушачский районный отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">2331</column>
+        <column name="id_region">24</column>
+        <column name="podr">СПиОГСПиЛЧСиГО</column>
+        <column name="podr_full">Сектор планирования и организации государственной системы предупреждения и ликвидации ЧС и ГО</column>
+    </table>
+    <table name="podr">
+        <column name="id">2717</column>
+        <column name="id_region">7</column>
+        <column name="podr">ГЮО</column>
+        <column name="podr_full"></column>
+    </table>
+    <table name="podr">
+        <column name="id">5068</column>
+        <column name="id_region">22</column>
+        <column name="podr">Ганцевичский РОЧС</column>
+        <column name="podr_full">Ганцевичский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2332</column>
+        <column name="id_region">21</column>
+        <column name="podr">ОИР</column>
+        <column name="podr_full">Отдел идеологической работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">5052</column>
+        <column name="id_region">22</column>
+        <column name="podr">СДиКИ</column>
+        <column name="podr_full">Сектор делопроизводства и контроля исполнения</column>
+    </table>
+    <table name="podr">
+        <column name="id">5053</column>
+        <column name="id_region">22</column>
+        <column name="podr">ГОТиПБ</column>
+        <column name="podr_full">Группа по охране труда и пожарной безопасности</column>
+    </table>
+    <table name="podr">
+        <column name="id">736</column>
+        <column name="id_region">23</column>
+        <column name="podr">Чашникский РОЧС</column>
+        <column name="podr_full">Чашникский Районный отдел по чрезвычайным ситуациям, г. Новолукомль, Лукомльское шоссе, 10В, индекс 211162</column>
+    </table>
+    <table name="podr">
+        <column name="id">738</column>
+        <column name="id_region">23</column>
+        <column name="podr">Россонский РОЧС</column>
+        <column name="podr_full">Россонский районный отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">1660</column>
+        <column name="id_region">17</column>
+        <column name="podr">ФЭГ</column>
+        <column name="podr_full">Финансово-экономическая группа</column>
+    </table>
+    <table name="podr">
+        <column name="id">1643</column>
+        <column name="id_region">23</column>
+        <column name="podr">Шарковщинский РОЧС</column>
+        <column name="podr_full">Шарковщинский районный отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">4862</column>
+        <column name="id_region">10</column>
+        <column name="podr">Кафедра СЯ</column>
+        <column name="podr_full">Кафедра современных языков</column>
+    </table>
+    <table name="podr">
+        <column name="id">4861</column>
+        <column name="id_region">10</column>
+        <column name="podr">Кафедра ГН</column>
+        <column name="podr_full">Кафедра гуманитарных наук</column>
+    </table>
+    <table name="podr">
+        <column name="id">4860</column>
+        <column name="id_region">10</column>
+        <column name="podr">Кафедра ЕН</column>
+        <column name="podr_full">Кафедра естественных наук</column>
+    </table>
+    <table name="podr">
+        <column name="id">2296</column>
+        <column name="id_region">21</column>
+        <column name="podr">ПАСО</column>
+        <column name="podr_full">Пожарный аварийно-спасательный отряд учреждения &quot;Минское областное управление МЧС Республики Беларусь&quot;</column>
+    </table>
+    <table name="podr">
+        <column name="id">2905</column>
+        <column name="id_region">21</column>
+        <column name="podr">ЦМДРиВО</column>
+        <column name="podr_full">Центр маркетинга, договорной работы и вещевого обеспечения при учреждении &quot;Минское областное управление МЧС&quot;</column>
+    </table>
+    <table name="podr">
+        <column name="id">4958</column>
+        <column name="id_region">9</column>
+        <column name="podr">ОАО</column>
+        <column name="podr_full">Организационно-аналитический отдел</column>
+    </table>
+    <table name="podr">
+        <column name="id">5449</column>
+        <column name="id_region">13</column>
+        <column name="podr">ГДиКИ</column>
+        <column name="podr_full">Группа делопроизводства и контроля исполнения</column>
+    </table>
+    <table name="podr">
+        <column name="id">5448</column>
+        <column name="id_region">13</column>
+        <column name="podr">ГБУ</column>
+        <column name="podr_full">Группа бухгалтерского учета</column>
+    </table>
+    <table name="podr">
+        <column name="id">5440</column>
+        <column name="id_region">13</column>
+        <column name="podr">ОТДиТ</column>
+        <column name="podr_full">Кафедра оперативно-тактической деятельности и техники</column>
+    </table>
+    <table name="podr">
+        <column name="id">5437</column>
+        <column name="id_region">13</column>
+        <column name="podr">Библиотека</column>
+        <column name="podr_full">Библиотека</column>
+    </table>
+    <table name="podr">
+        <column name="id">5438</column>
+        <column name="id_region">13</column>
+        <column name="podr">ИФ</column>
+        <column name="podr_full">Инженерный факультет</column>
+    </table>
+    <table name="podr">
+        <column name="id">5439</column>
+        <column name="id_region">13</column>
+        <column name="podr">ОДОПЧС</column>
+        <column name="podr_full">Кафедра организации деятельности ОПЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">3933</column>
+        <column name="id_region">14</column>
+        <column name="podr">ГЮО</column>
+        <column name="podr_full">Группа юридического обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">5110</column>
+        <column name="id_region">25</column>
+        <column name="podr">СМСМолния</column>
+        <column name="podr_full">Сектор мониторинга сообщений &quot;Молния&quot;</column>
+    </table>
+    <table name="podr">
+        <column name="id">4963</column>
+        <column name="id_region">9</column>
+        <column name="podr">БОРБИЦ</column>
+        <column name="podr_full">Белорусское отделение Российско-Белорусского информационного центра по проблемам последствий катастрофы на Чернобыльской АЭС (на правах отдела)</column>
+    </table>
+    <table name="podr">
+        <column name="id">4960</column>
+        <column name="id_region">9</column>
+        <column name="podr">СДиКИ</column>
+        <column name="podr_full">Сектор делопроизводства и контроля исполнения</column>
+    </table>
+    <table name="podr">
+        <column name="id">4961</column>
+        <column name="id_region">9</column>
+        <column name="podr">CЮО</column>
+        <column name="podr_full">Сектор юридического обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">5042</column>
+        <column name="id_region">22</column>
+        <column name="podr">ОСиБП</column>
+        <column name="podr_full">Отдел службы и боеготовности подразделений</column>
+    </table>
+    <table name="podr">
+        <column name="id">5043</column>
+        <column name="id_region">22</column>
+        <column name="podr">ОМТОиС</column>
+        <column name="podr_full">Отдел материально-технического обеспечения и строительства</column>
+    </table>
+    <table name="podr">
+        <column name="id">5044</column>
+        <column name="id_region">22</column>
+        <column name="podr">ЦМДРиВО</column>
+        <column name="podr_full">Центр маркетинга, договорной работы и вещевого обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">5045</column>
+        <column name="id_region">22</column>
+        <column name="podr">ФЭО</column>
+        <column name="podr_full">Финансово-экономический отдел</column>
+    </table>
+    <table name="podr">
+        <column name="id">5046</column>
+        <column name="id_region">22</column>
+        <column name="podr">ОК</column>
+        <column name="podr_full">Отдел кадров</column>
+    </table>
+    <table name="podr">
+        <column name="id">5047</column>
+        <column name="id_region">22</column>
+        <column name="podr">ОИР</column>
+        <column name="podr_full">Отдел идеологической  работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">5048</column>
+        <column name="id_region">22</column>
+        <column name="podr">ОООНиПП</column>
+        <column name="podr_full">Отдел организации обучения населения и профессиональной подготовки</column>
+    </table>
+    <table name="podr">
+        <column name="id">801</column>
+        <column name="id_region">3</column>
+        <column name="podr">Руководство</column>
+        <column name="podr_full">Руководство Департамента</column>
+    </table>
+    <table name="podr">
+        <column name="id">802</column>
+        <column name="id_region">3</column>
+        <column name="podr">ОМРиПТ</column>
+        <column name="podr_full">Отдел мобилизационных резервов и промышленных товаров</column>
+    </table>
+    <table name="podr">
+        <column name="id">803</column>
+        <column name="id_region">3</column>
+        <column name="podr">ОПТ</column>
+        <column name="podr_full">Отдел продовольственных</column>
+    </table>
+    <table name="podr">
+        <column name="id">804</column>
+        <column name="id_region">3</column>
+        <column name="podr">УФиЭР</column>
+        <column name="podr_full">Управление финансовой и экономической работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">805</column>
+        <column name="id_region">3</column>
+        <column name="podr">ООФ</column>
+        <column name="podr_full">Отдел основных фондов</column>
+    </table>
+    <table name="podr">
+        <column name="id">806</column>
+        <column name="id_region">3</column>
+        <column name="podr">СРСР</column>
+        <column name="podr_full">Сектор режимно-секретной работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">807</column>
+        <column name="id_region">3</column>
+        <column name="podr">ОИПиОКР</column>
+        <column name="podr_full">Отдел идеологической, правовой и организационно-кадровой работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">808</column>
+        <column name="id_region">3</column>
+        <column name="podr">Технический персонал</column>
+        <column name="podr_full">Технический персонал</column>
+    </table>
+    <table name="podr">
+        <column name="id">3931</column>
+        <column name="id_region">23</column>
+        <column name="podr">Сенненский РОЧС</column>
+        <column name="podr_full">Сенненский районный отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">813</column>
+        <column name="id_region">3</column>
+        <column name="podr">Учреждение &quot;Космос&quot;</column>
+        <column name="podr_full">Учреждение по хранению материальных ценностей 'Космос&quot;</column>
+    </table>
+    <table name="podr">
+        <column name="id">814</column>
+        <column name="id_region">3</column>
+        <column name="podr">Учреждение &quot;Маяк&quot;</column>
+        <column name="podr_full">Учреждение по хранению материальных ценностей 'Маяк'</column>
+    </table>
+    <table name="podr">
+        <column name="id">815</column>
+        <column name="id_region">3</column>
+        <column name="podr">Учреждение &quot;Поречье&quot;</column>
+        <column name="podr_full">Учреждение по хранению материальных ценностей 'Поречье'</column>
+    </table>
+    <table name="podr">
+        <column name="id">816</column>
+        <column name="id_region">3</column>
+        <column name="podr">Учреждение &quot;Западный&quot;</column>
+        <column name="podr_full">Учреждение по хранению материальных ценностей &quot;Западный&quot;</column>
+    </table>
+    <table name="podr">
+        <column name="id">817</column>
+        <column name="id_region">3</column>
+        <column name="podr">Учреждение &quot;Знамя&quot;</column>
+        <column name="podr_full">Учреждение по хранению материальных ценностей 'Знамя'</column>
+    </table>
+    <table name="podr">
+        <column name="id">1450</column>
+        <column name="id_region">14</column>
+        <column name="podr">Кафедра СП</column>
+        <column name="podr_full">Кафедра специальной подготовки</column>
+    </table>
+    <table name="podr">
+        <column name="id">1457</column>
+        <column name="id_region">14</column>
+        <column name="podr">СМ</column>
+        <column name="podr_full">Сектор маркетинга</column>
+    </table>
+    <table name="podr">
+        <column name="id">1458</column>
+        <column name="id_region">14</column>
+        <column name="podr">УПАСЧ</column>
+        <column name="podr_full">Учебная пожарная аварийно-спасательная часть</column>
+    </table>
+    <table name="podr">
+        <column name="id">1459</column>
+        <column name="id_region">14</column>
+        <column name="podr">СТО</column>
+        <column name="podr_full">Служба транспортного обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">3601</column>
+        <column name="id_region">25</column>
+        <column name="podr">СПО</column>
+        <column name="podr_full">Сектор психологического обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">1455</column>
+        <column name="id_region">14</column>
+        <column name="podr">ОИРи КО</column>
+        <column name="podr_full">Отдел идеологической работы и кадрового обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">1454</column>
+        <column name="id_region">14</column>
+        <column name="podr">СБУ</column>
+        <column name="podr_full">Сектор бухгалтерского учета</column>
+    </table>
+    <table name="podr">
+        <column name="id">1453</column>
+        <column name="id_region">14</column>
+        <column name="podr">ОПП</column>
+        <column name="podr_full">Отдел практической подготовки</column>
+    </table>
+    <table name="podr">
+        <column name="id">1449</column>
+        <column name="id_region">14</column>
+        <column name="podr">Кафедра ПК</column>
+        <column name="podr_full">Кафедра  повышения квалификации</column>
+    </table>
+    <table name="podr">
+        <column name="id">1445</column>
+        <column name="id_region">14</column>
+        <column name="podr">ОООП</column>
+        <column name="podr_full">Отдел организации образовательного процесса</column>
+    </table>
+    <table name="podr">
+        <column name="id">1444</column>
+        <column name="id_region">14</column>
+        <column name="podr">Руководство</column>
+        <column name="podr_full">Руководство института</column>
+    </table>
+    <table name="podr">
+        <column name="id">1460</column>
+        <column name="id_region">14</column>
+        <column name="podr">ОДЧ</column>
+        <column name="podr_full">Оперативно-дежурная часть</column>
+    </table>
+    <table name="podr">
+        <column name="id">4463</column>
+        <column name="id_region">5</column>
+        <column name="podr">Руководство</column>
+        <column name="podr_full">Руководство</column>
+    </table>
+    <table name="podr">
+        <column name="id">4464</column>
+        <column name="id_region">5</column>
+        <column name="podr">Канцелярия</column>
+        <column name="podr_full">Канцелярия</column>
+    </table>
+    <table name="podr">
+        <column name="id">4465</column>
+        <column name="id_region">5</column>
+        <column name="podr">УИиОКР</column>
+        <column name="podr_full">Управление идеологической  и организационно-кадровой работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">4466</column>
+        <column name="id_region">5</column>
+        <column name="podr">УРЯБ</column>
+        <column name="podr_full">Управление регулирования ядерной безопасности</column>
+    </table>
+    <table name="podr">
+        <column name="id">4467</column>
+        <column name="id_region">5</column>
+        <column name="podr">ООН ЯУ</column>
+        <column name="podr_full">Отдел организации надзора за ядерной и радиационной безопасностью ядерных установок</column>
+    </table>
+    <table name="podr">
+        <column name="id">2352</column>
+        <column name="id_region">20</column>
+        <column name="podr">ОК</column>
+        <column name="podr_full">Отдел кадров</column>
+    </table>
+    <table name="podr">
+        <column name="id">852</column>
+        <column name="id_region">23</column>
+        <column name="podr">Дубровенский РОЧС</column>
+        <column name="podr_full">Дубровенский районный отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">2339</column>
+        <column name="id_region">6</column>
+        <column name="podr">ОИТ</column>
+        <column name="podr_full">Отдел информационных технологий</column>
+    </table>
+    <table name="podr">
+        <column name="id">3921</column>
+        <column name="id_region">23</column>
+        <column name="podr">Верхнедвинский РОЧС</column>
+        <column name="podr_full">Верхнедвинский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">4947</column>
+        <column name="id_region">16</column>
+        <column name="podr">ОПБАК</column>
+        <column name="podr_full">Отдел применения беспилотных авиационных комплексов</column>
+    </table>
+    <table name="podr">
+        <column name="id">3148</column>
+        <column name="id_region">23</column>
+        <column name="podr">Витебский ГОЧС</column>
+        <column name="podr_full">Витебский городской отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">5038</column>
+        <column name="id_region">22</column>
+        <column name="podr">ОАО</column>
+        <column name="podr_full">Организационно-аналитический отдел</column>
+    </table>
+    <table name="podr">
+        <column name="id">2715</column>
+        <column name="id_region">7</column>
+        <column name="podr">ДС</column>
+        <column name="podr_full">Дежурная смена</column>
+    </table>
+    <table name="podr">
+        <column name="id">2310</column>
+        <column name="id_region">16</column>
+        <column name="podr">ГД и КИ</column>
+        <column name="podr_full"> Группа делопроизводства и контроля исполнения</column>
+    </table>
+    <table name="podr">
+        <column name="id">888</column>
+        <column name="id_region">1</column>
+        <column name="podr">ОНиИР</column>
+        <column name="podr_full">Отдел науки и инновационного развития</column>
+    </table>
+    <table name="podr">
+        <column name="id">887</column>
+        <column name="id_region">1</column>
+        <column name="podr">УМТО</column>
+        <column name="podr_full">Управление материально-технического обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">2052</column>
+        <column name="id_region">7</column>
+        <column name="podr">ЦВСС</column>
+        <column name="podr_full">Центр водолазно-спасательной службы</column>
+    </table>
+    <table name="podr">
+        <column name="id">2051</column>
+        <column name="id_region">7</column>
+        <column name="podr">ЦХРЗ</column>
+        <column name="podr_full">Центр химической и радиационной защиты</column>
+    </table>
+    <table name="podr">
+        <column name="id">2050</column>
+        <column name="id_region">7</column>
+        <column name="podr">ФЭО</column>
+        <column name="podr_full">Финансово-экономический отдел</column>
+    </table>
+    <table name="podr">
+        <column name="id">2049</column>
+        <column name="id_region">7</column>
+        <column name="podr">СМТО</column>
+        <column name="podr_full">Служба материально-технического обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">2048</column>
+        <column name="id_region">7</column>
+        <column name="podr">ГИРиКО</column>
+        <column name="podr_full">Группа идеологической работы и кадрового обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">4891</column>
+        <column name="id_region">10</column>
+        <column name="podr">УПАСЧ</column>
+        <column name="podr_full">Учебная пожарная аварийно-спасательная часть</column>
+    </table>
+    <table name="podr">
+        <column name="id">1463</column>
+        <column name="id_region">14</column>
+        <column name="podr">МП</column>
+        <column name="podr_full">Медицинский пункт</column>
+    </table>
+    <table name="podr">
+        <column name="id">2045</column>
+        <column name="id_region">7</column>
+        <column name="podr">Руководство</column>
+        <column name="podr_full"></column>
+    </table>
+    <table name="podr">
+        <column name="id">2046</column>
+        <column name="id_region">7</column>
+        <column name="podr">ЦОУ</column>
+        <column name="podr_full">Центр оперативного управления</column>
+    </table>
+    <table name="podr">
+        <column name="id">2047</column>
+        <column name="id_region">7</column>
+        <column name="podr">ЦВТС</column>
+        <column name="podr_full">Центр взрывотехнической службы</column>
+    </table>
+    <table name="podr">
+        <column name="id">4821</column>
+        <column name="id_region">26</column>
+        <column name="podr">Осиповичский РОЧС</column>
+        <column name="podr_full">Осиповичский РОЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1461</column>
+        <column name="id_region">14</column>
+        <column name="podr">СКЭО</column>
+        <column name="podr_full">Служба коммунально-эксплуатационного обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">4818</column>
+        <column name="id_region">26</column>
+        <column name="podr">Могилевский РОЧС</column>
+        <column name="podr_full">Могилевский РОЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">3290</column>
+        <column name="id_region">2</column>
+        <column name="podr">ГродненскоеОУ</column>
+        <column name="podr_full">Гродненское областное управление</column>
+    </table>
+    <table name="podr">
+        <column name="id">989</column>
+        <column name="id_region">21</column>
+        <column name="podr">Клецкий РОЧС</column>
+        <column name="podr_full">Клецкий районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">4832</column>
+        <column name="id_region">26</column>
+        <column name="podr">Горецкий РОЧС</column>
+        <column name="podr_full">Горецкий РОЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2314</column>
+        <column name="id_region">16</column>
+        <column name="podr">ЦЭА и ТОП</column>
+        <column name="podr_full">Центр эксплуатации аэродрома и технического обеспечения полетов</column>
+    </table>
+    <table name="podr">
+        <column name="id">3289</column>
+        <column name="id_region">2</column>
+        <column name="podr">ГомельскоеОУ</column>
+        <column name="podr_full">Гомельское областное управление</column>
+    </table>
+    <table name="podr">
+        <column name="id">4807</column>
+        <column name="id_region">26</column>
+        <column name="podr">Климовичский РОЧС</column>
+        <column name="podr_full">Климовичский РОЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">5074</column>
+        <column name="id_region">22</column>
+        <column name="podr">Кобринский РОЧС</column>
+        <column name="podr_full">Кобринский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">3544</column>
+        <column name="id_region">18</column>
+        <column name="podr">ГИМС Брестской области</column>
+        <column name="podr_full">ГИМС Брестской области</column>
+    </table>
+    <table name="podr">
+        <column name="id">4838</column>
+        <column name="id_region">26</column>
+        <column name="podr">Мстиславский РОЧС</column>
+        <column name="podr_full">Мстиславский РОЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">4816</column>
+        <column name="id_region">26</column>
+        <column name="podr">Круглянский РОЧС</column>
+        <column name="podr_full">Круглянский РОЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">4823</column>
+        <column name="id_region">26</column>
+        <column name="podr">Славгородский РОЧС</column>
+        <column name="podr_full">Славгородский РОЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">4826</column>
+        <column name="id_region">26</column>
+        <column name="podr">Чаусский РОЧС</column>
+        <column name="podr_full">Чаусский РОЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">4828</column>
+        <column name="id_region">26</column>
+        <column name="podr">Чериковский РОЧС</column>
+        <column name="podr_full">Чериковский РОЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">4829</column>
+        <column name="id_region">26</column>
+        <column name="podr">Шкловский РОЧС</column>
+        <column name="podr_full">Шкловский РОЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2718</column>
+        <column name="id_region">7</column>
+        <column name="podr">СКЭО</column>
+        <column name="podr_full">Служба коммунально-эксплуатационного обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">2311</column>
+        <column name="id_region">16</column>
+        <column name="podr">МС</column>
+        <column name="podr_full">Медицинская служба</column>
+    </table>
+    <table name="podr">
+        <column name="id">3288</column>
+        <column name="id_region">2</column>
+        <column name="podr">ВитебскоеОУ</column>
+        <column name="podr_full">Витебское областное управление</column>
+    </table>
+    <table name="podr">
+        <column name="id">4837</column>
+        <column name="id_region">26</column>
+        <column name="podr">Краснопольский РОЧС</column>
+        <column name="podr_full">Краснопольский РОЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">4811</column>
+        <column name="id_region">26</column>
+        <column name="podr">Кричевский РОЧС</column>
+        <column name="podr_full">Кричевский РОЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2037</column>
+        <column name="id_region">25</column>
+        <column name="podr">Новогрудский РОЧС</column>
+        <column name="podr_full">Новогрудский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2034</column>
+        <column name="id_region">25</column>
+        <column name="podr">Кореличский РОЧС</column>
+        <column name="podr_full">Кореличский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2035</column>
+        <column name="id_region">25</column>
+        <column name="podr">Лидский РОЧС</column>
+        <column name="podr_full">Лидский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2036</column>
+        <column name="id_region">25</column>
+        <column name="podr">Мостовский РОЧС</column>
+        <column name="podr_full">Мостовский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2024</column>
+        <column name="id_region">25</column>
+        <column name="podr">ПТЦ</column>
+        <column name="podr_full">Производственно-технический центр учреждения &quot; ГОУ МЧС &quot;</column>
+    </table>
+    <table name="podr">
+        <column name="id">2025</column>
+        <column name="id_region">25</column>
+        <column name="podr">ПАСО</column>
+        <column name="podr_full">Пожарный аварийно-спасательный отряд г.Гродно</column>
+    </table>
+    <table name="podr">
+        <column name="id">2026</column>
+        <column name="id_region">25</column>
+        <column name="podr">Гродненский ГОЧС</column>
+        <column name="podr_full">Гродненский городской отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2027</column>
+        <column name="id_region">25</column>
+        <column name="podr">Берестовицкий РОЧС</column>
+        <column name="podr_full">Берестовицкий районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2028</column>
+        <column name="id_region">25</column>
+        <column name="podr">Волковысский РОЧС</column>
+        <column name="podr_full">Волковысский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2029</column>
+        <column name="id_region">25</column>
+        <column name="podr">Вороновский РОЧС</column>
+        <column name="podr_full">Вороновский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2030</column>
+        <column name="id_region">25</column>
+        <column name="podr">Гродненский РОЧС</column>
+        <column name="podr_full">Гродненский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2031</column>
+        <column name="id_region">25</column>
+        <column name="podr">Дятловский РОЧС</column>
+        <column name="podr_full">Дятловский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2032</column>
+        <column name="id_region">25</column>
+        <column name="podr">Зельвенский РОЧС</column>
+        <column name="podr_full">Зельвенский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">2033</column>
+        <column name="id_region">25</column>
+        <column name="podr">Ивьевский РОЧС</column>
+        <column name="podr_full">Ивьевский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">4822</column>
+        <column name="id_region">26</column>
+        <column name="podr">ПАСО</column>
+        <column name="podr_full">ПАСО Могилевского ОУМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">3549</column>
+        <column name="id_region">18</column>
+        <column name="podr">ГИМС Могилевской области</column>
+        <column name="podr_full">ГИМС Могилевской области</column>
+    </table>
+    <table name="podr">
+        <column name="id">2312</column>
+        <column name="id_region">16</column>
+        <column name="podr"> АМО</column>
+        <column name="podr_full">Аэромобильный отряд</column>
+    </table>
+    <table name="podr">
+        <column name="id">1886</column>
+        <column name="id_region">21</column>
+        <column name="podr">ССиО</column>
+        <column name="podr_full">Сектор связи и оповещения</column>
+    </table>
+    <table name="podr">
+        <column name="id">2716</column>
+        <column name="id_region">7</column>
+        <column name="podr">ГМС</column>
+        <column name="podr_full">Группа международного сотрудничества</column>
+    </table>
+    <table name="podr">
+        <column name="id">988</column>
+        <column name="id_region">21</column>
+        <column name="podr">Жодинский ГОЧС</column>
+        <column name="podr_full">Жодинский городской отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">987</column>
+        <column name="id_region">21</column>
+        <column name="podr">Дзержинский РОЧС</column>
+        <column name="podr_full">Дзержинский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">986</column>
+        <column name="id_region">21</column>
+        <column name="podr">Воложинский РОЧС</column>
+        <column name="podr_full">Воложинский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">985</column>
+        <column name="id_region">21</column>
+        <column name="podr">Вилейский РОЧС</column>
+        <column name="podr_full">Вилейский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">984</column>
+        <column name="id_region">21</column>
+        <column name="podr">Борисовский ГРОЧС</column>
+        <column name="podr_full">Борисовский горрайотдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">962</column>
+        <column name="id_region">21</column>
+        <column name="podr">Березинский РОЧС</column>
+        <column name="podr_full">Березинский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">3147</column>
+        <column name="id_region">21</column>
+        <column name="podr"></column>
+        <column name="podr_full"></column>
+    </table>
+    <table name="podr">
+        <column name="id">639</column>
+        <column name="id_region">21</column>
+        <column name="podr">КРГ</column>
+        <column name="podr_full">Контрольно-ревизионная группа</column>
+    </table>
+    <table name="podr">
+        <column name="id">638</column>
+        <column name="id_region">21</column>
+        <column name="podr">ФЭО</column>
+        <column name="podr_full">Финансово-экономический отдел</column>
+    </table>
+    <table name="podr">
+        <column name="id">637</column>
+        <column name="id_region">21</column>
+        <column name="podr">НПЦ</column>
+        <column name="podr_full">Научно-практический центр</column>
+    </table>
+    <table name="podr">
+        <column name="id">635</column>
+        <column name="id_region">21</column>
+        <column name="podr">ЦОУ</column>
+        <column name="podr_full">Центр оперативного управления при МОУ</column>
+    </table>
+    <table name="podr">
+        <column name="id">634</column>
+        <column name="id_region">21</column>
+        <column name="podr">ССБ</column>
+        <column name="podr_full">Сектор собственной безопасности</column>
+    </table>
+    <table name="podr">
+        <column name="id">633</column>
+        <column name="id_region">21</column>
+        <column name="podr">ЦПиО</column>
+        <column name="podr_full">Центр пропаганды и обучения</column>
+    </table>
+    <table name="podr">
+        <column name="id">632</column>
+        <column name="id_region">21</column>
+        <column name="podr">ЦИиК</column>
+        <column name="podr_full">Центр информатики и компьютеризации</column>
+    </table>
+    <table name="podr">
+        <column name="id">631</column>
+        <column name="id_region">21</column>
+        <column name="podr">СРСР</column>
+        <column name="podr_full">Сектор режимно-секретной работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">630</column>
+        <column name="id_region">21</column>
+        <column name="podr">ГСиАИ</column>
+        <column name="podr_full">Группа справочной и архивной информации</column>
+    </table>
+    <table name="podr">
+        <column name="id">628</column>
+        <column name="id_region">21</column>
+        <column name="podr">СДиКИ</column>
+        <column name="podr_full">Сектор делопроизводства и контроля исполнения</column>
+    </table>
+    <table name="podr">
+        <column name="id">2333</column>
+        <column name="id_region">21</column>
+        <column name="podr">ООО ГСЧСиГО</column>
+        <column name="podr_full">Отдел организационного обеспечения государственной системы предупреждения и ликвидации чрезвычайных ситуаций и гражданской обороны</column>
+    </table>
+    <table name="podr">
+        <column name="id">626</column>
+        <column name="id_region">21</column>
+        <column name="podr">ОООНиПП</column>
+        <column name="podr_full">Отдел организации обучения населения и профессиональной подготовки</column>
+    </table>
+    <table name="podr">
+        <column name="id">625</column>
+        <column name="id_region">21</column>
+        <column name="podr">ОК</column>
+        <column name="podr_full">Отдел кадров</column>
+    </table>
+    <table name="podr">
+        <column name="id">3543</column>
+        <column name="id_region">18</column>
+        <column name="podr">Руководство</column>
+        <column name="podr_full">Аппарат управления ГИМС</column>
+    </table>
+    <table name="podr">
+        <column name="id">4953</column>
+        <column name="id_region">9</column>
+        <column name="podr">ЦИ</column>
+        <column name="podr_full">Центр испытаний</column>
+    </table>
+    <table name="podr">
+        <column name="id">4954</column>
+        <column name="id_region">9</column>
+        <column name="podr">ЦИБЖиВО</column>
+        <column name="podr_full">Центр исследований в области безопасности жизнедеятельности и взаимодействия с общественностью</column>
+    </table>
+    <table name="podr">
+        <column name="id">4955</column>
+        <column name="id_region">9</column>
+        <column name="podr">ОМТОиС</column>
+        <column name="podr_full">Отдел материально-технического обеспечения и стоительства</column>
+    </table>
+    <table name="podr">
+        <column name="id">1740</column>
+        <column name="id_region">4</column>
+        <column name="podr">Группа бухгалтерского учёта</column>
+        <column name="podr_full">Группа бухгалтерского учёта</column>
+    </table>
+    <table name="podr">
+        <column name="id">1739</column>
+        <column name="id_region">4</column>
+        <column name="podr">Отдел НОиМС</column>
+        <column name="podr_full">Отдел научного обеспечения и международного сотрудничества</column>
+    </table>
+    <table name="podr">
+        <column name="id">1737</column>
+        <column name="id_region">4</column>
+        <column name="podr">Отдел СЗиПР</column>
+        <column name="podr_full">Отдел социальной защиты и правовой работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">1736</column>
+        <column name="id_region">4</column>
+        <column name="podr">Отдел РиВГП</column>
+        <column name="podr_full">Отдел разработки и выполнения государственных программ</column>
+    </table>
+    <table name="podr">
+        <column name="id">1735</column>
+        <column name="id_region">4</column>
+        <column name="podr">Управление РПТ</column>
+        <column name="podr_full">Управление реабилитаци пострадавших территорий</column>
+    </table>
+    <table name="podr">
+        <column name="id">1734</column>
+        <column name="id_region">4</column>
+        <column name="podr">Отдел ИиОКР</column>
+        <column name="podr_full">Отдел идеологической и организационно-кадровой работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">1729</column>
+        <column name="id_region">24</column>
+        <column name="podr">ПАСО-4</column>
+        <column name="podr_full">Пожарный аварийно-спасательный отряд №4 г. Мозырь</column>
+    </table>
+    <table name="podr">
+        <column name="id">1733</column>
+        <column name="id_region">4</column>
+        <column name="podr">Руководство</column>
+        <column name="podr_full">Руководство</column>
+    </table>
+    <table name="podr">
+        <column name="id">1728</column>
+        <column name="id_region">24</column>
+        <column name="podr">ПАСО-3</column>
+        <column name="podr_full">Пожарный аварийно-спасательный отряд №3 г. Речица</column>
+    </table>
+    <table name="podr">
+        <column name="id">1727</column>
+        <column name="id_region">24</column>
+        <column name="podr">Чечерский РОЧС</column>
+        <column name="podr_full">Чечерский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1726</column>
+        <column name="id_region">24</column>
+        <column name="podr">Хойникский РОЧС</column>
+        <column name="podr_full">Хойникский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1725</column>
+        <column name="id_region">24</column>
+        <column name="podr">Светлогорский РОЧС</column>
+        <column name="podr_full">Светлогорский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1724</column>
+        <column name="id_region">24</column>
+        <column name="podr">Рогачевский РОЧС</column>
+        <column name="podr_full">Рогачевский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1723</column>
+        <column name="id_region">24</column>
+        <column name="podr">Речицкий РОЧС</column>
+        <column name="podr_full">Речицкий районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1722</column>
+        <column name="id_region">24</column>
+        <column name="podr">Петриковский РОЧС</column>
+        <column name="podr_full">Петриковский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1721</column>
+        <column name="id_region">24</column>
+        <column name="podr">Октябрьский РОЧС</column>
+        <column name="podr_full">Октябрьский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1720</column>
+        <column name="id_region">24</column>
+        <column name="podr">Наровлянский РОЧС</column>
+        <column name="podr_full">Наровлянский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1719</column>
+        <column name="id_region">24</column>
+        <column name="podr">Мозырский ГРОЧС</column>
+        <column name="podr_full">Мозырский горрайотдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1718</column>
+        <column name="id_region">24</column>
+        <column name="podr">Лоевский РОЧС</column>
+        <column name="podr_full">Лоевский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1715</column>
+        <column name="id_region">24</column>
+        <column name="podr">Калинковичский РОЧС</column>
+        <column name="podr_full">Калинковичский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1716</column>
+        <column name="id_region">24</column>
+        <column name="podr">Кормянский РОЧС</column>
+        <column name="podr_full">Кормянский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1717</column>
+        <column name="id_region">24</column>
+        <column name="podr">Лельчицкий РОЧС</column>
+        <column name="podr_full">Лельчицкий районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1714</column>
+        <column name="id_region">24</column>
+        <column name="podr">Жлобинский РОЧС</column>
+        <column name="podr_full">Жлобинский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1677</column>
+        <column name="id_region">0</column>
+        <column name="podr">Сектор_Инвест</column>
+        <column name="podr_full">Сектор инвестиций</column>
+    </table>
+    <table name="podr">
+        <column name="id">1678</column>
+        <column name="id_region">0</column>
+        <column name="podr">Отдел_НОиМС</column>
+        <column name="podr_full">Отдел научного обеспечения и международного сотрудничества</column>
+    </table>
+    <table name="podr">
+        <column name="id">1679</column>
+        <column name="id_region">0</column>
+        <column name="podr">Отдел_БУиО</column>
+        <column name="podr_full">Отдел бухгалтерского учёта и отчётности</column>
+    </table>
+    <table name="podr">
+        <column name="id">1675</column>
+        <column name="id_region">0</column>
+        <column name="podr">Отдел_ПЭРиФ</column>
+        <column name="podr_full">Отдел планово-финансовой работы и финансирования</column>
+    </table>
+    <table name="podr">
+        <column name="id">1676</column>
+        <column name="id_region">0</column>
+        <column name="podr">Отдел_СЗиПР</column>
+        <column name="podr_full">Отдел социальной защиты и правовой работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">1674</column>
+        <column name="id_region">0</column>
+        <column name="podr">Управление_РПТ</column>
+        <column name="podr_full">Управление реабилитации пострадавших территорий</column>
+    </table>
+    <table name="podr">
+        <column name="id">1673</column>
+        <column name="id_region">0</column>
+        <column name="podr">Отделение исследования и экспертизы пожаров</column>
+        <column name="podr_full">Отдел идеологической и организационно-кадровой работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">4480</column>
+        <column name="id_region">5</column>
+        <column name="podr">ГДДиАБР</column>
+        <column name="podr_full">Группа делопроизводства, документооборота и архивно-библиотечной работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">1661</column>
+        <column name="id_region">17</column>
+        <column name="podr">ГЮиКО</column>
+        <column name="podr_full">Группа юридического и кадрового обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">1662</column>
+        <column name="id_region">17</column>
+        <column name="podr">ГО</column>
+        <column name="podr_full">Группа обслуживания</column>
+    </table>
+    <table name="podr">
+        <column name="id">3541</column>
+        <column name="id_region">23</column>
+        <column name="podr">СПО</column>
+        <column name="podr_full">Сектор психологического обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">5070</column>
+        <column name="id_region">22</column>
+        <column name="podr">Жабинковский РОЧС</column>
+        <column name="podr_full">Жабинковский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1656</column>
+        <column name="id_region">17</column>
+        <column name="podr">Руководство</column>
+        <column name="podr_full">Руководство учреждения</column>
+    </table>
+    <table name="podr">
+        <column name="id">1657</column>
+        <column name="id_region">17</column>
+        <column name="podr">ГДиКИ</column>
+        <column name="podr_full">Группа делопроизводства и контроля исполнения</column>
+    </table>
+    <table name="podr">
+        <column name="id">1658</column>
+        <column name="id_region">17</column>
+        <column name="podr">ОС</column>
+        <column name="podr_full">Отдел сертификации</column>
+    </table>
+    <table name="podr">
+        <column name="id">1659</column>
+        <column name="id_region">17</column>
+        <column name="podr">ОЭЛВД</column>
+        <column name="podr_full">Отдел экспертизы лицензируемых видов деятельности</column>
+    </table>
+    <table name="podr">
+        <column name="id">2038</column>
+        <column name="id_region">25</column>
+        <column name="podr">Островецкий РОЧС</column>
+        <column name="podr_full">Островецкий районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1642</column>
+        <column name="id_region">23</column>
+        <column name="podr">ПАСО ВИТЯЗЬ</column>
+        <column name="podr_full">ПАСО &quot;Витязь&quot; Витебского областного УМЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">4948</column>
+        <column name="id_region">16</column>
+        <column name="podr">ОСиОФА</column>
+        <column name="podr_full">Отдел строительства и организации функционирования аэродромов (площадок)</column>
+    </table>
+    <table name="podr">
+        <column name="id">1995</column>
+        <column name="id_region">25</column>
+        <column name="podr">ООО ГСЧС и ГО</column>
+        <column name="podr_full">Отдел организационного обеспечения ГСЧС и ГО</column>
+    </table>
+    <table name="podr">
+        <column name="id">1311</column>
+        <column name="id_region">20</column>
+        <column name="podr">МОСКОВСКИЙ  РОЧС</column>
+        <column name="podr_full">Московский районный отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">4833</column>
+        <column name="id_region">26</column>
+        <column name="podr">Дрибинский РОЧС</column>
+        <column name="podr_full">Дрибинский РОЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1304</column>
+        <column name="id_region">20</column>
+        <column name="podr">ПЕРВОМАЙСКИЙ  РОЧС</column>
+        <column name="podr_full">Первомайский районный отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">1997</column>
+        <column name="id_region">25</column>
+        <column name="podr">ОАО</column>
+        <column name="podr_full">Организационно - аналитический отдел</column>
+    </table>
+    <table name="podr">
+        <column name="id">1994</column>
+        <column name="id_region">25</column>
+        <column name="podr">Руководство</column>
+        <column name="podr_full">Руководство</column>
+    </table>
+    <table name="podr">
+        <column name="id">5082</column>
+        <column name="id_region">22</column>
+        <column name="podr">ПТЦ</column>
+        <column name="podr_full">Производственно - технический центр</column>
+    </table>
+    <table name="podr">
+        <column name="id">1300</column>
+        <column name="id_region">20</column>
+        <column name="podr">ПАРТИЗАНСКИЙ  РОЧС</column>
+        <column name="podr_full">Партизанский районный отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">5073</column>
+        <column name="id_region">22</column>
+        <column name="podr">Каменецкий РОЧС</column>
+        <column name="podr_full">Каменецкий районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">5072</column>
+        <column name="id_region">22</column>
+        <column name="podr">Ивацевичский РОЧС</column>
+        <column name="podr_full">Ивацевичский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">5071</column>
+        <column name="id_region">22</column>
+        <column name="podr">Ивановский РОЧС</column>
+        <column name="podr_full">Ивановский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1295</column>
+        <column name="id_region">20</column>
+        <column name="podr">ЦЕНТРАЛЬНЫЙ  РОЧС</column>
+        <column name="podr_full">Центральный районный отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">5287</column>
+        <column name="id_region">23</column>
+        <column name="podr">Лепельский РОЧС</column>
+        <column name="podr_full">Лепельский районный отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">5453</column>
+        <column name="id_region">23</column>
+        <column name="podr">Новополоцкий_ГОЧС</column>
+        <column name="podr_full">Новополоцкий городской отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">1289</column>
+        <column name="id_region">20</column>
+        <column name="podr">ОКТЯБРЬСКИЙ  РОЧС</column>
+        <column name="podr_full">Октябрьский районный отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">1285</column>
+        <column name="id_region">20</column>
+        <column name="podr">СОВЕТСКИЙ  РОЧС</column>
+        <column name="podr_full">Советский районный отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">5040</column>
+        <column name="id_region">22</column>
+        <column name="podr">ОНиП</column>
+        <column name="podr_full">Сектор надзора и профилактики</column>
+    </table>
+    <table name="podr">
+        <column name="id">1280</column>
+        <column name="id_region">20</column>
+        <column name="podr">ЗАВОДСКОЙ РОЧС</column>
+        <column name="podr_full">Заводской районный отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">5041</column>
+        <column name="id_region">22</column>
+        <column name="podr">ОНТРиПЧС</column>
+        <column name="podr_full">Отдел нормативно-технический работы и предупреждения ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1275</column>
+        <column name="id_region">20</column>
+        <column name="podr">ФРУНЗЕНСКИЙ РОЧС</column>
+        <column name="podr_full">Фрунзенский районный отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">1271</column>
+        <column name="id_region">20</column>
+        <column name="podr">ЛЕНИНСКИЙ РОЧС</column>
+        <column name="podr_full">Ленинский районный отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">1270</column>
+        <column name="id_region">20</column>
+        <column name="podr">ПАСО ММ</column>
+        <column name="podr_full">ПАСО на объектах Минского метрополитена</column>
+    </table>
+    <table name="podr">
+        <column name="id">620</column>
+        <column name="id_region">21</column>
+        <column name="podr">ГЮО</column>
+        <column name="podr_full">Группа юридического обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">621</column>
+        <column name="id_region">21</column>
+        <column name="podr">ОНиП</column>
+        <column name="podr_full">Отдел надзора и профилактики</column>
+    </table>
+    <table name="podr">
+        <column name="id">2305</column>
+        <column name="id_region">16</column>
+        <column name="podr">ООЭ и ПЛГАТ</column>
+        <column name="podr_full">Отдел организации эксплуатации и поддержания летной годности авиационной техники</column>
+    </table>
+    <table name="podr">
+        <column name="id">2300</column>
+        <column name="id_region">16</column>
+        <column name="podr">Руководство</column>
+        <column name="podr_full">Руководство учреждения</column>
+    </table>
+    <table name="podr">
+        <column name="id">2301</column>
+        <column name="id_region">16</column>
+        <column name="podr">ОРП</column>
+        <column name="podr_full">Отдел руководства полетами</column>
+    </table>
+    <table name="podr">
+        <column name="id">2302</column>
+        <column name="id_region">16</column>
+        <column name="podr">КЦПС</column>
+        <column name="podr_full">Координационный центр поиска и спасания</column>
+    </table>
+    <table name="podr">
+        <column name="id">3545</column>
+        <column name="id_region">18</column>
+        <column name="podr">ГИМС Витебской области</column>
+        <column name="podr_full">ГИМС Витебской области</column>
+    </table>
+    <table name="podr">
+        <column name="id">3546</column>
+        <column name="id_region">18</column>
+        <column name="podr">ГИМС Гродненской области</column>
+        <column name="podr_full">ГИМС Гродненской области</column>
+    </table>
+    <table name="podr">
+        <column name="id">2304</column>
+        <column name="id_region">16</column>
+        <column name="podr">СБП</column>
+        <column name="podr_full">Служба безопасноти полетов</column>
+    </table>
+    <table name="podr">
+        <column name="id">1262</column>
+        <column name="id_region">20</column>
+        <column name="podr">ПТЦ МГУ МЧС</column>
+        <column name="podr_full">Учреждение «Производственно-технический центр  МГУ МЧС»</column>
+    </table>
+    <table name="podr">
+        <column name="id">1261</column>
+        <column name="id_region">20</column>
+        <column name="podr">НПЦ МГУ МЧС</column>
+        <column name="podr_full">Научно-практический центр МГУ МЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1259</column>
+        <column name="id_region">20</column>
+        <column name="podr">АТЦ при МГУ МЧС</column>
+        <column name="podr_full">Административно-тренировочный центр при МГУ МЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1258</column>
+        <column name="id_region">20</column>
+        <column name="podr">ДО при МГУ МЧС</column>
+        <column name="podr_full">Духовой оркестр при МГУ МЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1257</column>
+        <column name="id_region">20</column>
+        <column name="podr">ЦМДРиВО</column>
+        <column name="podr_full">Центр маркетинга, договорной работы и вещевого обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">3542</column>
+        <column name="id_region">1</column>
+        <column name="podr">РКРИ</column>
+        <column name="podr_full">Республиканская контрольно-ревизионная инспекция МЧС Республики Беларусь</column>
+    </table>
+    <table name="podr">
+        <column name="id">3775</column>
+        <column name="id_region">20</column>
+        <column name="podr">СПО</column>
+        <column name="podr_full">Сектор психологического обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">1253</column>
+        <column name="id_region">20</column>
+        <column name="podr">ЦПиСД</column>
+        <column name="podr_full">Центр пропаганды и социокультурной деятельности</column>
+    </table>
+    <table name="podr">
+        <column name="id">1251</column>
+        <column name="id_region">20</column>
+        <column name="podr">СУГ</column>
+        <column name="podr_full">Сводно-учетная группа</column>
+    </table>
+    <table name="podr">
+        <column name="id">1250</column>
+        <column name="id_region">20</column>
+        <column name="podr">ГМУ</column>
+        <column name="podr_full">Группа материального учета</column>
+    </table>
+    <table name="podr">
+        <column name="id">1249</column>
+        <column name="id_region">20</column>
+        <column name="podr">РГ</column>
+        <column name="podr_full">Расчетная группа</column>
+    </table>
+    <table name="podr">
+        <column name="id">1248</column>
+        <column name="id_region">20</column>
+        <column name="podr">КРГ</column>
+        <column name="podr_full">Контрольно-ревизионная группа</column>
+    </table>
+    <table name="podr">
+        <column name="id">1247</column>
+        <column name="id_region">20</column>
+        <column name="podr">ПГ</column>
+        <column name="podr_full">Пенсионная группа</column>
+    </table>
+    <table name="podr">
+        <column name="id">1246</column>
+        <column name="id_region">20</column>
+        <column name="podr">ФЭО</column>
+        <column name="podr_full">Финансово-экономический отдел</column>
+    </table>
+    <table name="podr">
+        <column name="id">1245</column>
+        <column name="id_region">20</column>
+        <column name="podr">ГОТиПБ</column>
+        <column name="podr_full">Группа по охране труда и пожарной безопасности</column>
+    </table>
+    <table name="podr">
+        <column name="id">1244</column>
+        <column name="id_region">20</column>
+        <column name="podr">ОМТОиС</column>
+        <column name="podr_full">Отдел материально-технического обеспечения и строительства</column>
+    </table>
+    <table name="podr">
+        <column name="id">1243</column>
+        <column name="id_region">20</column>
+        <column name="podr">ССБ</column>
+        <column name="podr_full">Сектор собственной безопасности</column>
+    </table>
+    <table name="podr">
+        <column name="id">5037</column>
+        <column name="id_region">22</column>
+        <column name="podr">Руководство</column>
+        <column name="podr_full">Руководство</column>
+    </table>
+    <table name="podr">
+        <column name="id">3776</column>
+        <column name="id_region">20</column>
+        <column name="podr">ОООНиПП</column>
+        <column name="podr_full">Отдел организации обучения населения и профессиональной подготовки</column>
+    </table>
+    <table name="podr">
+        <column name="id">1239</column>
+        <column name="id_region">20</column>
+        <column name="podr">СНиП ОМ</column>
+        <column name="podr_full">Сектор надзора и профилактики  на объектах метрополитена</column>
+    </table>
+    <table name="podr">
+        <column name="id">1238</column>
+        <column name="id_region">20</column>
+        <column name="podr">ГОиОБ ПММ</column>
+        <column name="podr_full">Группа организации и обеспечения безопасности при проведении массовых мероприятий</column>
+    </table>
+    <table name="podr">
+        <column name="id">1237</column>
+        <column name="id_region">20</column>
+        <column name="podr">ОНТРиПЧС</column>
+        <column name="podr_full">Отдел нормативно-технической работы и предупреждения ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1236</column>
+        <column name="id_region">20</column>
+        <column name="podr">ОНиП</column>
+        <column name="podr_full">Отдел надзора и профилактики</column>
+    </table>
+    <table name="podr">
+        <column name="id">1235</column>
+        <column name="id_region">20</column>
+        <column name="podr">ДО ПУ МГУ МЧС</column>
+        <column name="podr_full">Дежурный оперативный ПУ МГУ МЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1234</column>
+        <column name="id_region">20</column>
+        <column name="podr">ПУ МГУ МЧС</column>
+        <column name="podr_full">Пункт управления МГУ МЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1231</column>
+        <column name="id_region">20</column>
+        <column name="podr">ЦОУ МГУ МЧС</column>
+        <column name="podr_full">Центр оперативного управления при МГУ МЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">1230</column>
+        <column name="id_region">20</column>
+        <column name="podr">СМО</column>
+        <column name="podr_full">Сектор мобилизационного обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">1229</column>
+        <column name="id_region">20</column>
+        <column name="podr">ССиО</column>
+        <column name="podr_full">Сектор связи и оповещения</column>
+    </table>
+    <table name="podr">
+        <column name="id">1228</column>
+        <column name="id_region">20</column>
+        <column name="podr">ОСиБП</column>
+        <column name="podr_full">Отдел службы и боеготовности подразделений</column>
+    </table>
+    <table name="podr">
+        <column name="id">1227</column>
+        <column name="id_region">20</column>
+        <column name="podr">ЦИК МГУ МЧС</column>
+        <column name="podr_full">Центр информатики и компьютеризации</column>
+    </table>
+    <table name="podr">
+        <column name="id">1225</column>
+        <column name="id_region">20</column>
+        <column name="podr">ООО ГСПиЛЧСиГО</column>
+        <column name="podr_full">Отдел организационного обеспечения государственной системы предупреждения и ликвидации чрезвычайных ситуаций и гражданской обороны</column>
+    </table>
+    <table name="podr">
+        <column name="id">1224</column>
+        <column name="id_region">20</column>
+        <column name="podr">ОАО</column>
+        <column name="podr_full">Организационно-аналитический отдел</column>
+    </table>
+    <table name="podr">
+        <column name="id">1222</column>
+        <column name="id_region">20</column>
+        <column name="podr">СРСР</column>
+        <column name="podr_full">Сектор режимно-секретной работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">1223</column>
+        <column name="id_region">20</column>
+        <column name="podr">ГЮО</column>
+        <column name="podr_full">Группа юридического обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">1221</column>
+        <column name="id_region">20</column>
+        <column name="podr">ГСиАИ</column>
+        <column name="podr_full">Группа справочной и архивной информации</column>
+    </table>
+    <table name="podr">
+        <column name="id">1218</column>
+        <column name="id_region">20</column>
+        <column name="podr">Руководство</column>
+        <column name="podr_full">Руководство управления</column>
+    </table>
+    <table name="podr">
+        <column name="id">1219</column>
+        <column name="id_region">20</column>
+        <column name="podr">Приемная</column>
+        <column name="podr_full">Приемная</column>
+    </table>
+    <table name="podr">
+        <column name="id">1220</column>
+        <column name="id_region">20</column>
+        <column name="podr">СДиКИ</column>
+        <column name="podr_full">Сектор делопроизводства и контроля исполнения</column>
+    </table>
+    <table name="podr">
+        <column name="id">5054</column>
+        <column name="id_region">22</column>
+        <column name="podr">КРГ</column>
+        <column name="podr_full">Контрольно-ревизионная группа</column>
+    </table>
+    <table name="podr">
+        <column name="id">5055</column>
+        <column name="id_region">22</column>
+        <column name="podr">ПГ</column>
+        <column name="podr_full">Пенсионная группа</column>
+    </table>
+    <table name="podr">
+        <column name="id">5056</column>
+        <column name="id_region">22</column>
+        <column name="podr">ГСиАИ</column>
+        <column name="podr_full">Группа справочной и архивной информации</column>
+    </table>
+    <table name="podr">
+        <column name="id">5057</column>
+        <column name="id_region">22</column>
+        <column name="podr">ГЮО</column>
+        <column name="podr_full">Группа юридического обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">5058</column>
+        <column name="id_region">22</column>
+        <column name="podr">ГСБ</column>
+        <column name="podr_full">Группа собственной безопасности</column>
+    </table>
+    <table name="podr">
+        <column name="id">5059</column>
+        <column name="id_region">22</column>
+        <column name="podr">ЦИиК</column>
+        <column name="podr_full">Центр информатики и компьютеризации</column>
+    </table>
+    <table name="podr">
+        <column name="id">5060</column>
+        <column name="id_region">22</column>
+        <column name="podr">НПЦ</column>
+        <column name="podr_full">Научно-практический центр</column>
+    </table>
+    <table name="podr">
+        <column name="id">5061</column>
+        <column name="id_region">22</column>
+        <column name="podr">УМЦГЗ</column>
+        <column name="podr_full">Учебный центр</column>
+    </table>
+    <table name="podr">
+        <column name="id">5062</column>
+        <column name="id_region">22</column>
+        <column name="podr">ЦПиВО</column>
+        <column name="podr_full">Центр пропаганды и обучения</column>
+    </table>
+    <table name="podr">
+        <column name="id">5450</column>
+        <column name="id_region">13</column>
+        <column name="podr">ГЮО</column>
+        <column name="podr_full">Группа юридического обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">5066</column>
+        <column name="id_region">22</column>
+        <column name="podr">Брестский РОЧС</column>
+        <column name="podr_full">Брестский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">5065</column>
+        <column name="id_region">22</column>
+        <column name="podr">Березовский РОЧС</column>
+        <column name="podr_full">Березовский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">5064</column>
+        <column name="id_region">22</column>
+        <column name="podr">Барановичский ГРОЧС</column>
+        <column name="podr_full">Барановичский горрайотдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">5063</column>
+        <column name="id_region">22</column>
+        <column name="podr">ЦОУ</column>
+        <column name="podr_full">Центр оперативного управления</column>
+    </table>
+    <table name="podr">
+        <column name="id">2907</column>
+        <column name="id_region">26</column>
+        <column name="podr">ЦМДРиВО</column>
+        <column name="podr_full">Центр маркетинга, договорной работы и вещевого обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">1992</column>
+        <column name="id_region">21</column>
+        <column name="podr">ОМТОиС</column>
+        <column name="podr_full">Отдел материально-технического обеспечения и строительства</column>
+    </table>
+    <table name="podr">
+        <column name="id">4799</column>
+        <column name="id_region">26</column>
+        <column name="podr">Белыничский РОЧС</column>
+        <column name="podr_full">Белыничский РОЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">4836</column>
+        <column name="id_region">26</column>
+        <column name="podr">Костюковичский РОЧС</column>
+        <column name="podr_full">Костюковичский РОЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">3276</column>
+        <column name="id_region">2</column>
+        <column name="podr">СД</column>
+        <column name="podr_full">Служба делопроизводства</column>
+    </table>
+    <table name="podr">
+        <column name="id">3232</column>
+        <column name="id_region">2</column>
+        <column name="podr">Руководство</column>
+        <column name="podr_full">Руководство</column>
+    </table>
+    <table name="podr">
+        <column name="id">3233</column>
+        <column name="id_region">2</column>
+        <column name="podr">ОАУ</column>
+        <column name="podr_full">Организационно-аналитическое управление</column>
+    </table>
+    <table name="podr">
+        <column name="id">3234</column>
+        <column name="id_region">2</column>
+        <column name="podr">УОРЧСГОиОТ</column>
+        <column name="podr_full">Управление оперативного реагирования на чрезвычайные ситуации, гражданской обороны и охраны труда</column>
+    </table>
+    <table name="podr">
+        <column name="id">3235</column>
+        <column name="id_region">2</column>
+        <column name="podr">ФЭУ</column>
+        <column name="podr_full">Финансово-экономическое управление</column>
+    </table>
+    <table name="podr">
+        <column name="id">3236</column>
+        <column name="id_region">2</column>
+        <column name="podr">УПХПиПЗ</column>
+        <column name="podr_full">Управление надзора за безопасностью предприятий химической промышленности и переработки зерна</column>
+    </table>
+    <table name="podr">
+        <column name="id">3237</column>
+        <column name="id_region">2</column>
+        <column name="podr">УОРДиТЭС</column>
+        <column name="podr_full">Управление надзора за безопасностью оборудования, работающего под давлением и тепловых электростанций</column>
+    </table>
+    <table name="podr">
+        <column name="id">3238</column>
+        <column name="id_region">2</column>
+        <column name="podr">УПСиА</column>
+        <column name="podr_full">Управление надзора за безопасностью подъемных сооружений и аттракционов</column>
+    </table>
+    <table name="podr">
+        <column name="id">3239</column>
+        <column name="id_region">2</column>
+        <column name="podr">УСГиМТ</column>
+        <column name="podr_full">Управление надзора за безопасностью систем газоснабжения и магистральных трубопроводов</column>
+    </table>
+    <table name="podr">
+        <column name="id">3240</column>
+        <column name="id_region">2</column>
+        <column name="podr">УПОГ</column>
+        <column name="podr_full">Управление надзора за безопасностью при перевозке опасных грузов</column>
+    </table>
+    <table name="podr">
+        <column name="id">3241</column>
+        <column name="id_region">2</column>
+        <column name="podr">УГиВРМПиУБ</column>
+        <column name="podr_full">Управление надзора за безопасностью горных и взрывных работ, металлургических производств и утилизации боеприпасов</column>
+    </table>
+    <table name="podr">
+        <column name="id">2909</column>
+        <column name="id_region">23</column>
+        <column name="podr">ЦМДРиВО</column>
+        <column name="podr_full">Центр маркетинга, договорной работы и вещевого обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">3291</column>
+        <column name="id_region">2</column>
+        <column name="podr">МинскоеГУ</column>
+        <column name="podr_full">Минское городское управление</column>
+    </table>
+    <table name="podr">
+        <column name="id">3277</column>
+        <column name="id_region">2</column>
+        <column name="podr">ОИКР</column>
+        <column name="podr_full">Отдел идеологической и кадровой работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">3278</column>
+        <column name="id_region">2</column>
+        <column name="podr">ОМС</column>
+        <column name="podr_full">Отдел международного сотрудничества</column>
+    </table>
+    <table name="podr">
+        <column name="id">3279</column>
+        <column name="id_region">2</column>
+        <column name="podr">УПКЭиТД</column>
+        <column name="podr_full">Управление проведения, контроля экспертиз и технической диагностики</column>
+    </table>
+    <table name="podr">
+        <column name="id">3293</column>
+        <column name="id_region">2</column>
+        <column name="podr">МогилевскоеОУ</column>
+        <column name="podr_full">Могилевское областное управление</column>
+    </table>
+    <table name="podr">
+        <column name="id">3292</column>
+        <column name="id_region">2</column>
+        <column name="podr">МинскоеОУ</column>
+        <column name="podr_full">Минское областное управление</column>
+    </table>
+    <table name="podr">
+        <column name="id">4825</column>
+        <column name="id_region">26</column>
+        <column name="podr">Хотимский РОЧС</column>
+        <column name="podr_full">Хотимский РОЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">3243</column>
+        <column name="id_region">2</column>
+        <column name="podr">ОНР</column>
+        <column name="podr_full">Отдел нормативного регулирования</column>
+    </table>
+    <table name="podr">
+        <column name="id">3242</column>
+        <column name="id_region">2</column>
+        <column name="podr">УЛРРиПЗ</column>
+        <column name="podr_full">Управление лицензирования,  разрешительной работы и проверки знаний</column>
+    </table>
+    <table name="podr">
+        <column name="id">4468</column>
+        <column name="id_region">5</column>
+        <column name="podr">УРРБ</column>
+        <column name="podr_full">Управление регулирования радиационной безопасности</column>
+    </table>
+    <table name="podr">
+        <column name="id">4469</column>
+        <column name="id_region">5</column>
+        <column name="podr">ООН ИИИ</column>
+        <column name="podr_full">Отдел организации надзора за радиационной безопасностью источников ионизирующего излучения</column>
+    </table>
+    <table name="podr">
+        <column name="id">4470</column>
+        <column name="id_region">5</column>
+        <column name="podr">ОУКиФЗ</column>
+        <column name="podr_full">Отдел учета, контроля и физической защиты ядерных и радиоактивных материалов</column>
+    </table>
+    <table name="podr">
+        <column name="id">4471</column>
+        <column name="id_region">5</column>
+        <column name="podr">ОКиОИ</column>
+        <column name="podr_full">Отдел коммуникаций и общественной информации</column>
+    </table>
+    <table name="podr">
+        <column name="id">4472</column>
+        <column name="id_region">5</column>
+        <column name="podr">ООНТС</column>
+        <column name="podr_full">Отдел организации научно-технического сопровождения регулирующей деятельности</column>
+    </table>
+    <table name="podr">
+        <column name="id">4473</column>
+        <column name="id_region">5</column>
+        <column name="podr">УЛиРР</column>
+        <column name="podr_full">Управление лицензирования и разрешительной работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">4474</column>
+        <column name="id_region">5</column>
+        <column name="podr">ОБУиО</column>
+        <column name="podr_full">Отделение бухгатерского учета и отчетности</column>
+    </table>
+    <table name="podr">
+        <column name="id">5076</column>
+        <column name="id_region">22</column>
+        <column name="podr">Ляховичский РОЧС</column>
+        <column name="podr_full">Ляховичский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">5077</column>
+        <column name="id_region">22</column>
+        <column name="podr">Малоритский РОЧС</column>
+        <column name="podr_full">Малоритский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">5081</column>
+        <column name="id_region">22</column>
+        <column name="podr">ПАСО</column>
+        <column name="podr_full">Пожарный аварийно-спасательный отряд</column>
+    </table>
+    <table name="podr">
+        <column name="id">5080</column>
+        <column name="id_region">22</column>
+        <column name="podr">Столинский РОЧС</column>
+        <column name="podr_full">Столинский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">5079</column>
+        <column name="id_region">22</column>
+        <column name="podr">Пружанский РОЧС</column>
+        <column name="podr_full">Пружанский районный отдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">5078</column>
+        <column name="id_region">22</column>
+        <column name="podr">Пинский ГРОЧС</column>
+        <column name="podr_full">Пинский горрайотдел по ЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">4853</column>
+        <column name="id_region">10</column>
+        <column name="podr">Кафедра УЗЧС</column>
+        <column name="podr_full">Кафедра управления защитой от чрезвычайных ситуаций</column>
+    </table>
+    <table name="podr">
+        <column name="id">4854</column>
+        <column name="id_region">10</column>
+        <column name="podr">Кафедра ГЗ</column>
+        <column name="podr_full">Кафедра гражданской защиты</column>
+    </table>
+    <table name="podr">
+        <column name="id">5445</column>
+        <column name="id_region">13</column>
+        <column name="podr">УПАСЧ</column>
+        <column name="podr_full">Учебная пожарная аварийно-спасательная часть</column>
+    </table>
+    <table name="podr">
+        <column name="id">5446</column>
+        <column name="id_region">13</column>
+        <column name="podr">ОДЧ</column>
+        <column name="podr_full">Оперативно-дежурная часть</column>
+    </table>
+    <table name="podr">
+        <column name="id">5447</column>
+        <column name="id_region">13</column>
+        <column name="podr">ОИРиКО</column>
+        <column name="podr_full">Отдел идеологической работы и кадрового обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">5433</column>
+        <column name="id_region">13</column>
+        <column name="podr">Руководство</column>
+        <column name="podr_full">Руководство филиала</column>
+    </table>
+    <table name="podr">
+        <column name="id">5434</column>
+        <column name="id_region">13</column>
+        <column name="podr">УМО</column>
+        <column name="podr_full">Учебно-методический отдел</column>
+    </table>
+    <table name="podr">
+        <column name="id">5435</column>
+        <column name="id_region">13</column>
+        <column name="podr">ОПП</column>
+        <column name="podr_full">Отдел профессиональной подготовки</column>
+    </table>
+    <table name="podr">
+        <column name="id">5436</column>
+        <column name="id_region">13</column>
+        <column name="podr">ОППВ</column>
+        <column name="podr_full">Отдел практической подготовки водителей</column>
+    </table>
+    <table name="podr">
+        <column name="id">3772</column>
+        <column name="id_region">23</column>
+        <column name="podr">УМЦГЗ</column>
+        <column name="podr_full">Учебно-методический центр гражданской защиты</column>
+    </table>
+    <table name="podr">
+        <column name="id">3634</column>
+        <column name="id_region">7</column>
+        <column name="podr">ССиО</column>
+        <column name="podr_full">Служба связи и оповещения</column>
+    </table>
+    <table name="podr">
+        <column name="id">3635</column>
+        <column name="id_region">7</column>
+        <column name="podr">КС</column>
+        <column name="podr_full">Кинологическая служба</column>
+    </table>
+    <table name="podr">
+        <column name="id">3636</column>
+        <column name="id_region">7</column>
+        <column name="podr">ПСС</column>
+        <column name="podr_full">Пожарно-спасательная служба</column>
+    </table>
+    <table name="podr">
+        <column name="id">3668</column>
+        <column name="id_region">26</column>
+        <column name="podr">СПО</column>
+        <column name="podr_full">Сектор психологического обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">3674</column>
+        <column name="id_region">24</column>
+        <column name="podr">ЦП и ВО</column>
+        <column name="podr_full">Центр пропаганды и взаимодействия с общественностью</column>
+    </table>
+    <table name="podr">
+        <column name="id">3676</column>
+        <column name="id_region">24</column>
+        <column name="podr">ОИР</column>
+        <column name="podr_full">Отдел идеологической работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">3741</column>
+        <column name="id_region">15</column>
+        <column name="podr">ОПОиПБЖ</column>
+        <column name="podr_full">Отдел профессиональной ориентации и пропаганды безопасности жизнедеятельности</column>
+    </table>
+    <table name="podr">
+        <column name="id">4857</column>
+        <column name="id_region">10</column>
+        <column name="podr">Кафедра ЛЧС</column>
+        <column name="podr_full">Кафедра ликвидации чрезвычайных ситуаций</column>
+    </table>
+    <table name="podr">
+        <column name="id">4855</column>
+        <column name="id_region">10</column>
+        <column name="podr">Кафедра ПГиВ</column>
+        <column name="podr_full">Кафедра процессов горения и взрыва</column>
+    </table>
+    <table name="podr">
+        <column name="id">4856</column>
+        <column name="id_region">10</column>
+        <column name="podr">Кафедра ПАСТ</column>
+        <column name="podr_full">Кафедра пожарной  аварийно-спасательной техники</column>
+    </table>
+    <table name="podr">
+        <column name="id">3774</column>
+        <column name="id_region">23</column>
+        <column name="podr">КРГ</column>
+        <column name="podr_full">Контрольно-ревизионная группа</column>
+    </table>
+    <table name="podr">
+        <column name="id">3777</column>
+        <column name="id_region">25</column>
+        <column name="podr">УМЦ_ГЗ</column>
+        <column name="podr_full">Учебно-методический центр гражданской защиты при управлении</column>
+    </table>
+    <table name="podr">
+        <column name="id">3778</column>
+        <column name="id_region">26</column>
+        <column name="podr">ССБ</column>
+        <column name="podr_full">Сектор собственной безопасности</column>
+    </table>
+    <table name="podr">
+        <column name="id">3880</column>
+        <column name="id_region">14</column>
+        <column name="podr">ГДиКИ</column>
+        <column name="podr_full">Группа делопроизводства и контроля исполнения</column>
+    </table>
+    <table name="podr">
+        <column name="id">4956</column>
+        <column name="id_region">9</column>
+        <column name="podr">ОМ</column>
+        <column name="podr_full">Отдел метрологии</column>
+    </table>
+    <table name="podr">
+        <column name="id">3912</column>
+        <column name="id_region">23</column>
+        <column name="podr">Толочинский РОЧС</column>
+        <column name="podr_full">Толочинский районный отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">3920</column>
+        <column name="id_region">15</column>
+        <column name="podr">Мед.пункт</column>
+        <column name="podr_full">Медицинский пункт</column>
+    </table>
+    <table name="podr">
+        <column name="id">5443</column>
+        <column name="id_region">13</column>
+        <column name="podr">СКЭО</column>
+        <column name="podr_full">Служба коммунально-эксплуатационного обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">4847</column>
+        <column name="id_region">10</column>
+        <column name="podr">Руководство</column>
+        <column name="podr_full">Руководство</column>
+    </table>
+    <table name="podr">
+        <column name="id">4848</column>
+        <column name="id_region">10</column>
+        <column name="podr">УМЦ</column>
+        <column name="podr_full">Учебно-методический центр</column>
+    </table>
+    <table name="podr">
+        <column name="id">4849</column>
+        <column name="id_region">10</column>
+        <column name="podr">Кафедра пож. без.</column>
+        <column name="podr_full">Кафедр пожарной безопасности</column>
+    </table>
+    <table name="podr">
+        <column name="id">3930</column>
+        <column name="id_region">23</column>
+        <column name="podr">Шумилинский РОЧС</column>
+        <column name="podr_full">Шумилинский районный отдел по чрезвычайным ситуациям</column>
+    </table>
+    <table name="podr">
+        <column name="id">4479</column>
+        <column name="id_region">5</column>
+        <column name="podr">УНРБ ИИИ в областях и г.Минске</column>
+        <column name="podr_full">Управления надзора за радиационной безопасностью источников ионизирующего излучения в областях и г.Минске</column>
+    </table>
+    <table name="podr">
+        <column name="id">5179</column>
+        <column name="id_region">9</column>
+        <column name="podr">СМС</column>
+        <column name="podr_full">Сектор международного сотрудничества</column>
+    </table>
+    <table name="podr">
+        <column name="id">4475</column>
+        <column name="id_region">5</column>
+        <column name="podr">СПО</column>
+        <column name="podr_full">Сектор правового обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">4476</column>
+        <column name="id_region">5</column>
+        <column name="podr">ГПИО</column>
+        <column name="podr_full">Группа программно-информационного обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">4477</column>
+        <column name="id_region">5</column>
+        <column name="podr">ОНЛ ОИАЭ</column>
+        <column name="podr_full">Отдел надзора за лицензиатами в области использования атомной энергии</column>
+    </table>
+    <table name="podr">
+        <column name="id">4478</column>
+        <column name="id_region">5</column>
+        <column name="podr">ОНЯиРБ на площадке АЭС</column>
+        <column name="podr_full">Отдел надзора за ядерной и радиационной безопасностью на площадке АЭС</column>
+    </table>
+    <table name="podr">
+        <column name="id">4117</column>
+        <column name="id_region">16</column>
+        <column name="podr">АО</column>
+        <column name="podr_full">Авиационный отряд</column>
+    </table>
+    <table name="podr">
+        <column name="id">4114</column>
+        <column name="id_region">16</column>
+        <column name="podr">ЦАОЛ</column>
+        <column name="podr_full">Центр авиационной охраны лесов</column>
+    </table>
+    <table name="podr">
+        <column name="id">4115</column>
+        <column name="id_region">16</column>
+        <column name="podr">ВАТЦ</column>
+        <column name="podr_full">Витебский авиационно-технический центр</column>
+    </table>
+    <table name="podr">
+        <column name="id">4116</column>
+        <column name="id_region">16</column>
+        <column name="podr">ООРАТ</column>
+        <column name="podr_full">Отдел организации авиационной техники</column>
+    </table>
+    <table name="podr">
+        <column name="id">4863</column>
+        <column name="id_region">10</column>
+        <column name="podr">ФТБ</column>
+        <column name="podr_full">Факультет техносферной безопасности</column>
+    </table>
+    <table name="podr">
+        <column name="id">4864</column>
+        <column name="id_region">10</column>
+        <column name="podr">ФПиЛЧС</column>
+        <column name="podr_full">Факультет предупреждения и ликвидации чс</column>
+    </table>
+    <table name="podr">
+        <column name="id">4865</column>
+        <column name="id_region">10</column>
+        <column name="podr">ФПНК</column>
+        <column name="podr_full">Факультет подготовки научных кадров</column>
+    </table>
+    <table name="podr">
+        <column name="id">4866</column>
+        <column name="id_region">10</column>
+        <column name="podr">ФПРК</column>
+        <column name="podr_full">Факультет подготовки руководящих кадров</column>
+    </table>
+    <table name="podr">
+        <column name="id">4867</column>
+        <column name="id_region">10</column>
+        <column name="podr">ФЗО</column>
+        <column name="podr_full">Факультет заочного обучения</column>
+    </table>
+    <table name="podr">
+        <column name="id">4868</column>
+        <column name="id_region">10</column>
+        <column name="podr">ФБЖ</column>
+        <column name="podr_full">Факультет безопасности жизнедеятельности</column>
+    </table>
+    <table name="podr">
+        <column name="id">4869</column>
+        <column name="id_region">10</column>
+        <column name="podr">ОНиИД</column>
+        <column name="podr_full">Отдел научной и инновационной деятельности</column>
+    </table>
+    <table name="podr">
+        <column name="id">4870</column>
+        <column name="id_region">10</column>
+        <column name="podr">ОТСиИТ</column>
+        <column name="podr_full">Отдел технических средств и информационных технологий</column>
+    </table>
+    <table name="podr">
+        <column name="id">4871</column>
+        <column name="id_region">10</column>
+        <column name="podr">РИО</column>
+        <column name="podr_full">Редакционно-издательский отдел</column>
+    </table>
+    <table name="podr">
+        <column name="id">4872</column>
+        <column name="id_region">10</column>
+        <column name="podr">Библиотека</column>
+        <column name="podr_full">Библиотека</column>
+    </table>
+    <table name="podr">
+        <column name="id">4873</column>
+        <column name="id_region">10</column>
+        <column name="podr">ОИР</column>
+        <column name="podr_full">Отдел идеологической работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">4874</column>
+        <column name="id_region">10</column>
+        <column name="podr">ОК</column>
+        <column name="podr_full">Отдел кадров</column>
+    </table>
+    <table name="podr">
+        <column name="id">4875</column>
+        <column name="id_region">10</column>
+        <column name="podr">ОМВиПО</column>
+        <column name="podr_full">Отдел материального, вещевого и продовольственного обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">4876</column>
+        <column name="id_region">10</column>
+        <column name="podr">СКЭОиС</column>
+        <column name="podr_full">Служба коммунально-эксплуатационного обеспечения и строительства</column>
+    </table>
+    <table name="podr">
+        <column name="id">4877</column>
+        <column name="id_region">10</column>
+        <column name="podr">СТО</column>
+        <column name="podr_full">Служба транспортного обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">4878</column>
+        <column name="id_region">10</column>
+        <column name="podr">Медицинский пункт</column>
+        <column name="podr_full">Медицинский пункт</column>
+    </table>
+    <table name="podr">
+        <column name="id">4879</column>
+        <column name="id_region">10</column>
+        <column name="podr">ОСиВ</column>
+        <column name="podr_full">Отдел службы и вооружения</column>
+    </table>
+    <table name="podr">
+        <column name="id">4880</column>
+        <column name="id_region">10</column>
+        <column name="podr">ОДЧ</column>
+        <column name="podr_full">Оперативно-дежурная часть</column>
+    </table>
+    <table name="podr">
+        <column name="id">4881</column>
+        <column name="id_region">10</column>
+        <column name="podr">ПФО</column>
+        <column name="podr_full">Планово-финансовый отдел</column>
+    </table>
+    <table name="podr">
+        <column name="id">4882</column>
+        <column name="id_region">10</column>
+        <column name="podr">СДиКИ</column>
+        <column name="podr_full">Сектор делопроизводства и контроля  исполнения</column>
+    </table>
+    <table name="podr">
+        <column name="id">4883</column>
+        <column name="id_region">10</column>
+        <column name="podr">СМС</column>
+        <column name="podr_full">Сектор международного сотрудничества</column>
+    </table>
+    <table name="podr">
+        <column name="id">4884</column>
+        <column name="id_region">10</column>
+        <column name="podr">ГЮО</column>
+        <column name="podr_full">Группа юридического обеспечения</column>
+    </table>
+    <table name="podr">
+        <column name="id">4885</column>
+        <column name="id_region">10</column>
+        <column name="podr">ГРСР</column>
+        <column name="podr_full">Группа режимно-секретной работы</column>
+    </table>
+    <table name="podr">
+        <column name="id">4886</column>
+        <column name="id_region">10</column>
+        <column name="podr">ГСБ</column>
+        <column name="podr_full">Группа собственной безопасности</column>
+    </table>
+    <table name="podr">
+        <column name="id">4887</column>
+        <column name="id_region">10</column>
+        <column name="podr">ЦКПП</column>
+        <column name="podr_full">Центр кризисной психологической помощи</column>
+    </table>
+    <table name="podr">
+        <column name="id">4888</column>
+        <column name="id_region">10</column>
+        <column name="podr">Пресс-центр</column>
+        <column name="podr_full">Пресс-центр</column>
+    </table>
+    <table name="podr">
+        <column name="id">4889</column>
+        <column name="id_region">10</column>
+        <column name="podr">Совет университета</column>
+        <column name="podr_full">Совет университета</column>
+    </table>
+    <table name="podr">
+        <column name="id">5426</column>
+        <column name="id_region">26</column>
+        <column name="podr">Бобруйский_ГРОЧС</column>
+        <column name="podr_full">Бобруйский_ГРОЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">5427</column>
+        <column name="id_region">26</column>
+        <column name="podr">Могилевский_ГОЧС</column>
+        <column name="podr_full">Могилевский_ГОЧС</column>
+    </table>
+    <table name="podr">
+        <column name="id">5451</column>
+        <column name="id_region">2</column>
+        <column name="podr">РС</column>
+        <column name="podr_full">Редакционная служба по выпуску журнала &quot;Промышленная безопасность&quot;</column>
+    </table>
+    <table name="podr">
+        <column name="id">5452</column>
+        <column name="id_region">23</column>
+        <column name="podr">ПАСО №1 ОАО ''Нафтан''</column>
+        <column name="podr_full">Пожарный аварийно-спасательный отряд №1 на объектах ОАО ''Нафтан'' и Новополоцкой ТЭЦ РУП ''Витебскэнерго''</column>
+    </table>
+</database>

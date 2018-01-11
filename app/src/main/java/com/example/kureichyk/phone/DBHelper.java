@@ -41,23 +41,58 @@ public class DBHelper extends SQLiteOpenHelper implements BaseColumns {
 
     private static final String DATABASE_CREATE_SCRIPT = "create table "
             + DATABASE_TABLE + " (" + BaseColumns._ID + " integer primary key autoincrement, "
-            + id + " integer not null, "
-            + id_region + " integer not null, "
-            + id_podr + " integer not null, "
-            + phone + " text not null, "
-            + fio + " text not null, "
-            + doljnost + " text not null,"
-            + zvanie + " text not null,"
-            + mob + " text not null,"
-            + fax + " text not null,"
-            + email + " text not null,"
-            + home + " text not null,"
-            + prim + " text not null,"
-            + address + " text not null,"
-            + kod + " text not null,"
-            + vnutr + " text not null,"
-            + centrex + " text not null,"
-            + cm + " text not null);";
+            + id + " integer, "
+            + id_region + " integer, "
+            + id_podr + " integer, "
+            + phone + " text, "
+            + fio + " text, "
+            + doljnost + " text,"
+            + zvanie + " text,"
+            + mob + " text,"
+            + fax + " text,"
+            + email + " text,"
+            + home + " text,"
+            + prim + " text,"
+            + address + " text,"
+            + kod + " text,"
+            + vnutr + " text,"
+            + centrex + " text,"
+            + cm + " text);";
+
+
+    private static final String DATABASE_TABLE2 = "regiont";
+    // названия столбцов
+    public static final String id2 = "id2";
+    public static final String region = "region";                      //
+    public static final String region_full = "region_full";
+    public static final String address_region = "address_region";
+
+
+    private static final String DATABASE_CREATE_SCRIPT2 = "create table "
+            + DATABASE_TABLE2 + " (" + BaseColumns._ID + " integer primary key autoincrement, "
+            + id2 + " integer, "
+            + region + " text, "
+            + region_full + " text, "
+            + address_region + " text);";
+
+    private static final String DATABASE_TABLE3 = "podrt";
+    // названия столбцов
+    public static final String id3 = "id3";
+    public static final String id_region3 = "id_region3";                      //
+    public static final String podr = "podr";
+    public static final String podr_full = "podr_full";
+
+
+    private static final String DATABASE_CREATE_SCRIPT3 = "create table "
+            + DATABASE_TABLE3 + " (" + BaseColumns._ID + " integer primary key autoincrement, "
+            + id3 + " integer, "
+            + id_region3 + " text, "
+            + podr + " text, "
+            + podr_full + " text);";
+
+
+
+
 
 
     private DBHelper mDBHelper;
@@ -83,6 +118,8 @@ public class DBHelper extends SQLiteOpenHelper implements BaseColumns {
     public void onCreate(SQLiteDatabase db) {
         // TODO Auto-generated method stub
         db.execSQL(DATABASE_CREATE_SCRIPT);
+        db.execSQL(DATABASE_CREATE_SCRIPT2);
+        db.execSQL(DATABASE_CREATE_SCRIPT3);
     }
 
     @Override
