@@ -42,28 +42,44 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         Butupdate=(Button) findViewById(R.id.ButupdateBD);
         lst=(ListView) findViewById(R.id.list1);
-        registerForContextMenu(lst);
 
-        lst.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            public void onItemClick(AdapterView<?> parent, View view,
-                                    int position, long id) {
-                Butupdate.setText(Double.toString(id)+Integer.toString(position+1));
-            }});
-
-
-
-
-    }
-
-    public void onClickBD(View w){
         if (estDannie())
             FitstfromDB();
         else {
-        ContactsDBfromXML();
-       RegionDBfromXML();
-        PodrDBfromXML();
+            ContactsDBfromXML();
+            RegionDBfromXML();
+            PodrDBfromXML();}
+
+        lst.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            public void onItemClick(AdapterView<?> parent, View view, int position, long idd) {
+                Butupdate.setText((Long.toString(idd)+" + "+Integer.toString(position+1)));
+
+                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+                intent.putExtra("position", Long.toString(idd));   //передаю данные об ид списка
+                MainActivity.this.finish();
+                startActivity(intent);
+
+
+
+
+
         }
+        });
+
+
+
+
     }
+
+//    public void onClickBD(View w){
+//        if (estDannie())
+//            FitstfromDB();
+//        else {
+//        ContactsDBfromXML();
+//       RegionDBfromXML();
+//        PodrDBfromXML();
+//        }
+//    }
     public void FitstfromDB(){
    //     lst=(ListView) findViewById(R.id.list1);
         mDatabaseHelper = new DBHelper(this, "phone.db", null, 1);
