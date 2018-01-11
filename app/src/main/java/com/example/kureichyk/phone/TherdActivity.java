@@ -6,6 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
@@ -22,7 +23,7 @@ public class TherdActivity extends Activity {
     SQLiteDatabase mSqLiteDatabase;
     SimpleCursorAdapter scAdapter;
     Button ButBack2;
-    String pos;
+    String pos; // для вызова активити два нужны данные позиции курсора, поэтому тягаем их за собой сюда и потом отдаем обратно
 
 
 
@@ -31,9 +32,18 @@ public class TherdActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_therd);
         lst3=(ListView) findViewById(R.id.list3);
-        ButBack2 =(Button) findViewById(R.id.ButBack);
+        ButBack2 =(Button) findViewById(R.id.ButBack2);
         TherdfromDB();
-
+        lst3.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            public void onItemClick(AdapterView<?> parent, View view, int position, long idd) {
+                ButBack2.setText((Long.toString(idd)+" + "+Integer.toString(position+1)));
+//                Intent intent = new Intent(SecondActivity.this, TherdActivity.class);
+//                intent.putExtra("position2", Long.toString(idd));   //передаю данные об ид списка
+//                intent.putExtra("position", pos);
+//                SecondActivity.this.finish();
+//                startActivity(intent);
+            }
+        });
 
     }
 
@@ -67,6 +77,12 @@ public class TherdActivity extends Activity {
         startActivity(intent);
 
     }
+    public void onClickBack1(View v){
 
+        Intent intent = new Intent(TherdActivity.this, MainActivity.class);
+        TherdActivity.this.finish();
+        startActivity(intent);
+
+    }
 
 }
