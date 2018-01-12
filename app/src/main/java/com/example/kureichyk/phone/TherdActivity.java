@@ -37,11 +37,11 @@ public class TherdActivity extends Activity {
         lst3.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view, int position, long idd) {
                 ButBack2.setText((Long.toString(idd)+" + "+Integer.toString(position+1)));
-//                Intent intent = new Intent(SecondActivity.this, TherdActivity.class);
-//                intent.putExtra("position2", Long.toString(idd));   //передаю данные об ид списка
+                Intent intent = new Intent(TherdActivity.this, FourActivity.class);
+                intent.putExtra("position3", Long.toString(idd));   //передаю данные об ид списка
 //                intent.putExtra("position", pos);
-//                SecondActivity.this.finish();
-//                startActivity(intent);
+                TherdActivity.this.finish();
+                startActivity(intent);
             }
         });
 
