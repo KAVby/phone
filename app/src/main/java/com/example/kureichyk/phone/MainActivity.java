@@ -55,7 +55,7 @@ public class MainActivity extends Activity {
                 Butupdate.setText((Long.toString(idd)+" + "+Integer.toString(position+1)));
 
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-                intent.putExtra("position", Long.toString(idd));   //передаю данные об ид списка
+                intent.putExtra("position1", Long.toString(idd));   //передаю данные об ид списка
                 MainActivity.this.finish();
                 startActivity(intent);
 
@@ -71,15 +71,15 @@ public class MainActivity extends Activity {
 
     }
 
-//    public void onClickBD(View w){
-//        if (estDannie())
-//            FitstfromDB();
-//        else {
-//        ContactsDBfromXML();
-//       RegionDBfromXML();
-//        PodrDBfromXML();
-//        }
-//    }
+    public void onClickBD(View w){
+        if (estDannie())
+            FitstfromDB();
+        else {
+        ContactsDBfromXML();
+       RegionDBfromXML();
+        PodrDBfromXML();
+        }
+    }
     public void FitstfromDB(){
    //     lst=(ListView) findViewById(R.id.list1);
         mDatabaseHelper = new DBHelper(this, "phone.db", null, 1);
@@ -88,8 +88,10 @@ public class MainActivity extends Activity {
                 null, null,
                 null, null, "id2 ASC");
 
-        String[] from = new String[] {DBHelper.id2, DBHelper.region};//берем этот набор данных
-        int[] to = new int[] { R.id.l1, R.id.l2};// и вставляем их сюда
+ //       String[] from = new String[] {DBHelper.id2, DBHelper.region};//берем этот набор данных
+        String[] from = new String[] {DBHelper.region};//берем этот набор данных
+//        int[] to = new int[] { R.id.l1, R.id.l2};// и вставляем их сюда
+        int[] to = new int[] { R.id.l2};// и вставляем их сюда
         scAdapter = new SimpleCursorAdapter(this, R.layout.list_txt, cursor, from, to);
         lst.setAdapter(scAdapter);
 

@@ -16,14 +16,14 @@ import android.widget.SimpleCursorAdapter;
  */
 
 public class SecondActivity extends Activity {
-    String position;
+    String position1, position2;
     ListView lst2;
     Cursor cursor, cursor2;
     DBHelper mDatabaseHelper;
     SQLiteDatabase mSqLiteDatabase;
     SimpleCursorAdapter scAdapter;
     Button ButBack;
-    String pos;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,7 +37,7 @@ public class SecondActivity extends Activity {
                 ButBack.setText((Long.toString(idd)+" + "+Integer.toString(position+1)));
                 Intent intent = new Intent(SecondActivity.this, TherdActivity.class);
                 intent.putExtra("position2", Long.toString(idd));   //передаю данные об ид списка
-                intent.putExtra("position", pos);
+                intent.putExtra("position1", position1);// и данные чтобы вернуться назад
                 SecondActivity.this.finish();
                 startActivity(intent);
             }
@@ -46,9 +46,9 @@ public class SecondActivity extends Activity {
     public void SecondfromDB(){
          mDatabaseHelper = new DBHelper(this, "phone.db", null, 1);
         mSqLiteDatabase = mDatabaseHelper.getWritableDatabase();
-        pos=getIntent().getStringExtra("position");
+        position1=getIntent().getStringExtra("position1");
         cursor = mSqLiteDatabase.query("regiont", null,
-                "_id=?", new String[] {pos},
+                "_id=?", new String[] {position1},
                 null, null, null);
         cursor.moveToLast();
         String N_region;
@@ -57,8 +57,10 @@ public class SecondActivity extends Activity {
                 "id_region3=?", new String[] {N_region},
                 null, null,"id3 ASC");
 
-        String[] from = new String[] {DBHelper.id_region3, DBHelper.podr};//берем этот набор данных
-        int[] to = new int[] { R.id.l1, R.id.l2};// и вставляем их сюда
+ //       String[] from = new String[] {DBHelper.id_region3, DBHelper.podr};//берем этот набор данных
+        String[] from = new String[] {DBHelper.podr};//берем этот набор данных
+//        int[] to = new int[] { R.id.l1, R.id.l2};// и вставляем их сюда
+        int[] to = new int[] {  R.id.l2};// и вставляем их сюда
         scAdapter = new SimpleCursorAdapter(this, R.layout.list_txt, cursor2, from, to);
         lst2.setAdapter(scAdapter);
 
