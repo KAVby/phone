@@ -6,11 +6,10 @@
     >
 
     <Button
-        android:text="Обновить БД"
+        android:text="Обновить БД - пока не сделал"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/ButupdateBD"
-        android:onClick="onClickBD" />
+        android:id="@+id/ButupdateBD" />
 
     <ListView
         android:id="@+id/list1"

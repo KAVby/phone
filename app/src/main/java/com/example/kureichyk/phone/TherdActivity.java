@@ -36,7 +36,7 @@ public class TherdActivity extends Activity {
         TherdfromDB();
         lst3.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view, int position, long idd) {
-                ButBack2.setText((Long.toString(idd)+" + "+Integer.toString(position+1)));
+ //               ButBack2.setText((Long.toString(idd)+" + "+Integer.toString(position+1)));
                 Intent intent = new Intent(TherdActivity.this, FourActivity.class);
                 intent.putExtra("position3", Long.toString(idd));   //передаю данные об ид списка
                 intent.putExtra("position1", position1);             // для

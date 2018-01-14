@@ -23,6 +23,8 @@ import org.xmlpull.v1.XmlPullParser;
 
 import java.util.ArrayList;
 
+import static com.example.kureichyk.phone.R.layout.activity_main;
+
 //import java.util.ArrayList;
 
 //import static android.R.id.list;
@@ -39,20 +41,22 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(activity_main);
         Butupdate=(Button) findViewById(R.id.ButupdateBD);
         lst=(ListView) findViewById(R.id.list1);
 
         if (estDannie())
             FitstfromDB();
-        else {
+        else {Butupdate.setText("первый запуск, нажмите эту кнопку чтобы сформировать БД и ожидайте 1-3 мин взависимости от мощности вашего девайса");
             ContactsDBfromXML();
             RegionDBfromXML();
-            PodrDBfromXML();}
+            PodrDBfromXML();
+            Butupdate.setText("Обновить БД - пока не сделал");
+            FitstfromDB();}
 
         lst.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view, int position, long idd) {
-                Butupdate.setText((Long.toString(idd)+" + "+Integer.toString(position+1)));
+ //               Butupdate.setText((Long.toString(idd)+" + "+Integer.toString(position+1)));
 
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
                 intent.putExtra("position1", Long.toString(idd));   //передаю данные об ид списка
@@ -71,15 +75,17 @@ public class MainActivity extends Activity {
 
     }
 
-    public void onClickBD(View w){
-        if (estDannie())
-            FitstfromDB();
-        else {
-        ContactsDBfromXML();
-       RegionDBfromXML();
-        PodrDBfromXML();
-        }
-    }
+//    public void onClickBD(View w){
+//       // knopka("ожидайте 1-3 мин взависимости от мощности вашего девайса");
+//         if (estDannie())
+//            FitstfromDB();
+//        else {
+//        ContactsDBfromXML();
+//       RegionDBfromXML();
+//        PodrDBfromXML();
+//            FitstfromDB();
+//           }
+//    }
     public void FitstfromDB(){
    //     lst=(ListView) findViewById(R.id.list1);
         mDatabaseHelper = new DBHelper(this, "phone.db", null, 1);
@@ -96,8 +102,13 @@ public class MainActivity extends Activity {
         lst.setAdapter(scAdapter);
 
     }
-
+//public void knopka(String s){
+//
+//    Butupdate.setText(s);
+//
+//}
     public void ContactsDBfromXML(){
+
         mDatabaseHelper = new DBHelper(this, "phone.db", null, 1);
         mSqLiteDatabase = mDatabaseHelper.getWritableDatabase();
         ContentValues values = new ContentValues();
@@ -179,7 +190,7 @@ public class MainActivity extends Activity {
             Toast.makeText(this,
                     "Ошибка при загрузке XML-документа: " + t.toString(), 9000)
                     .show();
-        }
+        } Butupdate.setText("Обновить БД - пока не сделал");
 //        setListAdapter(new ArrayAdapter<String>(
 //                this, android.R.layout.simple_list_item_1, list));
     }

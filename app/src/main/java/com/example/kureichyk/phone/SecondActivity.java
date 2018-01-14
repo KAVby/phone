@@ -34,7 +34,7 @@ public class SecondActivity extends Activity {
         SecondfromDB();
         lst2.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view, int position, long idd) {
-                ButBack.setText((Long.toString(idd)+" + "+Integer.toString(position+1)));
+//                ButBack.setText((Long.toString(idd)+" + "+Integer.toString(position+1)));
                 Intent intent = new Intent(SecondActivity.this, TherdActivity.class);
                 intent.putExtra("position2", Long.toString(idd));   //передаю данные об ид списка
                 intent.putExtra("position1", position1);// и данные чтобы вернуться назад

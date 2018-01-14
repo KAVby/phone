@@ -1,4 +1,4 @@
-<database name="abc">
+<database name="14_01_2018">
     <!-- РўР°Р±Р»РёС†Р° region -->
     <table name="region">
         <column name="id">22</column>
