@@ -57,11 +57,11 @@ public class SecondActivity extends Activity {
                 "id_region3=?", new String[] {N_region},
                 null, null,"id3 ASC");
 
- //       String[] from = new String[] {DBHelper.id_region3, DBHelper.podr};//берем этот набор данных
-        String[] from = new String[] {DBHelper.podr};//берем этот набор данных
-//        int[] to = new int[] { R.id.l1, R.id.l2};// и вставляем их сюда
-        int[] to = new int[] {  R.id.l2};// и вставляем их сюда
-        scAdapter = new SimpleCursorAdapter(this, R.layout.list_txt, cursor2, from, to);
+        String[] from = new String[] {DBHelper.podr_full, DBHelper.podr};//берем этот набор данных
+   //     String[] from = new String[] {DBHelper.podr};//берем этот набор данных
+        int[] to = new int[] { R.id.l2, R.id.l1};// и вставляем их сюда
+    //   int[] to = new int[] {  R.id.l2};// и вставляем их сюда
+        scAdapter = new SimpleCursorAdapter(this, R.layout.list_txt2, cursor2, from, to);
         lst2.setAdapter(scAdapter);
 
     }

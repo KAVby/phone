@@ -103,5 +103,39 @@
         android:gravity="center_vertical"
         android:layout_alignParentBottom="true"
         android:layout_toEndOf="@+id/textdoljnost"
-        android:layout_alignTop="@+id/textmobt" />
+        android:layout_alignTop="@+id/textmobt"
+        android:textSize="15sp" />
+
+    <TextView
+        android:text="Раб №"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textphonet"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_above="@+id/textmobt"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/button_phone" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_phone"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:layout_above="@+id/text_mob"
+        android:layout_alignStart="@+id/text_mob"
+        android:layout_alignTop="@+id/textphonet" />
+
+    <Button
+        android:text="Позвонить"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_phone"
+        android:onClick="onClickDial2"
+        android:layout_above="@+id/button_mob"
+        android:layout_alignParentEnd="true" />
+
 </RelativeLayout>

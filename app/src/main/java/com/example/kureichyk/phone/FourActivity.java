@@ -20,10 +20,10 @@ public class FourActivity extends Activity {
     DBHelper mDatabaseHelper;
     SQLiteDatabase mSqLiteDatabase;
     SimpleCursorAdapter scAdapter;
-    Button button_mob;
+    Button button_mob, button_phone;
     String pos4; // для вызова активити два нужны данные позиции курсора, поэтому тягаем их за собой сюда и потом отдаем обратно
-    String position1, position2, position3, tel_mob;
-    TextView text_fio, text_doljnost, text_zvanie, text_mob;
+    String position1, position2, position3, tel_mob, tel_phone;
+    TextView text_fio, text_doljnost, text_zvanie, text_mob, text_phone;
 
 
 
@@ -33,10 +33,12 @@ public class FourActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_four);
         button_mob =(Button) findViewById(R.id.button_mob);
+        button_phone =(Button) findViewById(R.id.button_phone);
         text_fio =(TextView) findViewById(R.id.text_fio);
         text_doljnost =(TextView) findViewById(R.id.text_doljnost);
         text_zvanie =(TextView) findViewById(R.id.text_zvanie);
         text_mob =(TextView) findViewById(R.id.text_mob);
+        text_phone =(TextView) findViewById(R.id.text_phone);
         FourfromDB();
 
     }
@@ -61,7 +63,13 @@ public class FourActivity extends Activity {
         text_doljnost.setText(cursor.getString(cursor.getColumnIndex(mDatabaseHelper.doljnost)));
         text_zvanie.setText(cursor.getString(cursor.getColumnIndex(mDatabaseHelper.zvanie)));
         tel_mob="+375"+cursor.getString(cursor.getColumnIndex(mDatabaseHelper.mob));
+        tel_phone="+375"+cursor.getString(cursor.getColumnIndex(mDatabaseHelper.kod))+cursor.getString(cursor.getColumnIndex(mDatabaseHelper.phone));  // todo здесь надо обработать код - гдето есть ноль гдето нету
+        tel_phone=tel_phone.replace("+3750", "+375"); // не работает
         text_mob.setText(tel_mob);
+        text_phone.setText(tel_phone);
+
+
+
 
      //  button_mob.setText(1);
 
@@ -105,6 +113,14 @@ public void onClickDial(View w){
 else button_mob.setText("нет номера");
 
 }
+    public void onClickDial2(View w){
+//    String phone = "+34666777888";
+        if (tel_phone.length()==13){
+            Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", tel_phone, null));
+            startActivity(intent);}
+        else button_phone.setText("нет номера");
+
+    }
 }
 
 
