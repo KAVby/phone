@@ -95,10 +95,10 @@ public class MainActivity extends Activity {
                 null, null, "id2 ASC");
 
  //       String[] from = new String[] {DBHelper.id2, DBHelper.region};//берем этот набор данных
-        String[] from = new String[] {DBHelper.region};//берем этот набор данных
+        String[] from = new String[] {DBHelper.region, DBHelper.region_full};//берем этот набор данных
 //        int[] to = new int[] { R.id.l1, R.id.l2};// и вставляем их сюда
-        int[] to = new int[] { R.id.l2};// и вставляем их сюда
-        scAdapter = new SimpleCursorAdapter(this, R.layout.list_txt, cursor, from, to);
+        int[] to = new int[] { R.id.l1, R.id.l2};// и вставляем их сюда
+        scAdapter = new SimpleCursorAdapter(this, R.layout.list_txt2, cursor, from, to);
         lst.setAdapter(scAdapter);
 
     }
