@@ -129,6 +129,20 @@ else button_mob.setText("нет номера");
         else button_phone.setText("нет номера");
 
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent(FourActivity.this, TherdActivity.class);
+        intent.putExtra("position1", position1);
+        intent.putExtra("position2", position2);
+        intent.putExtra("position2", position2);
+        intent.putExtra("path1", Path1);
+
+        FourActivity.this.finish();
+        overridePendingTransition(R.anim.right_out,R.anim.left_in);
+        startActivity(intent);
+    }
 }
 
 

@@ -16,7 +16,8 @@
         android:text="TextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textWereYou" />
+        android:id="@+id/textWereYou"
+        android:textAlignment="center" />
 
     <ListView
         android:id="@+id/list2"

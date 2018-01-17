@@ -61,7 +61,7 @@ public class SecondActivity extends Activity {
         cursor2 = mSqLiteDatabase.query("podrt",null,
                 "id_region3=?", new String[] {N_region},
                 null, null,"id3 ASC");
-        Path1="/"+cursor.getString(cursor.getColumnIndex(mDatabaseHelper.region));
+        Path1="../"+cursor.getString(cursor.getColumnIndex(mDatabaseHelper.region));
 textWereYou.setText(Path1);
         String[] from = new String[] {DBHelper.podr_full, DBHelper.podr};//берем этот набор данных
    //     String[] from = new String[] {DBHelper.podr};//берем этот набор данных
@@ -82,4 +82,12 @@ public void onClickBack(View v){
 
 }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent(SecondActivity.this, MainActivity.class);
+        SecondActivity.this.finish();
+        startActivity(intent);
+        overridePendingTransition(R.anim.right_out,R.anim.left_in);
+    }
 }

@@ -71,7 +71,7 @@ public class TherdActivity extends Activity {
                 "id_podr=?", new String[] {N_otdela},
                 null, null,"id ASC");
         Path2=Path1+"/"+cursor.getString(cursor.getColumnIndex(mDatabaseHelper.podr));
-        textWereYou.setText(Path1+"/"+cursor.getString(cursor.getColumnIndex(mDatabaseHelper.podr)));
+        textWereYou.setText(Path1+"../"+cursor.getString(cursor.getColumnIndex(mDatabaseHelper.podr)));
         String[] from = new String[] {DBHelper.doljnost, DBHelper.fio};//берем этот набор данных
         int[] to = new int[] { R.id.l1, R.id.l2};// и вставляем их сюда
         scAdapter = new SimpleCursorAdapter(this, R.layout.list_txt, cursor2, from, to);
@@ -95,4 +95,13 @@ public class TherdActivity extends Activity {
 
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent(TherdActivity.this, SecondActivity.class);
+        intent.putExtra("position1", position1);
+        TherdActivity.this.finish();
+        overridePendingTransition(R.anim.right_out,R.anim.left_in);
+        startActivity(intent);
+    }
 }
