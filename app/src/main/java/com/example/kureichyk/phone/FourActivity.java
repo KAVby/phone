@@ -22,8 +22,8 @@ public class FourActivity extends Activity {
     SimpleCursorAdapter scAdapter;
     Button button_mob, button_phone;
     String pos4; // для вызова активити два нужны данные позиции курсора, поэтому тягаем их за собой сюда и потом отдаем обратно
-    String position1, position2, position3, tel_mob, tel_phone;
-    TextView text_fio, text_doljnost, text_zvanie, text_mob, text_phone;
+    String position1, position2, position3, tel_mob, tel_phone, Path1, Path2;
+    TextView text_fio, text_doljnost, text_zvanie, text_mob, text_phone, textWereYou;
 
 
 
@@ -39,6 +39,7 @@ public class FourActivity extends Activity {
         text_zvanie =(TextView) findViewById(R.id.text_zvanie);
         text_mob =(TextView) findViewById(R.id.text_mob);
         text_phone =(TextView) findViewById(R.id.text_phone);
+        textWereYou = (TextView) findViewById(R.id.textWereYou);
         FourfromDB();
 
     }
@@ -49,6 +50,8 @@ public class FourActivity extends Activity {
         position3=getIntent().getStringExtra("position3");
         position2=getIntent().getStringExtra("position2");
         position1=getIntent().getStringExtra("position1");
+        Path2=getIntent().getStringExtra("path2");
+        Path1=getIntent().getStringExtra("path1");
 
 
 //        pos=getIntent().getStringExtra("position");
@@ -59,6 +62,7 @@ public class FourActivity extends Activity {
         cursor.moveToLast();
 //        String s;
 //        s=cursor.getString(cursor.getColumnIndex(mDatabaseHelper.fio));
+        textWereYou.setText(Path2);
         text_fio.setText(cursor.getString(cursor.getColumnIndex(mDatabaseHelper.fio)));
         text_doljnost.setText(cursor.getString(cursor.getColumnIndex(mDatabaseHelper.doljnost)));
         text_zvanie.setText(cursor.getString(cursor.getColumnIndex(mDatabaseHelper.zvanie)));
@@ -93,6 +97,9 @@ public class FourActivity extends Activity {
         Intent intent = new Intent(FourActivity.this, TherdActivity.class);
         intent.putExtra("position1", position1);
         intent.putExtra("position2", position2);
+        intent.putExtra("position2", position2);
+        intent.putExtra("path1", Path1);
+
         FourActivity.this.finish();
         overridePendingTransition(R.anim.right_out,R.anim.left_in);
         startActivity(intent);

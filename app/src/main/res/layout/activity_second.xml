@@ -12,6 +12,12 @@
         android:id="@+id/ButBack"
         android:onClick="onClickBack" />
 
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textWereYou" />
+
     <ListView
         android:id="@+id/list2"
         android:layout_width="fill_parent"

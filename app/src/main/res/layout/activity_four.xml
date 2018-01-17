@@ -22,14 +22,6 @@
         android:onClick="onClickHome" />
 
     <TextView
-        android:text="ФИО"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/ButHome4"
-        android:layout_alignParentStart="true"
-        android:id="@+id/textfiot" />
-
-    <TextView
         android:text="Звание"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -65,14 +57,6 @@
         android:layout_alignBaseline="@+id/textzvaniet"
         android:layout_alignBottom="@+id/textzvaniet"
         android:layout_alignStart="@+id/text_doljnost" />
-
-    <TextView
-        android:text="TextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/text_fio"
-        android:layout_below="@+id/ButHome4"
-        android:layout_alignStart="@+id/text_zvanie" />
 
     <Button
         android:text="Позвонить"
@@ -137,5 +121,31 @@
         android:onClick="onClickDial2"
         android:layout_above="@+id/button_mob"
         android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_fio"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/ButHome4"
+        android:layout_alignStart="@+id/text_zvanie" />
+
+    <TextView
+        android:text="ФИО"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textfiot"
+        android:layout_alignBaseline="@+id/text_fio"
+        android:layout_alignBottom="@+id/text_fio"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ButHome4"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textWereYou" />
 
 </RelativeLayout>
