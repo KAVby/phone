@@ -42,6 +42,7 @@ public class TherdActivity extends Activity {
                 intent.putExtra("position1", position1);             // для
                 intent.putExtra("position2", position2);       // возврата сюда
                 TherdActivity.this.finish();
+                overridePendingTransition(R.anim.right_in,R.anim.left_out);
                 startActivity(intent);
             }
         });
@@ -75,6 +76,7 @@ public class TherdActivity extends Activity {
         Intent intent = new Intent(TherdActivity.this, SecondActivity.class);
         intent.putExtra("position1", position1);
         TherdActivity.this.finish();
+        overridePendingTransition(R.anim.right_out,R.anim.left_in);
         startActivity(intent);
 
     }

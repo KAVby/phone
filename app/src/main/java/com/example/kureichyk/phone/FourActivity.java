@@ -94,6 +94,7 @@ public class FourActivity extends Activity {
         intent.putExtra("position1", position1);
         intent.putExtra("position2", position2);
         FourActivity.this.finish();
+        overridePendingTransition(R.anim.right_out,R.anim.left_in);
         startActivity(intent);
 
     }

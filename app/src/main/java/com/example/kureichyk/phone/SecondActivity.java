@@ -40,6 +40,7 @@ public class SecondActivity extends Activity {
                 intent.putExtra("position1", position1);// и данные чтобы вернуться назад
                 SecondActivity.this.finish();
                 startActivity(intent);
+                overridePendingTransition(R.anim.right_in,R.anim.left_out);
             }
         });
     }
@@ -72,6 +73,7 @@ public void onClickBack(View v){
     Intent intent = new Intent(SecondActivity.this, MainActivity.class);
     SecondActivity.this.finish();
     startActivity(intent);
+    overridePendingTransition(R.anim.right_out,R.anim.left_in);
 
 }
 

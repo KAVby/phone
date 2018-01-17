@@ -61,6 +61,7 @@ public class MainActivity extends Activity {
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
                 intent.putExtra("position1", Long.toString(idd));   //передаю данные об ид списка
                 MainActivity.this.finish();
+                overridePendingTransition(R.anim.right_in,R.anim.left_out);
                 startActivity(intent);
 
 
