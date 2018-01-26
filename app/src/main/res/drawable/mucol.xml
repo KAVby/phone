@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:color="#008000"/>
+    <item android:state_activated="true" android:color="#ffff00"/>
+    <item android:color="#801a2f" /> <!-- not selected -->
+</selector>
+    <!-- это для теста, не используется -->

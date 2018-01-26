@@ -22,7 +22,7 @@ public class FourActivity extends Activity {
     SimpleCursorAdapter scAdapter;
     Button button_mob, button_phone;
     String pos4; // для вызова активити два нужны данные позиции курсора, поэтому тягаем их за собой сюда и потом отдаем обратно
-    String position1, position2, position3, tel_mob, tel_phone, Path1, Path2;
+    String position1, position2, position3, tel_mob, tel_phone, Path1, Path2, search;
     TextView text_fio, text_doljnost, text_zvanie, text_mob, text_phone, textWereYou;
 
 
@@ -50,6 +50,8 @@ public class FourActivity extends Activity {
         position3=getIntent().getStringExtra("position3");
         position2=getIntent().getStringExtra("position2");
         position1=getIntent().getStringExtra("position1");
+        search=getIntent().getStringExtra("search");
+
         Path2=getIntent().getStringExtra("path2");
         Path1=getIntent().getStringExtra("path1");
 

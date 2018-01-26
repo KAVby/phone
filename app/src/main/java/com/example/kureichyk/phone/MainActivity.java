@@ -8,6 +8,8 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.ContextMenu;
 import android.view.MenuItem;
 import android.view.View;
@@ -15,14 +17,17 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 //import android.widget.ListView;
+import android.widget.FilterQueryProvider;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import org.xmlpull.v1.XmlPullParser;
 
 import java.util.ArrayList;
 
+import static com.example.kureichyk.phone.DBHelper.phone;
 import static com.example.kureichyk.phone.R.layout.activity_main;
 
 //import java.util.ArrayList;
@@ -31,19 +36,23 @@ import static com.example.kureichyk.phone.R.layout.activity_main;
 
 public class MainActivity extends Activity {
 
-    Button Butupdate;
+    Button Butupdate, butsearch;
     ListView lst;
     Cursor cursor, cursor2;
     DBHelper mDatabaseHelper;
     SQLiteDatabase mSqLiteDatabase;
     SimpleCursorAdapter scAdapter;
 
+    int f=0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(activity_main);
         Butupdate=(Button) findViewById(R.id.ButupdateBD);
+        butsearch=(Button) findViewById(R.id.butsearch);
         lst=(ListView) findViewById(R.id.list1);
+
 
         if (estDannie())
             FitstfromDB();
@@ -91,15 +100,89 @@ public class MainActivity extends Activity {
    //     lst=(ListView) findViewById(R.id.list1);
         mDatabaseHelper = new DBHelper(this, "phone.db", null, 1);
         mSqLiteDatabase = mDatabaseHelper.getWritableDatabase();
+
         cursor = mSqLiteDatabase.query("regiont", null,
                 null, null,
                 null, null, "id2 ASC");
-
- //       String[] from = new String[] {DBHelper.id2, DBHelper.region};//берем этот набор данных
-        String[] from = new String[] {DBHelper.region, DBHelper.region_full};//берем этот набор данных
-//        int[] to = new int[] { R.id.l1, R.id.l2};// и вставляем их сюда
-        int[] to = new int[] { R.id.l1, R.id.l2};// и вставляем их сюда
+        String[] from = new String[]{DBHelper.region, DBHelper.region_full};//берем этот набор данных
+        int[] to = new int[]{R.id.l1, R.id.l2};// и вставляем их сюда
         scAdapter = new SimpleCursorAdapter(this, R.layout.list_txt2, cursor, from, to);
+
+
+        //////////////////////////////////////////////////////
+
+       // cursor = mSqLiteDatabase.rawQuery("SELECT * FROM contacts  WHERE fio like ? or mob like ? " , new String[]{"%рей%", "%770%"});
+        ////////////////////////////////////////////////////////
+
+
+
+
+
+//        // установка слушателя изменения текста
+//        userFilter.addTextChangedListener(new TextWatcher() {
+//
+//            public void afterTextChanged(Editable s) { }
+//
+//            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+//
+//            }
+//            // при изменении текста выполняем фильтрацию
+//            public void onTextChanged(CharSequence s, int start, int before, int count) {
+//
+//                scAdapter.getFilter().filter(s.toString());
+//
+//
+//
+//
+//
+//            }
+//        });
+//
+//        // устанавливаем провайдер фильтрации
+//        scAdapter.setFilterQueryProvider(new FilterQueryProvider() {
+//            @Override
+//            public Cursor runQuery(CharSequence constraint) {
+//              //  cursor=mSqLiteDatabase.rawQuery("SELECT * FROM contacts  WHERE fio like ? or mob like ? " , new String[]{"%"+constraint.toString()+"%", "%"+constraint.toString()+"%"});
+//
+//                if (constraint == null || constraint.length() == 0) {
+//
+//                    cursor = mSqLiteDatabase.query("regiont", null,
+//                            null, null,
+//                            null, null, "id2 ASC");
+//                    String[] from = new String[]{DBHelper.region, DBHelper.region_full};//берем этот набор данных
+//                    int[] to = new int[]{R.id.l1, R.id.l2};// и вставляем их сюда
+//                    scAdapter.changeCursorAndColumns( cursor, from, to);
+//
+//                    return mSqLiteDatabase.query("regiont", null,
+//                            null, null,
+//                            null, null, "id2 ASC");
+//                }
+//                else {
+//cursor=mSqLiteDatabase.rawQuery("SELECT * FROM contacts  WHERE fio like ? or mob like ? " , new String[]{"%"+constraint.toString()+"%", "%"+constraint.toString()+"%"});
+//                    String[] from = new String[]{DBHelper.fio, DBHelper.mob};//берем этот набор данных
+//                    int[] to = new int[]{R.id.l1, R.id.l2};
+//                    scAdapter.changeCursorAndColumns( cursor, from, to);
+//
+//                    return mSqLiteDatabase.rawQuery("SELECT * FROM contacts  WHERE fio like ? or mob like ? " , new String[]{"%"+constraint.toString()+"%", "%"+constraint.toString()+"%"});
+//
+//
+//                }
+//            }
+//        });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         lst.setAdapter(scAdapter);
 
     }
@@ -141,7 +224,7 @@ public class MainActivity extends Activity {
                             values.put(DBHelper.id_podr, parser.getText());
                             break;
                         case "phone":
-                            values.put(DBHelper.phone, parser.getText());
+                            values.put(phone, parser.getText());
                             break;
                         case "fio":
                             values.put(DBHelper.fio, parser.getText());
@@ -316,7 +399,13 @@ public class MainActivity extends Activity {
     }
 //=========================================================================================
 
-
+public void onClickSearch(View v){
+    Intent intent = new Intent(MainActivity.this, SearchActivity.class);
+ //   intent.putExtra("position1", Long.toString(idd));   //передаю данные об ид списка
+    MainActivity.this.finish();
+  //  overridePendingTransition(R.anim.right_in,R.anim.left_out);
+    startActivity(intent);
+}
 
 
 
