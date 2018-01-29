@@ -47,6 +47,7 @@ public class SearchActivity extends Activity{
         cursor = mSqLiteDatabase.rawQuery("SELECT * FROM contacts  WHERE fio is not null ORDER BY fio" , null);
 
         String[] from = new String[]{DBHelper.fio, DBHelper.mob, DBHelper.zvanie};//берем этот набор данных
+
         int[] to = new int[]{R.id.text1, R.id.text2, R.id.text3};// и вставляем их сюда
         scAdapter = new SimpleCursorAdapter(this, R.layout.list3, cursor, from, to);
 

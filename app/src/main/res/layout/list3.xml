@@ -7,13 +7,16 @@
         android:text="TextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/text1" />
+        android:id="@+id/text1"
+        android:textStyle="bold"
+        android:textSize="17sp" />
 
     <TextView
         android:text="TextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/text2" />
+        android:id="@+id/text2"
+        android:textSize="16sp" />
 
     <TextView
         android:text="TextView"
