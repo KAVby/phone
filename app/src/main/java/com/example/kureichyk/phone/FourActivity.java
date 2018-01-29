@@ -16,7 +16,7 @@ import android.widget.TextView;
  */
 
 public class FourActivity extends Activity {
-    Cursor cursor;
+    Cursor cursor, cursor2, cursor3;
     DBHelper mDatabaseHelper;
     SQLiteDatabase mSqLiteDatabase;
     SimpleCursorAdapter scAdapter;
@@ -62,15 +62,29 @@ public class FourActivity extends Activity {
                 "_id=?", new String[] {position3},
                 null, null, null);
         cursor.moveToLast();
-//        String s;
-//        s=cursor.getString(cursor.getColumnIndex(mDatabaseHelper.fio));
-        textWereYou.setText(Path2);
+        String s,s2;
+        s=cursor.getString(cursor.getColumnIndex(mDatabaseHelper.id_region));
+        s2=cursor.getString(cursor.getColumnIndex(mDatabaseHelper.id_podr));
+
+        cursor2 = mSqLiteDatabase.rawQuery("SELECT * FROM podrt  WHERE id_region3=? and id3=?" ,new String[]{s,s2});
+        cursor2.moveToLast();
+
+        cursor3 = mSqLiteDatabase.rawQuery("SELECT * FROM regiont  WHERE id2=? " ,new String[]{s});
+        cursor3.moveToLast();
+//        textWereYou.setText(Path2);
+        s=cursor3.getString(cursor3.getColumnIndex(mDatabaseHelper.region));
+        s2=cursor2.getString(cursor2.getColumnIndex(mDatabaseHelper.podr));
+       textWereYou.setText("../"+s+"../"+s2);
+
         text_fio.setText(cursor.getString(cursor.getColumnIndex(mDatabaseHelper.fio)));
         text_doljnost.setText(cursor.getString(cursor.getColumnIndex(mDatabaseHelper.doljnost)));
         text_zvanie.setText(cursor.getString(cursor.getColumnIndex(mDatabaseHelper.zvanie)));
         tel_mob="+375"+cursor.getString(cursor.getColumnIndex(mDatabaseHelper.mob));
-        tel_phone="+375"+cursor.getString(cursor.getColumnIndex(mDatabaseHelper.kod))+cursor.getString(cursor.getColumnIndex(mDatabaseHelper.phone));  // todo здесь надо обработать код - гдето есть ноль гдето нету
-        tel_phone=tel_phone.replace("+3750", "+375"); // не работает
+        tel_phone="+375"+cursor.getString(cursor.getColumnIndex(mDatabaseHelper.kod))+cursor.getString(cursor.getColumnIndex(mDatabaseHelper.phone));
+        tel_phone=tel_phone.replace("+3750", "+375");
+        tel_mob=tel_mob.replace("+375null", "нет номера");
+        tel_mob=tel_mob.replace("+375NULL", "нет номера");
+
         text_mob.setText(tel_mob);
         text_phone.setText(tel_phone);
 
@@ -95,7 +109,14 @@ public class FourActivity extends Activity {
     }
 
     public void onClickBack4(View v){
+if (search!=null) {// если пришли из поиска
+    Intent intent = new Intent(FourActivity.this, SearchActivity.class);
+    FourActivity.this.finish();
+    overridePendingTransition(R.anim.right_out,R.anim.left_in);
+    startActivity(intent);
 
+}
+        else {
         Intent intent = new Intent(FourActivity.this, TherdActivity.class);
         intent.putExtra("position1", position1);
         intent.putExtra("position2", position2);
@@ -106,7 +127,7 @@ public class FourActivity extends Activity {
         overridePendingTransition(R.anim.right_out,R.anim.left_in);
         startActivity(intent);
 
-    }
+    }}
     public void onClickHome(View v){
 
         Intent intent = new Intent(FourActivity.this, MainActivity.class);
@@ -135,6 +156,14 @@ else button_mob.setText("нет номера");
     @Override
     public void onBackPressed() {
         super.onBackPressed();
+        if (search!=null) {
+            Intent intent = new Intent(FourActivity.this, SearchActivity.class);
+            FourActivity.this.finish();
+            overridePendingTransition(R.anim.right_out,R.anim.left_in);
+            startActivity(intent);
+
+        }
+        else{
         Intent intent = new Intent(FourActivity.this, TherdActivity.class);
         intent.putExtra("position1", position1);
         intent.putExtra("position2", position2);
@@ -144,7 +173,7 @@ else button_mob.setText("нет номера");
         FourActivity.this.finish();
         overridePendingTransition(R.anim.right_out,R.anim.left_in);
         startActivity(intent);
-    }
+    }}
 }
 
 

@@ -84,7 +84,7 @@
         </table>
         <table name="region">
             <column name="id">20</column>
-            <column name="region">&amp;nbsp;&amp;nbsp;МГУ МЧС&amp;nbsp;&amp;nbsp;</column>
+            <column name="region">МГУ МЧС</column>
             <column name="region_full">Учреждение &quot;Минское городское управление МЧС Республики Беларусь&quot;</column>
             <column name="address_region">NULL</column>
         </table>
@@ -96,7 +96,7 @@
         </table>
         <table name="region">
             <column name="id">8</column>
-            <column name="region">&amp;nbsp;&amp;nbsp;РЦТО&amp;nbsp;&amp;nbsp;</column>
+            <column name="region">РЦТО</column>
             <column name="region_full">Учреждение &quot;Республиканский центр тылового обеспечения&quot; МЧС  Республики Беларусь</column>
             <column name="address_region">220024::г.Минск::ул.Серова 1Б</column>
         </table>
@@ -120,7 +120,7 @@
         </table>
         <table name="region">
             <column name="id">9</column>
-            <column name="region">&amp;nbsp;&amp;nbsp;НИИ ПБиЧС&amp;nbsp;&amp;nbsp;</column>
+            <column name="region">НИИ ПБиЧС</column>
             <column name="region_full">Учреждение &quot;Научно-исследовательский институт пожарной безопасности и проблем чрезвычайных ситуаций&quot; МЧС Республики Беларусь</column>
             <column name="address_region">220046::г.Минск::ул.Солтыса, 183а::2464101</column>
         </table>
