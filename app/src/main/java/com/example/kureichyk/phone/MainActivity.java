@@ -1,4 +1,4 @@
-package com.example.kureichyk.phone;
+package com.example.kureichyk.phone; //// TODO: 30.01.2018 не видно деления на подотделы (паспы, дежурные части и т.п.) что-нибудь придумать с кривыми кодами телефонов или где кодов нету, нет id некоторых подразделений например 3905 
 
 import android.app.Activity;
 import android.app.ListActivity;
@@ -55,12 +55,14 @@ public class MainActivity extends Activity {
 
 
         if (estDannie())
-            FitstfromDB();
-        else {Butupdate.setText("первый запуск, нажмите эту кнопку чтобы сформировать БД и ожидайте 1-3 мин взависимости от мощности вашего девайса");
+         FitstfromDB();
+
+        else {//Butupdate.setText("первый запуск, нажмите эту кнопку чтобы сформировать БД и ожидайте 1-3 мин взависимости от мощности вашего девайса");
             ContactsDBfromXML();
             RegionDBfromXML();
             PodrDBfromXML();
-            Butupdate.setText("Обновить БД - пока не сделал");
+          //  rebild ();
+         //   Butupdate.setText("Обновить БД - пока не сделал");
             FitstfromDB();}
 
         lst.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -205,8 +207,8 @@ public class MainActivity extends Activity {
                         && parser.getName().equals("table"))
                 {
  //                   list.add("  ");
-                      if (values.containsKey("id"))
-                          mSqLiteDatabase.insert("contacts", null, values);
+//                      if (values.containsKey("id"))
+//                          mSqLiteDatabase.insert("contacts", null, values);
                 }
                 if (parser.getEventType() == XmlPullParser.START_TAG
                         && parser.getName().equals("column")) {
@@ -264,6 +266,7 @@ public class MainActivity extends Activity {
                             break;
                         case "cm":
                             values.put(DBHelper.cm, parser.getText());
+                            mSqLiteDatabase.insert("contacts", null, values);
                             break;
                     }
                 }
@@ -274,7 +277,7 @@ public class MainActivity extends Activity {
             Toast.makeText(this,
                     "Ошибка при загрузке XML-документа: " + t.toString(), 9000)
                     .show();
-        } Butupdate.setText("Обновить БД - пока не сделал");
+        } //Butupdate.setText("Обновить БД - пока не сделал");
 //        setListAdapter(new ArrayAdapter<String>(
 //                this, android.R.layout.simple_list_item_1, list));
     }
@@ -293,8 +296,8 @@ public class MainActivity extends Activity {
                         && parser.getName().equals("table"))
                 {
  //                   list.add("  ");// для пропуска строки
-                    if (values.containsKey("id2"))
-                        mSqLiteDatabase.insert("regiont", null, values);
+//                    if (values.containsKey("id2"))
+//                        mSqLiteDatabase.insert("regiont", null, values);
         //            values.clear();
                 }
                 if (parser.getEventType() == XmlPullParser.START_TAG
@@ -315,6 +318,7 @@ public class MainActivity extends Activity {
                             break;
                         case "address_region":
                             values.put(DBHelper.address_region, parser.getText());
+                            mSqLiteDatabase.insert("regiont", null, values);
                             break;
                     }
                 }
@@ -345,8 +349,8 @@ public class MainActivity extends Activity {
                         && parser.getName().equals("table"))
                 {
  //                   list.add("  ");
-                    if (values.containsKey("id3"))
-                        mSqLiteDatabase.insert("podrt", null, values);
+//                    if (values.containsKey("id3"))
+//                        mSqLiteDatabase.insert("podrt", null, values);
                 }
                 if (parser.getEventType() == XmlPullParser.START_TAG
                         && parser.getName().equals("column")) {
@@ -365,6 +369,7 @@ public class MainActivity extends Activity {
                             break;
                         case "podr_full":
                             values.put(DBHelper.podr_full, parser.getText());
+                            mSqLiteDatabase.insert("podrt", null, values);
                             break;
                     }
                 }
@@ -407,9 +412,23 @@ public void onClickSearch(View v){
     startActivity(intent);
 }
 
+//=========================================================================
+// преобразуем все в одну табл.
+    public void rebild (){
+        mDatabaseHelper = new DBHelper(this, "phone.db", null, 1);
+        mSqLiteDatabase = mDatabaseHelper.getWritableDatabase();
 
+        cursor=mSqLiteDatabase.rawQuery("SELECT * FROM regiont   ORDER BY id2" , null);
+        cursor.moveToFirst();String s,s2,s3;
+       do{
+       s=cursor.getString(cursor.getColumnIndex(mDatabaseHelper.region));
+       s2=cursor.getString(cursor.getColumnIndex(mDatabaseHelper.id2));
+//s3="UPDATE contacts SET id_region="+ "5"+" WHERE id_region="+"0";
+          Cursor c= mSqLiteDatabase.rawQuery("UPDATE contacts SET id_region=? WHERE id_region=?",new String[]{s,s2});
+       c.moveToFirst();c.close();} // курсор здесь просто нужен, зачем никто не знает
+           while (cursor.moveToNext()) ;
 
-
+    }
 
 
 }
