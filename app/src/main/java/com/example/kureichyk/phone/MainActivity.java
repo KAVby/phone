@@ -1,4 +1,9 @@
-package com.example.kureichyk.phone; //// TODO: 30.01.2018 не видно деления на подотделы (паспы, дежурные части и т.п.) что-нибудь придумать с кривыми кодами телефонов или где кодов нету, нет id некоторых подразделений например 3905 
+package com.example.kureichyk.phone; //// TODO: 30.01.2018 не видно деления на подотделы (паспы, дежурные части и т.п.)
+// TODO: что-нибудь придумать с кривыми кодами телефонов или где кодов нету,
+// TODO: нет id некоторых подразделений например 3905
+// TODO: придумать как вшить базу, не формируя ее на устройстве
+// TODO: проверку наличия БД изменить как надо
+
 
 import android.app.Activity;
 import android.app.ListActivity;
@@ -57,11 +62,12 @@ public class MainActivity extends Activity {
         if (estDannie())
          FitstfromDB();
 
-        else {//Butupdate.setText("первый запуск, нажмите эту кнопку чтобы сформировать БД и ожидайте 1-3 мин взависимости от мощности вашего девайса");
+        else {
+            //Butupdate.setText("первый запуск, нажмите эту кнопку чтобы сформировать БД и ожидайте 1-3 мин взависимости от мощности вашего девайса"); // не работает такая схема сообщения об ожидании
             ContactsDBfromXML();
             RegionDBfromXML();
             PodrDBfromXML();
-          //  rebild ();
+            rebild ();
          //   Butupdate.setText("Обновить БД - пока не сделал");
             FitstfromDB();}
 
@@ -109,79 +115,6 @@ public class MainActivity extends Activity {
         String[] from = new String[]{DBHelper.region, DBHelper.region_full};//берем этот набор данных
         int[] to = new int[]{R.id.l1, R.id.l2};// и вставляем их сюда
         scAdapter = new SimpleCursorAdapter(this, R.layout.list_txt2, cursor, from, to);
-
-
-        //////////////////////////////////////////////////////
-
-       // cursor = mSqLiteDatabase.rawQuery("SELECT * FROM contacts  WHERE fio like ? or mob like ? " , new String[]{"%рей%", "%770%"});
-        ////////////////////////////////////////////////////////
-
-
-
-
-
-//        // установка слушателя изменения текста
-//        userFilter.addTextChangedListener(new TextWatcher() {
-//
-//            public void afterTextChanged(Editable s) { }
-//
-//            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-//
-//            }
-//            // при изменении текста выполняем фильтрацию
-//            public void onTextChanged(CharSequence s, int start, int before, int count) {
-//
-//                scAdapter.getFilter().filter(s.toString());
-//
-//
-//
-//
-//
-//            }
-//        });
-//
-//        // устанавливаем провайдер фильтрации
-//        scAdapter.setFilterQueryProvider(new FilterQueryProvider() {
-//            @Override
-//            public Cursor runQuery(CharSequence constraint) {
-//              //  cursor=mSqLiteDatabase.rawQuery("SELECT * FROM contacts  WHERE fio like ? or mob like ? " , new String[]{"%"+constraint.toString()+"%", "%"+constraint.toString()+"%"});
-//
-//                if (constraint == null || constraint.length() == 0) {
-//
-//                    cursor = mSqLiteDatabase.query("regiont", null,
-//                            null, null,
-//                            null, null, "id2 ASC");
-//                    String[] from = new String[]{DBHelper.region, DBHelper.region_full};//берем этот набор данных
-//                    int[] to = new int[]{R.id.l1, R.id.l2};// и вставляем их сюда
-//                    scAdapter.changeCursorAndColumns( cursor, from, to);
-//
-//                    return mSqLiteDatabase.query("regiont", null,
-//                            null, null,
-//                            null, null, "id2 ASC");
-//                }
-//                else {
-//cursor=mSqLiteDatabase.rawQuery("SELECT * FROM contacts  WHERE fio like ? or mob like ? " , new String[]{"%"+constraint.toString()+"%", "%"+constraint.toString()+"%"});
-//                    String[] from = new String[]{DBHelper.fio, DBHelper.mob};//берем этот набор данных
-//                    int[] to = new int[]{R.id.l1, R.id.l2};
-//                    scAdapter.changeCursorAndColumns( cursor, from, to);
-//
-//                    return mSqLiteDatabase.rawQuery("SELECT * FROM contacts  WHERE fio like ? or mob like ? " , new String[]{"%"+constraint.toString()+"%", "%"+constraint.toString()+"%"});
-//
-//
-//                }
-//            }
-//        });
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -425,7 +358,8 @@ public void onClickSearch(View v){
        s2=cursor.getString(cursor.getColumnIndex(mDatabaseHelper.id2));
 //s3="UPDATE contacts SET id_region="+ "5"+" WHERE id_region="+"0";
           Cursor c= mSqLiteDatabase.rawQuery("UPDATE contacts SET id_region=? WHERE id_region=?",new String[]{s,s2});
-       c.moveToFirst();c.close();} // курсор здесь просто нужен, зачем никто не знает
+            c.moveToFirst();
+            c.close();} // курсор здесь просто нужен, зачем никто не знает
            while (cursor.moveToNext()) ;
 
     }
