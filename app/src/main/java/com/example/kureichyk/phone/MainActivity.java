@@ -1,8 +1,10 @@
-package com.example.kureichyk.phone; //// TODO: 30.01.2018 не видно деления на подотделы (паспы, дежурные части и т.п.)
+package com.example.kureichyk.phone; //// TODO: 30.01.2018 в поиске не видно деления на подотделы (паспы, дежурные части и т.п.)
 // TODO: что-нибудь придумать с кривыми кодами телефонов или где кодов нету,
 // TODO: нет id некоторых подразделений например 3905
 // TODO: придумать как вшить базу, не формируя ее на устройстве
 // TODO: проверку наличия БД изменить как надо
+// TODO: позакрывать курсоры
+
 
 
 import android.app.Activity;
@@ -67,24 +69,18 @@ public class MainActivity extends Activity {
             ContactsDBfromXML();
             RegionDBfromXML();
             PodrDBfromXML();
-            rebild ();
+           // rebild ();
          //   Butupdate.setText("Обновить БД - пока не сделал");
             FitstfromDB();}
 
         lst.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view, int position, long idd) {
  //               Butupdate.setText((Long.toString(idd)+" + "+Integer.toString(position+1)));
-
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
                 intent.putExtra("position1", Long.toString(idd));   //передаю данные об ид списка
                 MainActivity.this.finish();
                 overridePendingTransition(R.anim.right_in,R.anim.left_out);
                 startActivity(intent);
-
-
-
-
-
         }
         });
 
@@ -346,13 +342,14 @@ public void onClickSearch(View v){
 }
 
 //=========================================================================
-// преобразуем все в одну табл.
+// преобразуем все в одну табл. пока ищу другой способ
     public void rebild (){
+        String s,s2,s3;
         mDatabaseHelper = new DBHelper(this, "phone.db", null, 1);
         mSqLiteDatabase = mDatabaseHelper.getWritableDatabase();
 
         cursor=mSqLiteDatabase.rawQuery("SELECT * FROM regiont   ORDER BY id2" , null);
-        cursor.moveToFirst();String s,s2,s3;
+        cursor.moveToFirst();
        do{
        s=cursor.getString(cursor.getColumnIndex(mDatabaseHelper.region));
        s2=cursor.getString(cursor.getColumnIndex(mDatabaseHelper.id2));
@@ -361,6 +358,23 @@ public void onClickSearch(View v){
             c.moveToFirst();
             c.close();} // курсор здесь просто нужен, зачем никто не знает
            while (cursor.moveToNext()) ;
+
+        cursor=mSqLiteDatabase.rawQuery("SELECT * FROM podrt   ORDER BY id3" , null);
+        cursor.moveToFirst();
+        do{
+            s=cursor.getString(cursor.getColumnIndex(mDatabaseHelper.podr));
+            s2=cursor.getString(cursor.getColumnIndex(mDatabaseHelper.id3));
+            if (s=="" ) s="нет";
+            if (s==null ) s="null";
+
+//s3="UPDATE contacts SET id_region="+ "5"+" WHERE id_region="+"0";
+//            Cursor d =mSqLiteDatabase.rawQuery("SELECT EXISTS(SELECT * FROM contacts WHERE id_podr=?)",new String[]{s});
+//            cursor.moveToLast();
+//            if (d.getCount()>0){
+            Cursor c= mSqLiteDatabase.rawQuery("UPDATE contacts SET id_podr=? WHERE id_podr=? AND EXISTS (SELECT * FROM contacts WHERE id_podr=?)",new String[]{s,s2,s2});
+            c.moveToFirst(); // курсор здесь просто нужен, зачем никто не знает
+            c.close();} // курсор здесь просто нужен, зачем никто не знает
+        while (cursor.moveToNext()) ;
 
     }
 

@@ -44,11 +44,12 @@ public class SearchActivity extends Activity{
 //        cursor = mSqLiteDatabase.query("contacts", null,
 //                null, null,
 //                null, null, "fio ASC");Z
-        cursor = mSqLiteDatabase.rawQuery("SELECT * FROM contacts  WHERE fio is not null ORDER BY fio" , null);
+    //    cursor = mSqLiteDatabase.rawQuery("SELECT * FROM contacts  WHERE fio is not null ORDER BY fio" , null);
+        cursor = mSqLiteDatabase.rawQuery("SELECT contacts._ID,contacts.fio, contacts.mob, contacts.doljnost, regiont.region, podrt.podr FROM contacts JOIN podrt ON contacts.id_podr=podrt.id3 JOIN regiont  ON contacts.id_region=regiont.id2 WHERE fio is not null  ORDER BY fio" , null);
 
-        String[] from = new String[]{DBHelper.fio, DBHelper.mob, DBHelper.zvanie};//берем этот набор данных
+        String[] from = new String[]{DBHelper.fio, DBHelper.region, DBHelper.podr, DBHelper.mob};//берем этот набор данных
 
-        int[] to = new int[]{R.id.text1, R.id.text2, R.id.text3};// и вставляем их сюда
+        int[] to = new int[]{R.id.text1, R.id.text3, R.id.text2, R.id.text4};// и вставляем их сюда
         scAdapter = new SimpleCursorAdapter(this, R.layout.list3, cursor, from, to);
 
 
@@ -74,11 +75,11 @@ public class SearchActivity extends Activity{
                 //  cursor=mSqLiteDatabase.rawQuery("SELECT * FROM contacts  WHERE fio like ? or mob like ? " , new String[]{"%"+constraint.toString()+"%", "%"+constraint.toString()+"%"});
 
                 if (constraint == null || constraint.length() == 0) {
-                    return mSqLiteDatabase.rawQuery("SELECT * FROM contacts  WHERE fio is not null ORDER BY fio" , null);
+                    return mSqLiteDatabase.rawQuery("SELECT contacts._ID,contacts.fio, contacts.mob, contacts.doljnost, regiont.region, podrt.podr FROM contacts JOIN podrt ON contacts.id_podr=podrt.id3 JOIN regiont  ON contacts.id_region=regiont.id2 WHERE fio is not null  ORDER BY fio" , null);
                 }
                 else {
 
-                    return mSqLiteDatabase.rawQuery("SELECT * FROM contacts  WHERE fio like ? or mob like ? and fio is not null ORDER BY fio" , new String[]{"%"+constraint.toString()+"%", "%"+constraint.toString()+"%"});
+                    return mSqLiteDatabase.rawQuery("SELECT contacts._ID,contacts.fio, contacts.mob, contacts.doljnost, regiont.region, podrt.podr FROM contacts JOIN podrt ON contacts.id_podr=podrt.id3 JOIN regiont  ON contacts.id_region=regiont.id2 WHERE  fio like ? or mob like ? and fio is not null ORDER BY fio" , new String[]{"%"+constraint.toString()+"%", "%"+constraint.toString()+"%"});
 
 
                 }

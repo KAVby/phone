@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal" android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:weightSum="1">
 
 
-        <TextView
-            android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:text=""
-            android:textSize="15sp"
-            android:id="@+id/l1"
-            android:layout_marginLeft="5dp"
-            android:padding="10dp"
-            android:layout_width="match_parent"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_toEndOf="@+id/l2">
-        </TextView>
+    <TextView
+        android:layout_height="wrap_content"
 
-        <TextView
-            android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text=""
+        android:textSize="15sp"
+        android:id="@+id/l2"
+        android:layout_marginLeft="5dp"
+        android:padding="10dp"
+        android:layout_width="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
 
-            android:textStyle="bold"
-            android:text=""
-            android:textSize="15sp"
-            android:id="@+id/l2"
-            android:layout_marginLeft="5dp"
-            android:padding="10dp"
-            android:layout_width="170dp"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentStart="true">
+    </TextView>
 
-        </TextView>
+    <TextView
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="10sp"
+        android:id="@+id/l1"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:gravity="left|center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/l2">
+    </TextView>
 
 
 </RelativeLayout>

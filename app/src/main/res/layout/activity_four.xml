@@ -3,24 +3,6 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:text="Назад"
-        android:layout_width="201dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/ButBack4"
-        android:onClick="onClickBack4"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true" />
-
-    <Button
-        android:text="Домой"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/ButHome4"
-        android:layout_alignParentStart="true"
-        android:layout_toStartOf="@+id/ButBack4"
-        android:onClick="onClickHome" />
-
     <TextView
         android:text="Звание"
         android:layout_width="wrap_content"
@@ -28,7 +10,8 @@
         android:id="@+id/textzvaniet"
         android:layout_below="@+id/textfiot"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="19dp" />
+        android:layout_marginTop="19dp"
+        android:textStyle="bold" />
 
     <TextView
         android:text="Должность"
@@ -37,7 +20,8 @@
         android:id="@+id/textdoljnost"
         android:layout_alignBaseline="@+id/text_doljnost"
         android:layout_alignBottom="@+id/text_doljnost"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textStyle="bold" />
 
     <TextView
         android:text="TextView"
@@ -57,61 +41,6 @@
         android:layout_alignBaseline="@+id/textzvaniet"
         android:layout_alignBottom="@+id/textzvaniet"
         android:layout_alignStart="@+id/text_doljnost" />
-
-    <Button
-        android:text="Позвонить"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button_mob"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:onClick="onClickDial" />
-
-    <TextView
-        android:text="Моб №"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/textmobt"
-        android:layout_alignTop="@+id/button_mob"
-        android:textSize="18sp"
-        android:textAlignment="center"
-        android:gravity="center" />
-
-    <TextView
-        android:text="TextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/text_mob"
-        android:gravity="center_vertical"
-        android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/textdoljnost"
-        android:layout_alignTop="@+id/textmobt"
-        android:textSize="15sp" />
-
-    <TextView
-        android:text="Раб №"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textphonet"
-        android:textSize="18sp"
-        android:textAlignment="center"
-        android:gravity="center"
-        android:layout_above="@+id/textmobt"
-        android:layout_alignParentStart="true"
-        android:layout_alignTop="@+id/button_phone" />
-
-    <TextView
-        android:text="TextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/text_phone"
-        android:gravity="center_vertical"
-        android:textSize="15sp"
-        android:layout_above="@+id/text_mob"
-        android:layout_alignStart="@+id/text_mob"
-        android:layout_alignTop="@+id/textphonet" />
 
     <Button
         android:text="Позвонить"
@@ -138,7 +67,8 @@
         android:id="@+id/textfiot"
         android:layout_alignBaseline="@+id/text_fio"
         android:layout_alignBottom="@+id/text_fio"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textStyle="bold" />
 
     <TextView
         android:text="TextView"
@@ -148,5 +78,81 @@
         android:layout_alignParentStart="true"
         android:id="@+id/textWereYou"
         android:textAlignment="center" />
+
+    <Button
+        android:text="Назад"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButBack4"
+        android:onClick="onClickBack4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Домой"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButHome4"
+        android:onClick="onClickHome"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/ButBack4" />
+
+    <TextView
+        android:text="Моб №"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textmobt"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_alignBaseline="@+id/button_mob"
+        android:layout_alignBottom="@+id/button_mob"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:text="Раб №"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textphonet"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/button_phone"
+        android:layout_alignBottom="@+id/button_phone"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_phone"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:layout_alignBaseline="@+id/button_phone"
+        android:layout_alignBottom="@+id/button_phone"
+        android:layout_toStartOf="@+id/button_phone" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_mob"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:layout_alignBaseline="@+id/button_mob"
+        android:layout_alignBottom="@+id/button_mob"
+        android:layout_toStartOf="@+id/button_mob" />
+
+    <Button
+        android:text="Позвонить"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_mob"
+        android:onClick="onClickDial"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="19dp" />
 
 </RelativeLayout>

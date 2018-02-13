@@ -88,6 +88,11 @@ public class FourActivity extends Activity {
         text_mob.setText(tel_mob);
         text_phone.setText(tel_phone);
 
+        if ((tel_mob.length()<13)&(tel_mob.equals("нет номера")==false))
+            text_mob.setText(tel_mob+"\nMTS,Vel,Life?");
+
+        if (tel_phone.length()<13)
+            text_phone.setText(tel_phone+"\nформат ном?");
 
 
 
@@ -137,7 +142,7 @@ if (search!=null) {// если пришли из поиска
     }
 
 public void onClickDial(View w){
-//    String phone = "+34666777888";
+
     if (tel_mob.length()==13){
     Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", tel_mob, null));
     startActivity(intent);}
@@ -145,7 +150,7 @@ else button_mob.setText("нет номера");
 
 }
     public void onClickDial2(View w){
-//    String phone = "+34666777888";
+
         if (tel_phone.length()==13){
             Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", tel_phone, null));
             startActivity(intent);}
