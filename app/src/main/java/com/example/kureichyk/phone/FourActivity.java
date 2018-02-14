@@ -1,15 +1,21 @@
 package com.example.kureichyk.phone;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * Created by kureichyk on 12.01.2018.
@@ -26,6 +32,9 @@ public class FourActivity extends Activity {
     TextView text_fio, text_doljnost, text_zvanie, text_mob, text_phone, textWereYou;
 
 
+    private final int IDD_LIST_OPERATORS = 1;
+    AlertDialog.Builder ad;
+    Context context;
 
 
     @Override
@@ -88,30 +97,12 @@ public class FourActivity extends Activity {
         text_mob.setText(tel_mob);
         text_phone.setText(tel_phone);
 
-        if ((tel_mob.length()<13)&(tel_mob.equals("нет номера")==false))
-            text_mob.setText(tel_mob+"\nMTS,Vel,Life?");
+        if ((tel_mob.length()<13)&&(tel_mob.equals("нет номера")==false)){
+            text_mob.setTextColor(Color.parseColor("#ff0000"));text_mob.setText("+375(код)"+tel_mob.substring(4)+"\n    MTS,Vel,Life?");}
 
         if (tel_phone.length()<13)
             text_phone.setText(tel_phone+"\nформат ном?");
-
-
-
-     //  button_mob.setText(1);
-
-
-
-//        String N_otdela;
-//        N_otdela=cursor.getString(cursor.getColumnIndex(mDatabaseHelper.id3));
-//        cursor2 = mSqLiteDatabase.query("contacts",null,
-//                "id_podr=?", new String[] {N_otdela},
-//                null, null,null);
-//
-//        String[] from = new String[] {DBHelper.id_podr, DBHelper.fio};//берем этот набор данных
-//        int[] to = new int[] { R.id.l1, R.id.l2};// и вставляем их сюда
-//        scAdapter = new SimpleCursorAdapter(this, R.layout.list_txt, cursor2, from, to);
-//        lst3.setAdapter(scAdapter);
-
-    }
+   }
 
     public void onClickBack4(View v){
 if (search!=null) {// если пришли из поиска
@@ -142,11 +133,14 @@ if (search!=null) {// если пришли из поиска
     }
 
 public void onClickDial(View w){
-
+    if (tel_mob.length()==11){
+        showDialog(IDD_LIST_OPERATORS);
+    }
+    else
     if (tel_mob.length()==13){
     Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", tel_mob, null));
     startActivity(intent);}
-else button_mob.setText("нет номера");
+    else button_mob.setText("нет номера");
 
 }
     public void onClickDial2(View w){
@@ -179,6 +173,40 @@ else button_mob.setText("нет номера");
         overridePendingTransition(R.anim.right_out,R.anim.left_in);
         startActivity(intent);
     }}
+
+
+    protected Dialog onCreateDialog(int id) {
+        switch (id) {
+            case IDD_LIST_OPERATORS:
+
+                final String[] mOperatorsName ={"+37529"+tel_mob.substring(4), "+37533"+tel_mob.substring(4), "+37544"+tel_mob.substring(4), "+37525"+tel_mob.substring(4)};
+
+                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                builder.setTitle("Выбирите код оператора"); // заголовок для диалога
+
+                builder.setItems(mOperatorsName, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int item) {
+                        // TODO Auto-generated method stub
+                        Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", mOperatorsName[item], null));
+                        startActivity(intent);
+                    }
+                });
+                builder.setCancelable(false);
+                builder.setNegativeButton("Отмена",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                dialog.cancel();
+                            }
+                        });
+                return builder.create();
+
+            default:
+                return null;
+        }
+    }
+
+
 }
 
 
