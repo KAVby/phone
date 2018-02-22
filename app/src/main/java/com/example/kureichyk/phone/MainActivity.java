@@ -62,15 +62,16 @@ public class MainActivity extends Activity {
 
 
         if (estDannie())
-         FitstfromDB();
-
+        { FitstfromDB();
+        new JDBCConnect().execute();}
         else {
             //Butupdate.setText("первый запуск, нажмите эту кнопку чтобы сформировать БД и ожидайте 1-3 мин взависимости от мощности вашего девайса"); // не работает такая схема сообщения об ожидании
-            ContactsDBfromXML();
-            RegionDBfromXML();
-            PodrDBfromXML();
+//            ContactsDBfromXML();
+//            RegionDBfromXML();
+//            PodrDBfromXML();
            // rebild ();
          //   Butupdate.setText("Обновить БД - пока не сделал");
+
             FitstfromDB();}
 
         lst.setOnItemClickListener(new AdapterView.OnItemClickListener() {
