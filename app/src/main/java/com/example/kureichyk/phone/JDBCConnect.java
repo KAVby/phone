@@ -18,7 +18,7 @@ import java.sql.Statement;
  */
 
 public class JDBCConnect extends AsyncTask<String, Void, JSONArray> {
-    final static String url = "jdbc:mysql://172.26.30.174:3306/phone";
+    final static String url = "jdbc:mysql://172.26.30.173:3306/phone";
     final static String LOGIN = "root";
     final static String PASS= "root";
 

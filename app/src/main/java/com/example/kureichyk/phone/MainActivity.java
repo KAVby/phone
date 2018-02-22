@@ -63,7 +63,7 @@ public class MainActivity extends Activity {
 
         if (estDannie())
         { FitstfromDB();
-        new JDBCConnect().execute();}
+        new JDBCConnect().execute("select * from region");}
         else {
             //Butupdate.setText("первый запуск, нажмите эту кнопку чтобы сформировать БД и ожидайте 1-3 мин взависимости от мощности вашего девайса"); // не работает такая схема сообщения об ожидании
 //            ContactsDBfromXML();
