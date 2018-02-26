@@ -1,39 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-- phpMyAdmin XML Dump
-- version 3.5.1
-- http://www.phpmyadmin.net
--
-- РҐРѕСЃС‚: 127.0.0.1
-- Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ: РЇРЅРІ 29 2018 Рі., 14:41
-- Р’РµСЂСЃРёСЏ СЃРµСЂРІРµСЂР°: 5.5.25
-- Р’РµСЂСЃРёСЏ PHP: 5.2.12
--->
-
-<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
-    <!--
-    - Structure schemas
-    -->
-    <pma:structure_schemas>
-        <pma:database name="29_01_2018" collation="utf8_general_ci" charset="utf8">
-            <pma:table name="podr">
-                CREATE TABLE `podr` (
-                  `id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
-                  `id_region` mediumint(8) unsigned NOT NULL DEFAULT '0',
-                  `podr` varchar(16) NOT NULL DEFAULT '',
-                  `podr_full` varchar(50) NOT NULL DEFAULT '',
-                  PRIMARY KEY (`id`),
-                  UNIQUE KEY `id` (`id`),
-                  KEY `id_region` (`id_region`)
-                ) ENGINE=MyISAM AUTO_INCREMENT=5569 DEFAULT CHARSET=utf8 PACK_KEYS=1;
-            </pma:table>
-        </pma:database>
-    </pma:structure_schemas>
-
-    <!--
-    - Р‘Р°Р·Р° РґР°РЅРЅС‹С…: '29_01_2018'
-    -->
-    <database name="29_01_2018">
+﻿    <database name="10_02_2018">
         <!-- РўР°Р±Р»РёС†Р° podr -->
         <table name="podr">
             <column name="id">178</column>
@@ -1122,7 +1087,7 @@
             <column name="podr_full">Сектор технических средств обучения</column>
         </table>
         <table name="podr">
-            <column name="id">2751</column>
+            <column name="id">5574</column>
             <column name="id_region">7</column>
             <column name="podr">ЦОСМР</column>
             <column name="podr_full">Центр организации спортивно-массовой работы</column>
@@ -2756,7 +2721,7 @@
         <table name="podr">
             <column name="id">1995</column>
             <column name="id_region">25</column>
-            <column name="podr">ООО ГСЧС и ГО</column>
+            <column name="podr">ООО ГСЧСиГО</column>
             <column name="podr_full">Отдел организационного обеспечения ГСЧС и ГО</column>
         </table>
         <table name="podr">
@@ -3516,12 +3481,6 @@
             <column name="podr_full">Служба материально-технического обеспечения</column>
         </table>
         <table name="podr">
-            <column name="id">5481</column>
-            <column name="id_region">23</column>
-            <column name="podr">ПАСО №1 ОАО ''Нафтан''</column>
-            <column name="podr_full">Пожарный аварийно-спасательный отряд №1 на объектах ОАО ''Нафтан'' и Новополоцкой ТЭЦ РУП ''Витебскэнерго''</column>
-        </table>
-        <table name="podr">
             <column name="id">5480</column>
             <column name="id_region">13</column>
             <column name="podr">ГЮО</column>
@@ -3900,13 +3859,13 @@
             <column name="podr_full">Бобруйский_ГРОЧС</column>
         </table>
         <table name="podr">
-            <column name="id">5461</column>
-            <column name="id_region">26</column>
-            <column name="podr">Могилевский_ГОЧС</column>
-            <column name="podr_full">Могилевский_ГОЧС</column>
+            <column name="id">5570</column>
+            <column name="id_region">23</column>
+            <column name="podr">ПАСО №1 ОАО ''Нафтан''</column>
+            <column name="podr_full">Пожарный аварийно-спасательный отряд №1 на объектах ОАО ''Нафтан'' и Новополоцкой ТЭЦ РУП ''Витебскэнерго''</column>
         </table>
         <table name="podr">
-            <column name="id">5462</column>
+            <column name="id">5569</column>
             <column name="id_region">26</column>
             <column name="podr">Могилевский_ГОЧС</column>
             <column name="podr_full">Могилевский_ГОЧС</column>
@@ -3924,4 +3883,3 @@
             <column name="podr_full">Редакционная служба по выпуску журнала &quot;Промышленная безопасность&quot;</column>
         </table>
     </database>
-</pma_xml_export>

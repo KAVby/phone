@@ -15,7 +15,7 @@ public class DBHelper extends SQLiteOpenHelper implements BaseColumns {
     // имя базы данных
     private static final String DATABASE_NAME = "phone.db";
     // версия базы данных
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 2;
 
 
     // имя таблицы
@@ -90,13 +90,6 @@ public class DBHelper extends SQLiteOpenHelper implements BaseColumns {
             + podr + " text, "
             + podr_full + " text);";
 
-
-
-
-
-
-    private DBHelper mDBHelper;
-    private SQLiteDatabase db;
 
     DBHelper(String s, Context context, int i) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);

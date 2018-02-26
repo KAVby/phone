@@ -33,8 +33,8 @@ public class FourActivity extends Activity {
 
 
     private final int IDD_LIST_OPERATORS = 1;
-    AlertDialog.Builder ad;
-    Context context;
+//    AlertDialog.Builder ad;
+//    Context context;
 
 
     @Override

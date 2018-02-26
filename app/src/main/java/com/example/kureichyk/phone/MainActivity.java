@@ -37,9 +37,7 @@ import java.util.ArrayList;
 import static com.example.kureichyk.phone.DBHelper.phone;
 import static com.example.kureichyk.phone.R.layout.activity_main;
 
-//import java.util.ArrayList;
 
-//import static android.R.id.list;
 
 public class MainActivity extends Activity {
 
@@ -63,15 +61,11 @@ public class MainActivity extends Activity {
 
         if (estDannie())
         { FitstfromDB();
-        new JDBCConnect().execute("select * from region");}
+       }
         else {
-            //Butupdate.setText("первый запуск, нажмите эту кнопку чтобы сформировать БД и ожидайте 1-3 мин взависимости от мощности вашего девайса"); // не работает такая схема сообщения об ожидании
-//            ContactsDBfromXML();
-//            RegionDBfromXML();
-//            PodrDBfromXML();
-           // rebild ();
-         //   Butupdate.setText("Обновить БД - пока не сделал");
-
+            ContactsDBfromXML();
+            RegionDBfromXML();
+            PodrDBfromXML();
             FitstfromDB();}
 
         lst.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -90,17 +84,10 @@ public class MainActivity extends Activity {
 
     }
 
-//    public void onClickBD(View w){
-//       // knopka("ожидайте 1-3 мин взависимости от мощности вашего девайса");
-//         if (estDannie())
-//            FitstfromDB();
-//        else {
-//        ContactsDBfromXML();
-//       RegionDBfromXML();
-//        PodrDBfromXML();
-//            FitstfromDB();
-//           }
-//    }
+    public void onClickBD(View w){
+
+        new JDBCConnect(this, this).execute("SELECT * FROM region", "SELECT * FROM podr", "SELECT * FROM data");
+    }
     public void FitstfromDB(){
    //     lst=(ListView) findViewById(R.id.list1);
         mDatabaseHelper = new DBHelper(this, "phone.db", null, 1);

@@ -19,13 +19,14 @@
             android:layout_weight="2"/>
 
         <Button
-            android:text="Обновить БД "
+            android:id="@+id/ButupdateBD"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/ButupdateBD"
-            android:clickable="false"
-            android:enabled="false"
-            android:layout_weight="2"/>
+            android:layout_weight="2"
+            android:clickable="true"
+            android:enabled="true"
+            android:onClick="onClickBD"
+            android:text="Обновить БД " />
 
 
     </LinearLayout>

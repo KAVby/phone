@@ -1,4 +1,38 @@
-﻿    <database name="10_02_2018">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 3.5.1
+- http://www.phpmyadmin.net
+-
+- РҐРѕСЃС‚: 127.0.0.1
+- Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ: РЇРЅРІ 29 2018 Рі., 14:42
+- Р’РµСЂСЃРёСЏ СЃРµСЂРІРµСЂР°: 5.5.25
+- Р’РµСЂСЃРёСЏ PHP: 5.2.12
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="29_01_2018" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="region">
+                CREATE TABLE `region` (
+                  `id` tinyint(3) unsigned NOT NULL AUTO_INCREMENT,
+                  `region` varchar(16) NOT NULL DEFAULT '',
+                  `region_full` varchar(66) NOT NULL DEFAULT '',
+                  `address_region` varchar(50) DEFAULT NULL,
+                  PRIMARY KEY (`id`),
+                  UNIQUE KEY `id` (`id`)
+                ) ENGINE=MyISAM AUTO_INCREMENT=27 DEFAULT CHARSET=utf8 PACK_KEYS=1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Р‘Р°Р·Р° РґР°РЅРЅС‹С…: '29_01_2018'
+    -->
+    <database name="29_01_2018">
         <!-- РўР°Р±Р»РёС†Р° region -->
         <table name="region">
             <column name="id">22</column>
@@ -27,13 +61,13 @@
         <table name="region">
             <column name="id">15</column>
             <column name="region">УГЗ-Лицей</column>
-            <column name="region_full">Государственное учреждение образования Специализированный лицей при Университете гражданской защиты Министерства по чрезвычайным ситуациям Республики Беларусь</column>
+            <column name="region_full">Государственное учреждение образования &quot;Специализированный лицей при Университете гражданской защиты Министерства по чрезвычайным ситуациям Республики Беларусь&quot;</column>
             <column name="address_region">247006::Гомельская обл., Гомельский район::Улуковский сельский совет, п.Ильич, ул.Н.Сковородина, д.1::8(0232)993502</column>
         </table>
         <table name="region">
             <column name="id">14</column>
             <column name="region">УГЗ-Борисов</column>
-            <column name="region_full">Филиал &quot;Институт переподготовки и повышения квалификации Университета гражданской защиты МЧС Беларуси</column>
+            <column name="region_full">Филиал &quot;Институт переподготовки и повышения квалификации&quot; Университета гражданской защиты МЧС Беларуси</column>
             <column name="address_region">222515::Минская обл., Борисовский район::д.Светлая роща, 1::8(0177)764660</column>
         </table>
         <table name="region">
@@ -45,13 +79,13 @@
         <table name="region">
             <column name="id">21</column>
             <column name="region">МОУ МЧС</column>
-            <column name="region_full">Учреждение Минское областное управление МЧС Республики Беларусь</column>
+            <column name="region_full">Учреждение &quot;Минское областное управление МЧС Республики Беларусь&quot;</column>
             <column name="address_region">NULL</column>
         </table>
         <table name="region">
             <column name="id">20</column>
             <column name="region">МГУ МЧС</column>
-            <column name="region_full">Учреждение Минское городское управление МЧС Республики Беларусь</column>
+            <column name="region_full">Учреждение &quot;Минское городское управление МЧС Республики Беларусь&quot;</column>
             <column name="address_region">NULL</column>
         </table>
         <table name="region">
@@ -63,7 +97,7 @@
         <table name="region">
             <column name="id">8</column>
             <column name="region">РЦТО</column>
-            <column name="region_full">Учреждение Республиканский центр тылового обеспечения МЧС  Республики Беларусь</column>
+            <column name="region_full">Учреждение &quot;Республиканский центр тылового обеспечения&quot; МЧС  Республики Беларусь</column>
             <column name="address_region">220024::г.Минск::ул.Серова 1Б</column>
         </table>
         <table name="region">
@@ -87,7 +121,7 @@
         <table name="region">
             <column name="id">9</column>
             <column name="region">НИИ ПБиЧС</column>
-            <column name="region_full">Учреждение Научно-исследовательский институт пожарной безопасности и проблем чрезвычайных ситуацийМЧС Республики Беларусь</column>
+            <column name="region_full">Учреждение &quot;Научно-исследовательский институт пожарной безопасности и проблем чрезвычайных ситуаций&quot; МЧС Республики Беларусь</column>
             <column name="address_region">220046::г.Минск::ул.Солтыса, 183а::2464101</column>
         </table>
         <table name="region">
@@ -99,37 +133,37 @@
         <table name="region">
             <column name="id">6</column>
             <column name="region">РЦУРЧС</column>
-            <column name="region_full">Государственное учреждение Республиканский центр управления и реагирования на чрезвычайные ситуации МЧС Республики Беларусь</column>
+            <column name="region_full">Государственное учреждение &quot;Республиканский центр управления и реагирования на чрезвычайные ситуации МЧС Республики Беларусь&quot;</column>
             <column name="address_region">220004::г.Минск::ул.Иерусалимская, 4::2092708</column>
         </table>
         <table name="region">
             <column name="id">7</column>
             <column name="region">РОСН</column>
-            <column name="region_full">Государственное пожарное аварийно-спасательное учреждение Республиканский отряд специального назначения МЧС Республики Беларусь</column>
+            <column name="region_full">Государственное пожарное аварийно-спасательное учреждение &quot;Республиканский отряд специального назначения&quot; МЧС Республики Беларусь</column>
             <column name="address_region">NULL</column>
         </table>
         <table name="region">
             <column name="id">23</column>
             <column name="region">Витебское УМЧС</column>
-            <column name="region_full">Учреждение Витебское областное управление МЧС Республики Беларусь</column>
+            <column name="region_full">Учреждение &quot;Витебское областное управление МЧС Республики Беларусь&quot;</column>
             <column name="address_region">NULL</column>
         </table>
         <table name="region">
             <column name="id">24</column>
             <column name="region">Гомельское УМЧС</column>
-            <column name="region_full">Учреждение Гомельское областное управление МЧС Республики Беларусь</column>
+            <column name="region_full">Учреждение &quot;Гомельское областное управление МЧС Республики Беларусь&quot;</column>
             <column name="address_region">NULL</column>
         </table>
         <table name="region">
             <column name="id">25</column>
             <column name="region">Гродненское УМЧС</column>
-            <column name="region_full">Учреждение Гродненское областное управление МЧС Республики Беларусь</column>
+            <column name="region_full">Учреждение &quot;Гродненское областное управление МЧС Республики Беларусь&quot;</column>
             <column name="address_region">NULL</column>
         </table>
         <table name="region">
             <column name="id">26</column>
             <column name="region">Могилевское УМЧС</column>
-            <column name="region_full">Учреждение Могилевское областное управление МЧС Республики Беларусь</column>
+            <column name="region_full">Учреждение &quot;Могилевское областное управление МЧС Республики Беларусь&quot;</column>
             <column name="address_region">NULL</column>
         </table>
         <table name="region">
@@ -139,3 +173,4 @@
             <column name="address_region">NULL</column>
         </table>
     </database>
+</pma_xml_export>
