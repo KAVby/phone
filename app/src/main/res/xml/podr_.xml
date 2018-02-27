@@ -1,0 +1,15 @@
+﻿    <database name="29_01_2018">
+        <!-- РўР°Р±Р»РёС†Р° podr -->
+        <table name="podr">
+            <column name="id">178</column>
+            <column name="id_region">1</column>
+            <column name="podr">ОООНиПП</column>
+            <column name="podr_full">Отдел организации обучения населения и профессиональной подготовки</column>
+        </table>
+         <table name="podr">
+            <column name="id">5451</column>
+            <column name="id_region">2</column>
+            <column name="podr">РС</column>
+            <column name="podr_full">Редакционная служба по выпуску журнала &quot;Промышленная безопасность&quot;</column>
+        </table>
+    </database>

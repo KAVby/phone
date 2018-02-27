@@ -239,7 +239,7 @@ JDBCConnect(MainActivity activity, Context context){
         super.onPostExecute(state);
 
         pDialog.dismiss();
-        activity.recreate();
+
 
         AlertDialog.Builder goLogin = new AlertDialog.Builder(context);
         if (state==0)
@@ -249,6 +249,7 @@ JDBCConnect(MainActivity activity, Context context){
         goLogin.setPositiveButton("ok", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
                 dialog.cancel();
+                activity.recreate();
             }
         });
 //        AlertDialog alertLogin = goLogin.create();
