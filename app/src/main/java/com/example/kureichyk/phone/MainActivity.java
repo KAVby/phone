@@ -6,25 +6,21 @@ package com.example.kureichyk.phone; //// TODO: 30.01.2018 в поиске не 
 // TODO: позакрывать курсоры
 
 
-
 import android.app.Activity;
-import android.app.ListActivity;
-
+import android.app.AlertDialog;
 import android.content.ContentValues;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.view.ContextMenu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
-//import android.widget.ListView;
-import android.widget.FilterQueryProvider;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
@@ -32,10 +28,10 @@ import android.widget.Toast;
 
 import org.xmlpull.v1.XmlPullParser;
 
-import java.util.ArrayList;
-
 import static com.example.kureichyk.phone.DBHelper.phone;
 import static com.example.kureichyk.phone.R.layout.activity_main;
+
+//import android.widget.ListView;
 
 
 
@@ -47,6 +43,12 @@ public class MainActivity extends Activity {
     DBHelper mDatabaseHelper;
     SQLiteDatabase mSqLiteDatabase;
     SimpleCursorAdapter scAdapter;
+    TextView textDateBD;
+
+    public static final String APP_PREFERENCES = "mysettings";
+    public static  String APP_PREFERENCES_str1_ = "str1_";
+    SharedPreferences mSettings;
+
 
     int f=0;
 
@@ -57,7 +59,7 @@ public class MainActivity extends Activity {
         Butupdate=(Button) findViewById(R.id.ButupdateBD);
         butsearch=(Button) findViewById(R.id.butsearch);
         lst=(ListView) findViewById(R.id.list1);
-
+textDateBD=(TextView) findViewById(R.id.textDateBD);
 
         if (estDannie())
         { FitstfromDB();
@@ -85,11 +87,43 @@ public class MainActivity extends Activity {
     }
 
     public void onClickBD(View w){
+        ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo = connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
+        boolean isWifiConnected = networkInfo.isConnected();
 
+        if (isWifiConnected==true)
         new JDBCConnect(this, this).execute("SELECT * FROM region", "SELECT * FROM podr", "SELECT * FROM data");
+            else {
+
+            AlertDialog.Builder goLogin = new AlertDialog.Builder(this);
+            goLogin.setMessage("...нет соединения с серваком...\n\nВы должны быть подключены по \nWi-Fi к сети МЧС.\n\n  по интернету нельзя :)  ");
+            goLogin.setCancelable(false);
+            goLogin.setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+                    dialog.cancel();
+                 }
+            });
+            goLogin.show();
+
+            }
+
+
+
+
+
+
+
+
+
+
     }
     public void FitstfromDB(){
    //     lst=(ListView) findViewById(R.id.list1);
+        mSettings = getSharedPreferences(APP_PREFERENCES, Context.MODE_PRIVATE);
+        if (mSettings.contains(APP_PREFERENCES_str1_))
+            textDateBD.setText(mSettings.getString(APP_PREFERENCES_str1_, "none"));
+        else textDateBD.setText("БД от 10.02.2018");
+
         mDatabaseHelper = new DBHelper(this, "phone.db", null, 1);
         mSqLiteDatabase = mDatabaseHelper.getWritableDatabase();
 

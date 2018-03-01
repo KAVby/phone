@@ -1,11 +1,11 @@
 package com.example.kureichyk.phone;
 
 import android.app.AlertDialog;
-import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.SharedPreferences;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.AsyncTask;
 import android.widget.SimpleCursorAdapter;
@@ -14,15 +14,17 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 /**
  * Created by kureichyk on 16.02.2018.
  */
 
 public class JDBCConnect extends AsyncTask<String, Void, Integer> {
-    final static String url = "jdbc:mysql://172.26.30.173:3306/phone";
-    final static String LOGIN = "root";
-    final static String PASS= "root";
+    final static String url = "jdbc:mysql://172.26.200.36:3306/phone";
+    final static String LOGIN = "user";
+    final static String PASS= "user";
 
     DBHelper mDatabaseHelper;
     SQLiteDatabase mSqLiteDatabase;
@@ -30,16 +32,26 @@ public class JDBCConnect extends AsyncTask<String, Void, Integer> {
 
     Context context;
 
-    private ProgressDialog pDialog, pDialog2;
+    private ProgressDialog pDialog;
     private MainActivity activity;
-    Dialog dialog;
 
+    SimpleDateFormat dateFormat=new SimpleDateFormat("dd.MM.yyyy");
     int state;
+
+    public static final String APP_PREFERENCES = "mysettings";
+    public static  String APP_PREFERENCES_str1_ = "str1_";
+     SharedPreferences mSettings;
+
+
+
+
+
 
 //конструктор класса
 JDBCConnect(MainActivity activity, Context context){
     this.activity=activity;
     this.context=context;
+
 }
 
     @Override
@@ -50,6 +62,7 @@ JDBCConnect(MainActivity activity, Context context){
         pDialog.setMessage("Обновление базы...");
         pDialog.setCancelable(false);
         pDialog.show();
+
     }
 
     @Override
@@ -62,10 +75,11 @@ JDBCConnect(MainActivity activity, Context context){
             java.sql.Connection con = null;
             Statement st = null;
             ResultSet rs = null;
+            String replace;
             try {state=1;
                 con =  DriverManager.getConnection(url, LOGIN, PASS);
                 if (con != null) {
-                   // mSqLiteDatabase.rawQuery("DELETE FROM regiont",null);
+
                     st = con.createStatement();
 
 
@@ -73,7 +87,7 @@ JDBCConnect(MainActivity activity, Context context){
                     mSqLiteDatabase.delete("regiont",null,null);
                     if (rs != null) {
                         int columnCount = rs.getMetaData().getColumnCount();
-                        // Сохранение данных в JSONArray
+
                         while (rs.next()) {
                         //    JSONObject rowObject = new JSONObject();
                             for (int i = 1; i <= columnCount; i++) {
@@ -82,7 +96,15 @@ JDBCConnect(MainActivity activity, Context context){
                                         values.put(DBHelper.id2, rs.getString(i));
                                         break;
                                     case 2:
-                                        values.put(DBHelper.region, rs.getString(i));
+                                        replace=rs.getString(i); // убираем артефакты в скачиваемой базе
+                                        if (replace.equals("&nbsp;&nbsp;МГУ МЧС&nbsp;&nbsp;"))
+                                            replace="МГУ МЧС";
+                                        if (replace.equals("&nbsp;&nbsp;РЦТО&nbsp;&nbsp;"))
+                                            replace="РЦТО";
+                                        if (replace.equals("&nbsp;&nbsp;НИИ ПБиЧС&nbsp;&nbsp;"))
+                                            replace="НИИ ПБиЧС";
+
+                                        values.put(DBHelper.region, replace);
                                         //                          list.add(parser.getText());
                                         break;
                                     case 3:
@@ -163,7 +185,10 @@ JDBCConnect(MainActivity activity, Context context){
                                         values.put(DBHelper.phone,rs.getString(i));
                                         break;
                                     case 5:
-                                        values.put(DBHelper.fio, rs.getString(i));
+                                        replace=rs.getString(i);// делаем null для фио с нулевой длинной для сортировки
+                                        if (replace.equals(""))
+                                            replace=null;
+                                        values.put(DBHelper.fio, replace);
                                         break;
                                     case 6:
                                         values.put(DBHelper.doljnost, rs.getString(i));
@@ -234,17 +259,23 @@ JDBCConnect(MainActivity activity, Context context){
         return state;
     }
 
-
+    @Override
     protected void onPostExecute(Integer state) {
         super.onPostExecute(state);
 
         pDialog.dismiss();
 
-
         AlertDialog.Builder goLogin = new AlertDialog.Builder(context);
         if (state==0)
-        goLogin.setMessage("нет соед. с серваком");
-        else  goLogin.setMessage("база обновлена");
+        goLogin.setMessage("...нет соединения с серваком...\n\nВы должны быть подключены по \nWi-Fi к сети МЧС.\n\n  по интернету нельзя :)  ");
+        else  {goLogin.setMessage("база обновлена");
+            Calendar now=Calendar.getInstance();
+          //  activity.textDateBD.setText("БД от "+dateFormat.format(now.getTime()));
+            mSettings = activity.getSharedPreferences(APP_PREFERENCES, Context.MODE_PRIVATE);//закидываем выбранную дату в файл
+            SharedPreferences.Editor editor = mSettings.edit();
+            editor.putString(APP_PREFERENCES_str1_, "БД от "+dateFormat.format(now.getTime()));
+            editor.apply();
+        }
         goLogin.setCancelable(false);
         goLogin.setPositiveButton("ok", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
@@ -256,6 +287,7 @@ JDBCConnect(MainActivity activity, Context context){
 //        alertLogin.show();
 
         goLogin.show();
+
 
 
 
