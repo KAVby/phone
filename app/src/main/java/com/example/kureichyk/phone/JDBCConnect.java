@@ -28,7 +28,6 @@ public class JDBCConnect extends AsyncTask<String, Void, Integer> {
 
     DBHelper mDatabaseHelper;
     SQLiteDatabase mSqLiteDatabase;
-    SimpleCursorAdapter scAdapter;
 
     Context context;
 
